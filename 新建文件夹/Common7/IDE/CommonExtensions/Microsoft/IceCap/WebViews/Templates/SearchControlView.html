@@ -1,0 +1,35 @@
+<div class="container search-container toolbar-button" data-bind="css: { controlDisabled: isDisabled(), controlEnabled: !isDisabled() }, attr: { 'aria-disabled': isDisabled }, template: { afterRender: onAfterDomInsert }">
+    <div class="search-control" data-bind="css: { hasFocus: hasFocus() }">
+        <input type="search" data-bind="
+               disable: isDisabled, 
+               textInput: searchTerm, 
+               focus: searchInputHasFocus, 
+               valueUpdate: 'afterkeydown',
+               localizedPlaceholderText: 'SearchControl_Watermark',
+               localizedAriaLabel: ariaLabelToken,
+               event: { keydown: onSearchBoxKeyDown }" />
+        <div class="search-submit-button" data-bind="click: search, focus: searchSubmitHasFocus, localizedAriaLabel: 'SearchControl_SearchIconAriaLabel', svgImage: 'searchIcon'"></div>
+        <div id="search-options-button" class="dropdown-button" data-bind="click: onDropDownClick"></div>
+    </div>
+    <div id="searchOptionsFlyout" data-bind="css: { flyoutActive: showSettings() }, event: { keydown: onFlyoutKeyDown }">
+        <span class="flyoutHeader" data-bind="localizedText: 'SearchControl_SearchOptionsTitle'"></span>
+        <label class="regExSetting" data-bind="
+            css: { hasFocus: isRegularExpressionHasFocus() },
+            event: { mouseenter: function(viewModel) { viewModel.isRegularExpressionHasFocus(true); } }">
+            <input type="checkbox"
+                data-bind="checked: isRegularExpression, focus: isRegularExpressionHasFocus,
+                    localizedAriaLabel: 'SearchControl_RegExLabel',
+                    attr: { 'aria-checked': isRegularExpression() }" />
+            <span class="checkboxLabel" data-bind="localizedText: 'SearchControl_RegExLabel'"></span>
+        </label>
+        <label class="caseSensitiveSetting" data-bind="
+            css: { hasFocus: isCaseSensitiveHasFocus() },
+            event: { mouseenter: function(viewModel) { viewModel.isCaseSensitiveHasFocus(true); } }">
+            <input type="checkbox"
+                data-bind="checked: isCaseSensitive, focus: isCaseSensitiveHasFocus,
+                    localizedAriaLabel: 'SearchControl_CaseSensitiveLabel',
+                    attr: { 'aria-checked': isCaseSensitive() }" />
+            <span class="checkboxLabel" data-bind="localizedText: 'SearchControl_CaseSensitiveLabel'"></span>
+        </label>
+    </div>
+</div>

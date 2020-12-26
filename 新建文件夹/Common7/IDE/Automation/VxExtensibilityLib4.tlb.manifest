@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- Copyright (C) 1981-2007 Microsoft Corporation -->
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+    <noInheritable/>
+<assemblyIdentity type="win32" processorArchitecture="x86" name="Automation\VxExtensibilityLib4.tlb" version="1.0.0.0" />
+<file name="VxExtensibilityLib4.tlb">
+    <typelib tlbid="{26e89277-5448-48a5-a12f-9ccd84bb809c}" version="1.0" helpdir=""/>
+</file>
+  <!-- Problem: IVBTextEditSpecific4 has the same Guid as IVBTextEditSpecific3 -->
+  <!--<comInterfaceExternalProxyStub name="IVBTextEditSpecific4" iid="{f9d1c535-addc-4f18-8cee-19899e3418a3}" numMethods="21" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{26e89277-5448-48a5-a12f-9ccd84bb809c}"/>-->
+</assembly>

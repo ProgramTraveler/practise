@@ -1,0 +1,14 @@
+.marks {
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.marks > .treeGridContainer {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    overflow: hidden;
+}
+
+.marksRow > .leftAlign, .marksHeader > .leftAlign {
+    text-align: left;
+}

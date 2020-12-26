@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- Copyright (C) 1981-2007 Microsoft Corporation -->
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+    <noInheritable/>
+<assemblyIdentity type="win32" processorArchitecture="x86" name="Automation\msenv151p.dll" version="1.0.0.0" />
+<file name="msenv151p.dll">
+    <comClass clsid="{2CD71CA6-8C07-40F9-9822-5181FE8F5AC9}" threadingModel="Both"/>
+</file>
+  <comInterfaceExternalProxyStub name="IVsSetupCompositionService2" iid="{D9F18E9F-9842-4D1B-ADDE-8E5601332038}" numMethods="5" proxyStubClsid32="{2CD71CA6-8C07-40F9-9822-5181FE8F5AC9}"/>
+</assembly>

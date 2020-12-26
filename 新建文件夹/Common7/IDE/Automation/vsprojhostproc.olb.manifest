@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- Copyright (C) 1981-2007 Microsoft Corporation -->
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+    <noInheritable/>
+<assemblyIdentity type="win32" processorArchitecture="x86" name="Automation\vsprojhostproc.olb" version="1.0.0.0" />
+<file name="vsprojhostproc.olb">
+    <comClass clsid="{7c36c78d-1e1f-4438-ad69-0b2d986e2f3f}" tlbid="{95ff4b0c-e6ec-470c-82ac-eb0471714c5a}"/>
+    <typelib tlbid="{95ff4b0c-e6ec-470c-82ac-eb0471714c5a}" version="1.0" helpdir=""/>
+</file>
+  <comInterfaceExternalProxyStub name="IVsHostingProcess" iid="{a6faf38c-284b-48b3-b871-84b9a66010e9}" numMethods="11" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{95ff4b0c-e6ec-470c-82ac-eb0471714c5a}"/>
+  <comInterfaceExternalProxyStub name="IVsHostingProcessCallback" iid="{3f298504-609e-4e6a-89f6-a8390a351558}" numMethods="2" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{95ff4b0c-e6ec-470c-82ac-eb0471714c5a}"/>
+  <comInterfaceExternalProxyStub name="IVsHostingProcessUser" iid="{a9fbad93-fd23-40cf-bf15-7632364593b9}" numMethods="3" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{95ff4b0c-e6ec-470c-82ac-eb0471714c5a}"/>
+</assembly>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+  <assemblyIdentity type="win32" processorArchitecture="x86" name="VSConvertersPackage.dll" version="1.0.0.0" />
+  <file name="VSConvertersPackage.dll" hashalg="SHA1">
+    <typelib tlbid="{CAD588AE-6809-4D0D-B7BD-784C1B62053D}" resourceid="1" version="1.0" helpdir="" flags="HASDISKIMAGE"></typelib>
+  </file>
+  <comInterfaceExternalProxyStub name="IConverterPicker" iid="{8D11B61D-BF59-43EB-B2A5-FE6040195664}" tlbid="{CAD588AE-6809-4D0D-B7BD-784C1B62053D}" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"></comInterfaceExternalProxyStub>
+</assembly>

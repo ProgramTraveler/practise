@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- Copyright (C) 1981-2007 Microsoft Corporation -->
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+    <noInheritable/>
+<assemblyIdentity type="win32" processorArchitecture="x86" name="Automation\vshelp.tlb" version="1.0.0.0" />
+<file name="vshelp.tlb">
+    <comClass clsid="{4a79114d-19e4-11d3-b86b-00c04f79f802}" tlbid="{83285928-227c-11d3-b870-00c04f79f802}"/>
+    <typelib tlbid="{83285928-227c-11d3-b870-00c04f79f802}" version="1.0" helpdir=""/>
+</file>
+  <comInterfaceExternalProxyStub name="IVsHelpOwner" iid="{b9b0983a-364c-4866-873f-d5ed190138fb}" numMethods="9" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{83285928-227c-11d3-b870-00c04f79f802}"/>
+  <comInterfaceExternalProxyStub name="IVsHelpTopicShowEvents" iid="{d1aac64a-6a25-4274-b2c6-bc3b840b6e54}" numMethods="2" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{83285928-227c-11d3-b870-00c04f79f802}"/>
+  <comInterfaceExternalProxyStub name="Help" iid="{4a791148-19e4-11d3-b86b-00c04f79f802}" numMethods="36" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{83285928-227c-11d3-b870-00c04f79f802}"/>
+  <comInterfaceExternalProxyStub name="IVsHelpEvents" iid="{507e4490-5a8c-11d3-b897-00c04f79f802}" numMethods="2" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{83285928-227c-11d3-b870-00c04f79f802}"/>
+</assembly>

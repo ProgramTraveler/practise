@@ -1,0 +1,38 @@
+.toggleButton {
+    background-color: transparent;
+    border: 1px solid transparent;
+}
+
+    .toggleButton.enabled:hover {
+        background-color: fuchsia; /*[{Environment-CommandBarMouseOverBackgroundBegin-Background}]*/
+        color: lawngreen; /*[{Environment-CommandBarTextHover-Background}]*/
+        border: 1px solid lawngreen; /*[1px solid {Environment-CommandBarBorder-Background}]*/
+    }
+
+    .toggleButton.enabled:active {
+        background-color: fuchsia; /*[{Environment-CommandBarMouseDownBackgroundBegin-Background}]*/
+        color: lawngreen; /*[{Environment-CommandBarTextMouseDown-Background}]*/
+        border-color: fuchsia; /*[{Environment-CommandBarBorder-Background}]*/
+    }
+
+    .toggleButton.checked {
+        background-color: fuchsia; /*[{Environment-CommandBarSelected-Background}]*/
+        color: lawngreen; /*[{Environment-CommandBarTextSelected-Background}]*/
+        border-color: lawngreen; /*[{Environment-CommandBarSelectedBorder-Background}]*/
+    }
+
+    .toggleButton.checked:not(.enabled) {
+        color: lawngreen; /*[{Environment-CommandBarTextInactive-Background}]*/
+    }
+
+        .toggleButton.checked.enabled:hover {
+            background-color: fuchsia; /*[{Environment-CommandBarHoverOverSelected-Background}]*/
+            color: lawngreen; /*[{Environment-CommandBarTextHoverOverSelected-Background}]*/
+            border: 1px solid lawngreen; /*[1px solid {Environment-CommandBarHoverOverSelectedIconBorder-Background}]*/
+        }
+
+        .toggleButton.checked.enabled:active {
+            background-color: fuchsia; /*[{Environment-CommandBarMouseDownBackgroundBegin-Background}]*/
+            color: lawngreen; /*[{Environment-CommandBarTextMouseDown-Background}]*/
+            border-color: fuchsia; /*[{Environment-CommandBarBorder-Background}]*/
+        }

@@ -1,0 +1,1508 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--
+    Microsoft ResX Schema
+
+    Version 2.0
+
+    The primary goals of this format is to allow a simple XML format
+    that is mostly human readable. The generation and parsing of the
+    various data types are done through the TypeConverter classes
+    associated with the data types.
+
+    Example:
+
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+
+    There are any number of "resheader" rows that contain simple
+    name/value pairs.
+
+    Each data row contains a name, and value. The row also contains a
+    type or mimetype. Type corresponds to a .NET class that support
+    text/value conversion through the TypeConverter architecture.
+    Classes that don't support this are serialized and stored with the
+    mimetype set.
+
+    The mimetype is used for serialized objects, and tells the
+    ResXResourceReader how to depersist the object. This is currently not
+    extensible. For a given mimetype the value must be set accordingly:
+
+    Note - application/x-microsoft.net.object.binary.base64 is the format
+    that the ResXResourceWriter will generate, however the reader can
+    read any of the formats listed below.
+
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ContextMenu_CollapseAll" xml:space="preserve">
+    <value>Collapse All</value>
+  </data>
+  <data name="ContextMenu_CollapseSelection" xml:space="preserve">
+    <value>Collapse Selection</value>
+  </data>
+  <data name="ContextMenu_Copy" xml:space="preserve">
+    <value>Copy</value>
+  </data>
+  <data name="ContextMenu_ExpandAll" xml:space="preserve">
+    <value>Expand All</value>
+  </data>
+  <data name="ContextMenu_ExpandFoldedNodes" xml:space="preserve">
+    <value>Expand Folded Nodes</value>
+  </data>
+  <data name="ContextMenu_ExpandHotPath" xml:space="preserve">
+    <value>Expand Hot Path</value>
+  </data>
+  <data name="ContextMenu_ExpandSelection" xml:space="preserve">
+    <value>Expand Selection</value>
+  </data>
+  <data name="ContextMenu_SelectStack" xml:space="preserve">
+    <value>Select Stack</value>
+  </data>
+  <data name="ContextMenu_ShowCalledFunctions" xml:space="preserve">
+    <value>Show Functions Called by {0}</value>
+  </data>
+  <data name="ContextMenu_ShowCallingFunctions" xml:space="preserve">
+    <value>Show Functions Calling {0}</value>
+  </data>
+  <data name="ContextMenu_ShowFunctionDetails" xml:space="preserve">
+    <value>Show Function Details</value>
+  </data>
+  <data name="ContextMenu_ShowInAllocationView" xml:space="preserve">
+    <value>Show in Allocation View</value>
+  </data>
+  <data name="ContextMenu_ShowInContentionView" xml:space="preserve">
+    <value>Show in Contention View</value>
+  </data>
+  <data name="ContextMenu_ShowInFunctionsView" xml:space="preserve">
+    <value>Show In Functions View</value>
+  </data>
+  <data name="ContextMenu_ShowInLifetimeView" xml:space="preserve">
+    <value>Show in Lifetime View</value>
+  </data>
+  <data name="ContextMenu_ShowInModulesView" xml:space="preserve">
+    <value>Show in Modules View</value>
+  </data>
+  <data name="ContextMenu_ShowInLineView" xml:space="preserve">
+    <value>Show in Lines View</value>
+  </data>
+  <data name="ContextMenu_ShowInIpView" xml:space="preserve">
+    <value>Show in IP View</value>
+  </data>
+  <data name="ContextMenu_ShowInProcessesView" xml:space="preserve">
+    <value>Show in Processes View</value>
+  </data>
+  <data name="ContextMenu_ShowInResourceDetailsView" xml:space="preserve">
+    <value>Show in Resource Details View</value>
+  </data>
+  <data name="ContextMenu_ShowInThreadDetailsView" xml:space="preserve">
+    <value>Show in Thread Details View</value>
+  </data>
+  <data name="ContextMenu_ViewSource" xml:space="preserve">
+    <value>View Source</value>
+  </data>
+  <data name="SummaryViewName" xml:space="preserve">
+    <value>Summary</value>
+  </data>
+  <data name="FunctionDetailsViewName" xml:space="preserve">
+    <value>Function Details</value>
+  </data>
+  <data name="FunctionsViewName" xml:space="preserve">
+    <value>Functions</value>
+  </data>
+  <data name="IpViewName" xml:space="preserve">
+    <value>IPs</value>
+  </data>
+  <data name="CallTreeViewName" xml:space="preserve">
+    <value>Call Tree</value>
+  </data>
+  <data name="ModulesViewName" xml:space="preserve">
+    <value>Modules</value>
+  </data>
+  <data name="LinesViewName" xml:space="preserve">
+    <value>Lines</value>
+  </data>
+  <data name="MarksViewName" xml:space="preserve">
+    <value>Marks</value>
+  </data>
+  <data name="ProcessesViewName" xml:space="preserve">
+    <value>Processes</value>
+  </data>
+  <data name="CallerCalleeViewName" xml:space="preserve">
+    <value>Caller/Callee</value>
+  </data>
+  <data name="ContentionViewName" xml:space="preserve">
+    <value>Contention</value>
+  </data>
+  <data name="MillisecondsAbbreviation" xml:space="preserve">
+    <value>ms</value>
+  </data>
+  <data name="SecondsAbbreviation" xml:space="preserve">
+    <value>s</value>
+  </data>
+  <data name="MinutesAbbreviation" xml:space="preserve">
+    <value>min</value>
+  </data>
+  <data name="MillisecondsLabel" xml:space="preserve">
+    <value>milliseconds</value>
+  </data>
+  <data name="SecondsLabel" xml:space="preserve">
+    <value>seconds</value>
+  </data>
+  <data name="MinutesLabel" xml:space="preserve">
+    <value>minutes</value>
+  </data>
+  <data name="FormattedNumberWithUnits" xml:space="preserve">
+    <value>{0}{1}</value>
+    <comment>{0} will be the number and {1} is the units. E.g. 1ms</comment>
+  </data>
+  <data name="DataCursorInterpolatingTooltip" xml:space="preserve">
+    <value>Nearest data</value>
+  </data>
+  <data name="ChartSeriesFormattableTimeLabel" xml:space="preserve">
+    <value>Time: {0}</value>
+  </data>
+  <data name="MainView_BackButtonLabel" xml:space="preserve">
+    <value>Navigate backward</value>
+  </data>
+  <data name="MainView_ForwardButtonLabel" xml:space="preserve">
+    <value>Navigate forward</value>
+  </data>
+  <data name="MainView_CurrentViewLabel" xml:space="preserve">
+    <value>Current View:</value>
+  </data>
+  <data name="MainView_SaveReportButtonLabel" xml:space="preserve">
+    <value>Save Analyzed Report</value>
+  </data>
+  <data name="MainView_ExportReportDataButtonLabel" xml:space="preserve">
+    <value>Export Report Data</value>
+  </data>
+  <data name="SummaryView_ConcurrencyReportTitle" xml:space="preserve">
+    <value>Concurrency Profiling Report</value>
+  </data>
+  <data name="SummaryView_ConcurrencyReportSubtitle" xml:space="preserve">
+    <value>{0} total contentions</value>
+  </data>
+  <data name="SummaryView_MemoryReportTitle" xml:space="preserve">
+    <value>Memory Profiling Report</value>
+  </data>
+  <data name="SummaryView_MemoryReportSubtitle" xml:space="preserve">
+    <value>{0} total bytes allocated</value>
+  </data>
+  <data name="SummaryView_SamplingReportTitle" xml:space="preserve">
+    <value>Sample Profiling Report</value>
+  </data>
+  <data name="SummaryView_SamplingReportSubtitle" xml:space="preserve">
+    <value>{0} total samples collected</value>
+  </data>
+  <data name="SummaryView_InstrumentationReportTitle" xml:space="preserve">
+    <value>Instrumentation Profiling Report</value>
+  </data>
+  <data name="SummaryView_InstrumentationReportSubtitle" xml:space="preserve">
+    <value>{0} seconds of total execution time</value>
+  </data>
+  <data name="SummaryView_ShowMarksButtonLabel" xml:space="preserve">
+    <value>Show Marks</value>
+  </data>
+  <data name="SummaryView_ShowHotLinesButtonLabel" xml:space="preserve">
+    <value>Show Hot Lines</value>
+  </data>
+  <data name="SummaryView_TrimmedCallTreeButtonLabel" xml:space="preserve">
+    <value>Show Trimmed Call Tree</value>
+  </data>
+  <data name="SummaryView_CompareReportsButtonLabel" xml:space="preserve">
+    <value>Compare Reports...</value>
+  </data>
+  <data name="SummaryView_ExportReportButtonLabel" xml:space="preserve">
+    <value>Export Report Data...</value>
+  </data>
+  <data name="SummaryView_SaveReportButtonLabel" xml:space="preserve">
+    <value>Save Analyzed Report...</value>
+  </data>
+  <data name="SummaryView_FilterReportButtonLabel" xml:space="preserve">
+    <value>Filter Report Data</value>
+  </data>
+  <data name="SummaryView_ToggleFullScreenButtonLabel" xml:space="preserve">
+    <value>Toggle Full Screen</value>
+  </data>
+  <data name="SummaryView_SetSymbolPathButtonLabel" xml:space="preserve">
+    <value>Set Symbol Path...</value>
+  </data>
+  <data name="SummaryView_ClearFilterButtonLabel" xml:space="preserve">
+    <value>Clear Report Filter</value>
+  </data>
+  <data name="SummaryView_ViewGuidanceButtonLabel" xml:space="preserve">
+    <value>View Guidance</value>
+  </data>
+  <data name="SummaryView_ShowAllCodeButtonLabel" xml:space="preserve">
+    <value>Show All Code</value>
+  </data>
+  <data name="SummaryView_ShowJustMyCodeButtonLabel" xml:space="preserve">
+    <value>Show Just My Code</value>
+  </data>
+  <data name="SummaryView_NotificationsPanelTitle" xml:space="preserve">
+    <value>Notifications</value>
+  </data>
+  <data name="SummaryView_ReportPanelTitle" xml:space="preserve">
+    <value>Report</value>
+  </data>
+  <data name="SummaryView_HotPathPanelTitle" xml:space="preserve">
+    <value>Hot Path</value>
+  </data>
+  <data name="SummaryView_HotPathAriaLabel" xml:space="preserve">
+    <value>Hot Path</value>
+  </data>
+  <data name="SummaryView_HotPathNameHeader" xml:space="preserve">
+    <value>Function Name</value>
+  </data>
+  <data name="SummaryView_HotPathAriaLabel" xml:space="preserve">
+    <value>Hot Path</value>
+  </data>
+  <data name="SummaryView_HotPathInclusivePercentHeader" xml:space="preserve">
+    <value>Inclusive Samples %</value>
+  </data>
+  <data name="SummaryView_HotPathExclusivePercentHeader" xml:space="preserve">
+    <value>Exclusive Samples %</value>
+  </data>
+  <data name="SummaryView_HotPathElapsedInclusivePercentHeader" xml:space="preserve">
+    <value>Elapsed Inclusive Time %</value>
+  </data>
+  <data name="SummaryView_HotPathElapsedExclusivePercentHeader" xml:space="preserve">
+    <value>Elapsed Exclusive Time %</value>
+  </data>
+  <data name="SummaryView_RelatedViews" xml:space="preserve">
+    <value>Related Views: </value>
+  </data>
+  <data name="SummaryView_CallTreeHyperlink" xml:space="preserve">
+    <value>Call Tree</value>
+  </data>
+  <data name="SummaryView_FunctionsHyperlink" xml:space="preserve">
+    <value>Functions</value>
+  </data>
+  <data name="SummaryView_BytesPercentHeader" xml:space="preserve">
+    <value>Bytes %</value>
+  </data>
+  <data name="SummaryView_ContentionsHeader" xml:space="preserve">
+    <value>Contentions</value>
+  </data>
+  <data name="SummaryView_ContentionsPercentHeader" xml:space="preserve">
+    <value>Contentions %</value>
+  </data>
+  <data name="SummaryView_FunctionsPanelTitle" xml:space="preserve">
+    <value>Functions Doing Most Individual Work</value>
+  </data>
+  <data name="SummaryView_FunctionsMemoryPanelTitle" xml:space="preserve">
+    <value>Functions Allocating Most Memory</value>
+  </data>
+  <data name="SummaryView_FunctionsExclusiveSamplesPercentHeader" xml:space="preserve">
+    <value>Exclusive Samples %</value>
+  </data>
+  <data name="SummaryView_FunctionsExclusiveTimePercentHeader" xml:space="preserve">
+    <value>Exclusive Time %</value>
+  </data>
+  <data name="SummaryView_FunctionsAriaLabel" xml:space="preserve">
+    <value>List of functions</value>
+  </data>
+  <data name="SummaryView_NameHeader" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="SummaryView_ResourcesPanelTitle" xml:space="preserve">
+    <value>Most Contended Resources</value>
+  </data>
+  <data name="SummaryView_ResourcesAriaLabel" xml:space="preserve">
+    <value>List of contended resources</value>
+  </data>
+  <data name="SummaryView_ThreadsPanelTitle" xml:space="preserve">
+    <value>Most Contended Threads</value>
+  </data>
+  <data name="SummaryView_ThreadsIDHeader" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="SummaryView_ThreadsAriaLabel" xml:space="preserve">
+    <value>List of contended threads</value>
+  </data>
+  <data name="SummaryView_TypesMemoryTitle" xml:space="preserve">
+    <value>Types With Most Memory Allocated</value>
+  </data>
+  <data name="SummaryView_TypesInstancesTitle" xml:space="preserve">
+    <value>Types With Most Instances</value>
+  </data>
+  <data name="SummaryView_TypesInstancesPercentHeader" xml:space="preserve">
+    <value>Instances %</value>
+  </data>
+  <data name="SummaryView_TypesAriaLabel" xml:space="preserve">
+    <value>List of types</value>
+  </data>
+  <data name="SummaryView_GraphTitleFormattedWithTime">
+    <value>{0} | Selected Time: {1} - {2}</value>
+    <comment>{0} will contain the graph title with units, {1} and {2} will have the time selection begin and end</comment>
+  </data>
+  <data name="SummaryView_CpuGraphTitle" xml:space="preserve">
+    <value>CPU</value>
+  </data>
+  <data name="SummaryView_CpuGraphUnit" xml:space="preserve">
+    <value>% Usage</value>
+  </data>
+  <data name="SummaryView_CpuGraphAriaLabel" xml:space="preserve">
+    <value>CPU usage over time</value>
+  </data>
+  <data name="SummaryView_CpuGraphTimeFilter" xml:space="preserve">
+    <value>Current time filter {0} - {1}</value>
+  </data>
+  <data name="SummaryView_CpuSeriesTitle" xml:space="preserve">
+    <value>CPU Usage</value>
+  </data>
+  <data name="SummaryView_CpuSeriesTooltip" xml:space="preserve">
+    <value>{0} %</value>
+  </data>
+  <data name="SummaryView_ConcurrencyGraphTitle" xml:space="preserve">
+    <value>Contentions</value>
+  </data>
+  <data name="SummaryView_ConcurrencyGraphUnit" xml:space="preserve">
+    <value># of Contentions</value>
+  </data>
+  <data name="SummaryView_ConcurrencyGraphAriaLabel" xml:space="preserve">
+    <value>Contentions over time</value>
+  </data>
+  <data name="SummaryView_ConcurrencySeriesTitle" xml:space="preserve">
+    <value>Contentions</value>
+  </data>
+  <data name="SummaryView_ConcurrencySeriesTooltip" xml:space="preserve">
+    <value>{0} contentions</value>
+  </data>
+  <data name="SummaryView_ContextMenuFilterBySelection" xml:space="preserve">
+    <value>Filter Profiling Data by Selection</value>
+  </data>
+  <data name="SummaryView_NoDataJmcMessage" xml:space="preserve">
+    <value>Just My Code is enabled, which may prevent non-user code from being displayed</value>
+  </data>
+  <data name="SummaryView_NoDataTimeFilterMessage" xml:space="preserve">
+    <value>Time filtering is enabled and this may have removed profiling data</value>
+  </data>
+  <data name="Columns_FunctionAddressHeaderLabel" xml:space="preserve">
+    <value>Function Address</value>
+  </data>
+  <data name="Columns_FunctionAddressHeaderTooltip" xml:space="preserve">
+    <value>The function address or token</value>
+  </data>
+  <data name="Columns_FunctionLineNumberHeaderLabel" xml:space="preserve">
+    <value>Function Line Number</value>
+  </data>
+  <data name="Columns_FunctionLineNumberHeaderTooltip" xml:space="preserve">
+    <value>The line number of the beginning of this function in the source file</value>
+  </data>
+  <data name="Columns_FunctionNameHeaderLabel" xml:space="preserve">
+    <value>Function Name</value>
+  </data>
+  <data name="Columns_FunctionNameHeaderTooltip" xml:space="preserve">
+    <value>The name of the function</value>
+  </data>
+  <data name="Columns_IpHeaderLabel" xml:space="preserve">
+    <value>Instruction Address</value>
+  </data>
+  <data name="Columns_IpHeaderTooltip" xml:space="preserve">
+    <value>The address of the instruction pointer</value>
+  </data>
+  <data name="Columns_LineNumberHeaderLabel" xml:space="preserve">
+    <value>Function Line Number</value>
+  </data>
+  <data name="Columns_LineNumberHeaderTooltip" xml:space="preserve">
+    <value>The line number of the beginning of this function in the source file</value>
+  </data>
+  <data name="Columns_ModuleNameHeaderLabel" xml:space="preserve">
+    <value>Module Name</value>
+  </data>
+  <data name="Columns_ModuleNameHeaderTooltip" xml:space="preserve">
+    <value>The name of the module</value>
+  </data>
+  <data name="Columns_ModulePathHeaderLabel" xml:space="preserve">
+    <value>Module Path</value>
+  </data>
+  <data name="Columns_ModulePathHeaderTooltip" xml:space="preserve">
+    <value>The path of the module</value>
+  </data>
+  <data name="Columns_NameHeaderLabel" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Columns_NameHeaderTooltip" xml:space="preserve">
+    <value>The name of the module or function</value>
+  </data>
+  <data name="Columns_PIDHeaderLabel" xml:space="preserve">
+    <value>Process ID</value>
+  </data>
+  <data name="Columns_PIDHeaderTooltip" xml:space="preserve">
+    <value>The process ID</value>
+  </data>
+  <data name="Columns_ProcessNameHeaderLabel" xml:space="preserve">
+    <value>Process Name</value>
+  </data>
+  <data name="Columns_ProcessNameHeaderTooltip" xml:space="preserve">
+    <value>The name of the process</value>
+  </data>
+  <data name="Columns_SourceFileHeaderLabel" xml:space="preserve">
+    <value>Source File</value>
+  </data>
+  <data name="Columns_SourceFileHeaderTooltip" xml:space="preserve">
+    <value>The source file that contains the definition for this function</value>
+  </data>
+  <data name="Concurrency_NameHeaderTooltip" xml:space="preserve">
+    <value>The name of the type or function</value>
+  </data>
+  <data name="Columns_SourceLineBeginHeaderLabel" xml:space="preserve">
+    <value>Source Line Begin</value>
+  </data>
+  <data name="Columns_SourceLineBeginHeaderTooltip" xml:space="preserve">
+    <value>The line number of the source file on which the code starts</value>
+  </data>
+  <data name="Columns_SourceCharacterBeginHeaderLabel" xml:space="preserve">
+    <value>Source Character Begin</value>
+  </data>
+  <data name="Columns_SourceCharacterBeginHeaderTooltip" xml:space="preserve">
+    <value>The character number of the line on which the code starts</value>
+  </data>
+  <data name="Columns_SourceLineEndHeaderLabel" xml:space="preserve">
+    <value>Source Line End</value>
+  </data>
+  <data name="Columns_SourceLineEndHeaderTooltip" xml:space="preserve">
+    <value>The line number of the source file on which the code ends</value>
+  </data>
+  <data name="Columns_SourceCharacterEndHeaderLabel" xml:space="preserve">
+    <value>Source Character End</value>
+  </data>
+  <data name="Columns_SourceCharacterEndHeaderTooltip" xml:space="preserve">
+    <value>The character number of the line on which the code ends</value>
+  </data>
+  <data name="Columns_LineNameHeaderLabel" xml:space="preserve">
+    <value>Line Name</value>
+  </data>
+  <data name="Columns_LineNameHeaderTooltip" xml:space="preserve">
+    <value>The source file and line number</value>
+  </data>
+  <data name="Concurrency_ExclBlockedTimeHeaderLabel" xml:space="preserve">
+    <value>Exclusive Blocked Time (ms)</value>
+  </data>
+  <data name="Concurrency_ExclBlockedTimeHeaderTooltip" xml:space="preserve">
+    <value>The blocked time in this function</value>
+  </data>
+  <data name="Concurrency_ExclBlockedTimePercentHeaderLabel" xml:space="preserve">
+    <value>Exclusive Blocked Time %</value>
+  </data>
+  <data name="Concurrency_ExclBlockedTimePercentHeaderTooltip" xml:space="preserve">
+    <value>The percentage of blocked time in this function</value>
+  </data>
+  <data name="Concurrency_ExclContentionsHeaderLabel" xml:space="preserve">
+    <value>Exclusive Contentions</value>
+  </data>
+  <data name="Concurrency_ExclContentionsHeaderTooltip" xml:space="preserve">
+    <value>The number of contentions made in this function</value>
+  </data>
+  <data name="Concurrency_ExclContentionsPercentHeaderLabel" xml:space="preserve">
+    <value>Exclusive Contentions %</value>
+  </data>
+  <data name="Concurrency_ExclContentionsPercentHeaderTooltip" xml:space="preserve">
+    <value>The percentage of contentions made in this function</value>
+  </data>
+  <data name="Concurrency_InclBlockedTimeHeaderLabel" xml:space="preserve">
+    <value>Inclusive Blocked Time (ms)</value>
+  </data>
+  <data name="Concurrency_InclBlockedTimeHeaderTooltip" xml:space="preserve">
+    <value>The blocked time in this function and its children</value>
+  </data>
+  <data name="Concurrency_InclBlockedTimePercentHeaderLabel" xml:space="preserve">
+    <value>Inclusive Blocked Time %</value>
+  </data>
+  <data name="Concurrency_InclBlockedTimePercentHeaderTooltip" xml:space="preserve">
+    <value>The percentage of blocked time in this function and its children</value>
+  </data>
+  <data name="Concurrency_InclContentionsHeaderLabel" xml:space="preserve">
+    <value>Inclusive Contentions</value>
+  </data>
+  <data name="Concurrency_InclContentionsHeaderTooltip" xml:space="preserve">
+    <value>The number of contentions made in this function and its children</value>
+  </data>
+  <data name="Concurrency_InclContentionsPercentHeaderLabel" xml:space="preserve">
+    <value>Inclusive Contentions %</value>
+  </data>
+  <data name="Concurrency_InclContentionsPercentHeaderTooltip" xml:space="preserve">
+    <value>The percentage of contentions made in this function and its children</value>
+  </data>
+  <data name="InfoBar_Close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="Instrumentation_NumberOfCallsHeaderLabel" xml:space="preserve">
+    <value>Number of Calls</value>
+  </data>
+  <data name="Instrumentation_ElapsedInclusiveTimePercentHeaderLabel" xml:space="preserve">
+    <value>Elapsed Inclusive Time %</value>
+  </data>
+  <data name="Instrumentation_ElapsedExclusiveTimePercentHeaderLabel" xml:space="preserve">
+    <value>Elapsed Exclusive Time %</value>
+  </data>
+  <data name="Instrumentation_TimeInclusiveProbeOverheadHeaderLabel" xml:space="preserve">
+    <value>Time Inclusive Probe Overhead</value>
+  </data>
+  <data name="Instrumentation_TimeExclusiveProbeOverheadHeaderLabel" xml:space="preserve">
+    <value>Time Exclusive Probe Overhead</value>
+  </data>
+  <data name="Instrumentation_InclusiveTimeHeaderLabel" xml:space="preserve">
+    <value>Elapsed Inclusive Time</value>
+  </data>
+  <data name="Instrumentation_MinInclusiveTimeHeaderLabel" xml:space="preserve">
+    <value>Min Elapsed Inclusive Time</value>
+  </data>
+  <data name="Instrumentation_AvgInclusiveTimeHeaderLabel" xml:space="preserve">
+    <value>Avg Elapsed Inclusive Time</value>
+  </data>
+  <data name="Instrumentation_MaxInclusiveTimeHeaderLabel" xml:space="preserve">
+    <value>Max Elapsed Inclusive Time</value>
+  </data>
+  <data name="Instrumentation_ExclusiveTimeHeaderLabel" xml:space="preserve">
+    <value>Elapsed Exclusive Time</value>
+  </data>
+  <data name="Instrumentation_MinExclusiveTimeHeaderLabel" xml:space="preserve">
+    <value>Min Elapsed Exclusive Time</value>
+  </data>
+  <data name="Instrumentation_AvgExclusiveTimeHeaderLabel" xml:space="preserve">
+    <value>Avg Elapsed Exclusive Time</value>
+  </data>
+  <data name="Instrumentation_MaxExclusiveTimeHeaderLabel" xml:space="preserve">
+    <value>Max Elapsed Exclusive Time</value>
+  </data>
+  <data name="Instrumentation_AppInclusiveTimeHeaderLabel" xml:space="preserve">
+    <value>Application Inclusive Time</value>
+  </data>
+  <data name="Instrumentation_AppInclusiveTimePercentHeaderLabel" xml:space="preserve">
+    <value>Application Inclusive Time %</value>
+  </data>
+  <data name="Instrumentation_MinAppInclusiveTimeHeaderLabel" xml:space="preserve">
+    <value>Min Application Inclusive Time</value>
+  </data>
+  <data name="Instrumentation_AvgAppInclusiveTimeHeaderLabel" xml:space="preserve">
+    <value>Avg Application Inclusive Time</value>
+  </data>
+  <data name="Instrumentation_MaxAppInclusiveTimeHeaderLabel" xml:space="preserve">
+    <value>Max Application Inclusive Time</value>
+  </data>
+  <data name="Instrumentation_AppExclusiveTimeHeaderLabel" xml:space="preserve">
+    <value>Application Exclusive Time</value>
+  </data>
+  <data name="Instrumentation_AppExclusiveTimePercentHeaderLabel" xml:space="preserve">
+    <value>Application Exclusive Time %</value>
+  </data>
+  <data name="Instrumentation_MinAppExclusiveTimeHeaderLabel" xml:space="preserve">
+    <value>Min Application Exclusive Time</value>
+  </data>
+  <data name="Instrumentation_AvgAppExclusiveTimeHeaderLabel" xml:space="preserve">
+    <value>Avg Application Exclusive Time</value>
+  </data>
+  <data name="Instrumentation_MaxAppExclusiveTimeHeaderLabel" xml:space="preserve">
+    <value>Max Application Exclusive Time</value>
+  </data>
+  <data name="Instrumentation_NumberOfCallsHeaderTooltip" xml:space="preserve">
+    <value>The total number of calls made to this function</value>
+  </data>
+  <data name="Instrumentation_ElapsedInclusiveTimePercentHeaderTooltip" xml:space="preserve">
+    <value>The percentage of time spent in this function and its children</value>
+  </data>
+  <data name="Instrumentation_ElapsedExclusiveTimePercentHeaderTooltip" xml:space="preserve">
+    <value>The percentage of time spent in this function</value>
+  </data>
+  <data name="Instrumentation_TimeInclusiveProbeOverheadHeaderTooltip" xml:space="preserve">
+    <value>The time overhead for this function and its children due to probes</value>
+  </data>
+  <data name="Instrumentation_TimeExclusiveProbeOverheadHeaderTooltip" xml:space="preserve">
+    <value>The time overhead for this function due to probes</value>
+  </data>
+  <data name="Instrumentation_InclusiveTimeHeaderTooltip" xml:space="preserve">
+    <value>The time spent in this function and its children</value>
+  </data>
+  <data name="Instrumentation_MinInclusiveTimeHeaderTooltip" xml:space="preserve">
+    <value>The minimum time spent in this function and its children</value>
+  </data>
+  <data name="Instrumentation_AvgInclusiveTimeHeaderTooltip" xml:space="preserve">
+    <value>The average time spent in this function and its children</value>
+  </data>
+  <data name="Instrumentation_MaxInclusiveTimeHeaderTooltip" xml:space="preserve">
+    <value>The maximum time spent in this function and its children</value>
+  </data>
+  <data name="Instrumentation_ExclusiveTimeHeaderTooltip" xml:space="preserve">
+    <value>The time spent in this function</value>
+  </data>
+  <data name="Instrumentation_MinExclusiveTimeHeaderTooltip" xml:space="preserve">
+    <value>The minimum time spent in this function</value>
+  </data>
+  <data name="Instrumentation_AvgExclusiveTimeHeaderTooltip" xml:space="preserve">
+    <value>The average time spent in this function</value>
+  </data>
+  <data name="Instrumentation_MaxExclusiveTimeHeaderTooltip" xml:space="preserve">
+    <value>The maximum Time spent in this function</value>
+  </data>
+  <data name="Instrumentation_AppInclusiveTimeHeaderTooltip" xml:space="preserve">
+    <value>The processing time of this function and its children, without the time waiting for I/O and other threads</value>
+  </data>
+  <data name="Instrumentation_AppInclusiveTimePercentHeaderTooltip" xml:space="preserve">
+    <value>The percentage processing time of this function and its children, without the time waiting for I/O and other threads</value>
+  </data>
+  <data name="Instrumentation_MinAppInclusiveTimeHeaderTooltip" xml:space="preserve">
+    <value>The minimum time spent in this function and its children, without the time waiting for I/O and other threads</value>
+  </data>
+  <data name="Instrumentation_AvgAppInclusiveTimeHeaderTooltip" xml:space="preserve">
+    <value>The average time spent in this function and its children, without the time waiting for I/O and other threads</value>
+  </data>
+  <data name="Instrumentation_MaxAppInclusiveTimeHeaderTooltip" xml:space="preserve">
+    <value>The maximum time spent in this function and its children, without the time waiting for I/O and other threads</value>
+  </data>
+  <data name="Instrumentation_AppExclusiveTimeHeaderTooltip" xml:space="preserve">
+    <value>The processing time of this function, without the time waiting for I/O and other threads</value>
+  </data>
+  <data name="Instrumentation_AppExclusiveTimePercentHeaderTooltip" xml:space="preserve">
+    <value>The percentage processing time of this function, without the time waiting for I/O and other threads</value>
+  </data>
+  <data name="Instrumentation_MinAppExclusiveTimeHeaderTooltip" xml:space="preserve">
+    <value>The minimum time spent in this function, without the time waiting for I/O and other threads</value>
+  </data>
+  <data name="Instrumentation_AvgAppExclusiveTimeHeaderTooltip" xml:space="preserve">
+    <value>The average time spent in this function, without the time waiting for I/O and other threads</value>
+  </data>
+  <data name="Instrumentation_MaxAppExclusiveTimeHeaderTooltip" xml:space="preserve">
+    <value>The maximum time spent in this function, without the time waiting for I/O and other threads</value>
+  </data>
+  <data name="Memory_ExclAllocsHeaderLabel" xml:space="preserve">
+    <value>Exclusive Allocations</value>
+  </data>
+  <data name="Memory_ExclAllocsHeaderTooltip" xml:space="preserve">
+    <value>The number of allocations made in this function</value>
+  </data>
+  <data name="Memory_ExclBytesHeaderLabel" xml:space="preserve">
+    <value>Exclusive Bytes</value>
+  </data>
+  <data name="Memory_ExclBytesHeaderTooltip" xml:space="preserve">
+    <value>The number of bytes allocated in this function</value>
+  </data>
+  <data name="Memory_ExclBytesPercentHeaderLabel" xml:space="preserve">
+    <value>Exclusive Bytes %</value>
+  </data>
+  <data name="Memory_ExclBytesPercentHeaderTooltip" xml:space="preserve">
+    <value>The percentage of bytes allocated in this function</value>
+  </data>
+  <data name="Memory_InclAllocsHeaderLabel" xml:space="preserve">
+    <value>Inclusive Allocations</value>
+  </data>
+  <data name="Memory_InclAllocsHeaderTooltip" xml:space="preserve">
+    <value>The number of allocations made in this function and its children</value>
+  </data>
+  <data name="Memory_InclBytesHeaderLabel" xml:space="preserve">
+    <value>Inclusive Bytes</value>
+  </data>
+  <data name="Memory_InclBytesHeaderTooltip" xml:space="preserve">
+    <value>The number of bytes allocated in this function and its children</value>
+  </data>
+  <data name="Memory_InclBytesPercentHeaderLabel" xml:space="preserve">
+    <value>Inclusive Bytes %</value>
+  </data>
+  <data name="Memory_InclBytesPercentHeaderTooltip" xml:space="preserve">
+    <value>The percentage of bytes allocated in this function and its children</value>
+  </data>
+  <data name="Memory_InclAllocsPercentHeaderLabel" xml:space="preserve">
+    <value>Inclusive Allocations %</value>
+  </data>
+  <data name="Memory_InclAllocsPercentHeaderTooltip" xml:space="preserve">
+    <value>The percentage of allocations made in this function and its children</value>
+  </data>
+  <data name="Memory_ExclAllocsPercentHeaderLabel" xml:space="preserve">
+    <value>Exclusive Allocations %</value>
+  </data>
+  <data name="Memory_ExclAllocsPercentHeaderTooltip" xml:space="preserve">
+    <value>The percentage of allocations made in this function</value>
+  </data>
+  <data name="Memory_TypeFunctionNameHeaderLabel" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Memory_TypeFunctionNameHeaderTooltip" xml:space="preserve">
+    <value>The name of the type or function</value>
+  </data>
+  <data name="Sampling_InclSamplesHeaderLabel" xml:space="preserve">
+    <value>Inclusive Samples</value>
+  </data>
+  <data name="Sampling_ExclSamplesHeaderLabel" xml:space="preserve">
+    <value>Exclusive Samples</value>
+  </data>
+  <data name="Sampling_InclSamplesPercentHeaderLabel" xml:space="preserve">
+    <value>Inclusive Samples %</value>
+  </data>
+  <data name="Sampling_ExclSamplesPercentHeaderLabel" xml:space="preserve">
+    <value>Exclusive Samples %</value>
+  </data>
+  <data name="Sampling_IsPGOHeaderLabel" xml:space="preserve">
+    <value>Is PGO</value>
+  </data>
+  <data name="Sampling_OptimizationTypeHeaderLabel" xml:space="preserve">
+    <value>PGO Type</value>
+  </data>
+  <data name="Sampling_InlinedFunctionsHeaderLabel" xml:space="preserve">
+    <value>Inlined Functions</value>
+  </data>
+  <data name="Sampling_InlinedInclusiveSamplesHeaderLabel" xml:space="preserve">
+    <value>Inlined Inclusive Samples</value>
+  </data>
+  <data name="Sampling_InlinedExclusiveSamplesHeaderLabel" xml:space="preserve">
+    <value>Inlined Exclusive Samples</value>
+  </data>
+  <data name="Sampling_InlinedInclusiveSamplesPercentHeaderLabel" xml:space="preserve">
+    <value>Inlined Inclusive Samples %</value>
+  </data>
+  <data name="Sampling_InlinedExclusiveSamplesPercentHeaderLabel" xml:space="preserve">
+    <value>Inlined Exclusive Samples %</value>
+  </data>
+  <data name="Sampling_FunctionNameHeaderTooltip" xml:space="preserve">
+    <value>The name of the function</value>
+  </data>
+  <data name="Sampling_InclSamplesHeaderTooltip" xml:space="preserve">
+    <value>The number of samples in this function and its children</value>
+  </data>
+  <data name="Sampling_ExclSamplesHeaderTooltip" xml:space="preserve">
+    <value>The number of samples in this function</value>
+  </data>
+  <data name="Sampling_InclSamplesPercentHeaderTooltip" xml:space="preserve">
+    <value>The percentage of samples in this function and its children</value>
+  </data>
+  <data name="Sampling_ExclSamplesPercentHeaderTooltip" xml:space="preserve">
+    <value>The percentage of samples in this function</value>
+  </data>
+  <data name="Sampling_IsPGOHeaderTooltip" xml:space="preserve">
+    <value>Is this function PGO optimized</value>
+  </data>
+  <data name="Sampling_OptimizationTypeHeaderTooltip" xml:space="preserve">
+    <value>For PGO optimized functions, indicates whether the optimization was for size or for speed</value>
+  </data>
+  <data name="Sampling_InlinedFunctionsHeaderTooltip" xml:space="preserve">
+    <value>Indicates functions inlined</value>
+  </data>
+  <data name="Sampling_InlinedInclusiveSamplesHeaderTooltip" xml:space="preserve">
+    <value>The number of inlined samples in this function and its children</value>
+  </data>
+  <data name="Sampling_InlinedExclusiveSamplesHeaderTooltip" xml:space="preserve">
+    <value>The number of samples in this function attributed to its inlinees</value>
+  </data>
+  <data name="Sampling_InlinedInclusiveSamplesPercentHeaderTooltip" xml:space="preserve">
+    <value>The percentage of the total count of inlined samples which occurred in this function and its children</value>
+  </data>
+  <data name="Sampling_InlinedExclusiveSamplesPercentHeaderTooltip" xml:space="preserve">
+    <value>The percentage of the total count of inlined samples which occurred in this function</value>
+  </data>
+  <data name="FunctionDetails_CallingFunctionsTitle" xml:space="preserve">
+    <value>Calling Functions</value>
+  </data>
+  <data name="FunctionDetails_CallingFunctionsAriaLabel" xml:space="preserve">
+    <value>List of functions calling the current function. Use arrow keys to navigate list</value>
+  </data>
+  <data name="FunctionDetails_TopOfCallStackMessage" xml:space="preserve">
+    <value>Top of call stack</value>
+  </data>
+  <data name="FunctionDetails_CurrentFunctionTitle" xml:space="preserve">
+    <value>Current Function</value>
+  </data>
+  <data name="FunctionDetails_CurrentFunctionAriaLabel" xml:space="preserve">
+    <value>Current function. Use arrow keys to navigate list of items</value>
+  </data>
+  <data name="FunctionDetails_ViewFunctionBody" xml:space="preserve">
+    <value>Function Body</value>
+  </data>
+  <data name="FunctionDetails_CalledFunctionsTitle" xml:space="preserve">
+    <value>Called Functions</value>
+  </data>
+  <data name="FunctionDetails_CalledFunctionsAriaLabel" xml:space="preserve">
+    <value>List of functions called by the current function. Use arrow keys to navigate list</value>
+  </data>
+  <data name="FunctionDetails_BottomOfCallStackMessage" xml:space="preserve">
+    <value>Bottom of call stack</value>
+  </data>
+  <data name="FunctionDetails_InclusiveSamplesTooltip" xml:space="preserve">
+    <value>{0} and its children contained {1} samples</value>
+  </data>
+  <data name="FunctionDetails_ExclusiveSamplesTooltip" xml:space="preserve">
+    <value>{0} contained {1} samples</value>
+  </data>
+  <data name="FunctionDetails_InclusiveSamplesPercentTooltip" xml:space="preserve">
+    <value>{0} and its children contained {1} % of samples</value>
+  </data>
+  <data name="FunctionDetails_ExclusiveSamplesPercentTooltip" xml:space="preserve">
+    <value>{0} contained {1} % of samples</value>
+  </data>
+  <data name="FunctionDetails_AverageElapsedInclusiveTimeTooltip" xml:space="preserve">
+    <value>{0} and its children used {1} ms of CPU time on average</value>
+  </data>
+  <data name="FunctionDetails_AverageElapsedExclusiveTimeTooltip" xml:space="preserve">
+    <value>{0} used {1} ms of CPU time on average</value>
+  </data>
+  <data name="FunctionDetails_ElapsedInclusiveTimePercentTooltip" xml:space="preserve">
+    <value>{0} and its children used {1} % of CPU time</value>
+  </data>
+  <data name="FunctionDetails_ElapsedExclusiveTimePercentTooltip" xml:space="preserve">
+    <value>{0} used {1} % of CPU time</value>
+  </data>
+  <data name="FunctionDetails_InclusiveContentionsTooltip" xml:space="preserve">
+    <value>{0} and its children contained {1} contentions</value>
+  </data>
+  <data name="FunctionDetails_ExclusiveContentionsTooltip" xml:space="preserve">
+    <value>{0} contained {1} contentions</value>
+  </data>
+  <data name="FunctionDetails_InclusiveBlockedTimeTooltip" xml:space="preserve">
+    <value>{0} and its children contained {1} ms of blocked time</value>
+  </data>
+  <data name="FunctionDetails_ExclusiveBlockedTimeTooltip" xml:space="preserve">
+    <value>{0} contained {1} ms of blocked time</value>
+  </data>
+  <data name="FunctionDetails_InclusiveAllocationsTooltip" xml:space="preserve">
+    <value>{0} and its children contained {1} allocations</value>
+  </data>
+  <data name="FunctionDetails_ExclusiveAllocationsTooltip" xml:space="preserve">
+    <value>{0} contained {1} allocations</value>
+  </data>
+  <data name="FunctionDetails_InclusiveBytesTooltip" xml:space="preserve">
+    <value>{0} and its children contained {1} bytes</value>
+  </data>
+  <data name="FunctionDetails_ExclusiveBytesTooltip" xml:space="preserve">
+    <value>{0} contained {1} bytes</value>
+  </data>
+  <data name="FunctionDetails_RelatedViews" xml:space="preserve">
+    <value>Related Views:</value>
+  </data>
+  <data name="FunctionDetails_ViewButtonLabel" xml:space="preserve">
+    <value>Caller/Callee</value>
+  </data>
+  <data name="FunctionDetails_ViewButtonAriaLabel" xml:space="preserve">
+    <value>Navigate to the caller/callee view</value>
+  </data>
+  <data name="FunctionDetails_FunctionsViewButtonLabel" xml:space="preserve">
+    <value>Functions</value>
+  </data>
+  <data name="FunctionDetails_FunctionsViewButtonAriaLabel" xml:space="preserve">
+    <value>Navigate to the functions view</value>
+  </data>
+  <data name="FunctionDetails_PerformanceMetricLabel" xml:space="preserve">
+    <value>Performance metric:</value>
+  </data>
+  <data name="FunctionDetails_PerformanceMetricInclusiveSamples" xml:space="preserve">
+    <value>Inclusive Samples</value>
+  </data>
+  <data name="FunctionDetails_PerformanceMetricInclusiveSamplesPercent" xml:space="preserve">
+    <value>Inclusive Samples %</value>
+  </data>
+  <data name="FunctionDetails_PerformanceMetricElapsedInclusiveTime" xml:space="preserve">
+    <value>Elapsed Inclusive Time %</value>
+  </data>
+  <data name="FunctionDetails_PerformanceMetricAverageElapsedTime" xml:space="preserve">
+    <value>Avg Elapsed Inclusive Time</value>
+  </data>
+  <data name="FunctionDetails_PerformanceMetricInclusiveContentions" xml:space="preserve">
+    <value>Inclusive Contentions</value>
+  </data>
+  <data name="FunctionDetails_PerformanceMetricInclusiveBlockedTime" xml:space="preserve">
+    <value>Inclusive Blocked Time</value>
+  </data>
+  <data name="FunctionDetails_PerformanceMetricInclusiveAllocations" xml:space="preserve">
+    <value>Inclusive Allocations</value>
+  </data>
+  <data name="FunctionDetails_PerformanceMetricInclusiveBytes" xml:space="preserve">
+    <value>Inclusive Bytes</value>
+  </data>
+  <data name="FunctionsView_TableAriaLabel" xml:space="preserve">
+    <value>List of functions and their associated data</value>
+  </data>
+  <data name="FunctionsView_SearchAriaLabel" xml:space="preserve">
+    <value>Search list of functions</value>
+  </data>
+  <data name="FunctionsView_NameHeader" xml:space="preserve">
+    <value>Function Name</value>
+  </data>
+  <data name="FunctionsView_TotalSamplesHeader" xml:space="preserve">
+    <value>Inclusive Samples</value>
+  </data>
+  <data name="FunctionsView_SelfSamplesHeader" xml:space="preserve">
+    <value>Exclusive Samples</value>
+  </data>
+  <data name="FunctionsView_InclusivePercent" xml:space="preserve">
+    <value>Inclusive Samples %</value>
+  </data>
+  <data name="FunctionsView_ExclusivePercent" xml:space="preserve">
+    <value>Exclusive Samples %</value>
+  </data>
+  <data name="Allocation_TreeGridAriaLabel" xml:space="preserve">
+    <value>Allocated types and their associated data</value>
+  </data>
+  <data name="Allocation_SearchAriaLabel" xml:space="preserve">
+    <value>Search allocated types and their associated data</value>
+  </data>
+  <data name="AllocationViewName" xml:space="preserve">
+    <value>Allocation</value>
+  </data>
+  <data name="CallTree_TreeGridAriaLabel" xml:space="preserve">
+    <value>Call tree and its associated data</value>
+  </data>
+  <data name="CallTree_SearchAriaLabel" xml:space="preserve">
+    <value>Search CPU call tree</value>
+  </data>
+  <data name="Processes_SearchAriaLabel" xml:space="preserve">
+    <value>Search processes and their associated threads</value>
+  </data>
+  <data name="CallTree_ContextMenuSetRoot" xml:space="preserve">
+    <value>Set Root</value>
+  </data>
+  <data name="CallTree_ContextMenuResetRoot" xml:space="preserve">
+    <value>Reset Root</value>
+  </data>
+  <data name="CallTree_ExpandHotPath" xml:space="preserve">
+    <value>Expand Hot Path</value>
+  </data>
+  <data name="CallTree_ShowHighlighting" xml:space="preserve">
+    <value>Show Hot Path Highlighting</value>
+  </data>
+  <data name="CallTree_NoiseReduction" xml:space="preserve">
+    <value>Noise Reduction Options</value>
+  </data>
+  <data name="CallTree_InfoNoiseReductionEnabled" xml:space="preserve">
+    <value>Noise Reduction is enabled for this view.</value>
+  </data>
+  <data name="CallTree_InfoNoiseReductionConfigureLink" xml:space="preserve">
+    <value>Configure...</value>
+  </data>
+  <data name="Contention_SearchAriaLabel" xml:space="preserve">
+    <value>Search contended resources and their functions</value>
+  </data>
+  <data name="Modules_SearchAriaLabel" xml:space="preserve">
+    <value>Search modules and their associated data</value>
+  </data>
+  <data name="Modules_TreeGridAriaLabel" xml:space="preserve">
+    <value>Modules and their associated data</value>
+  </data>
+  <data name="LinesView_TableAriaLabel" xml:space="preserve">
+    <value>List of functions and their associated source line data</value>
+  </data>
+  <data name="LinesView_SearchAriaLabel" xml:space="preserve">
+    <value>Search list of functions and their associated source line data</value>
+  </data>
+  <data name="Marks_TimestampHeaderLabel" xml:space="preserve">
+    <value>Timestamp</value>
+  </data>
+  <data name="Marks_TimestampTooltip" xml:space="preserve">
+    <value>Time when this mark was written</value>
+  </data>
+  <data name="Marks_MarkIdHeaderLabel" xml:space="preserve">
+    <value>Mark ID</value>
+  </data>
+  <data name="Marks_MarkIdTooltip" xml:space="preserve">
+    <value>The mark ID</value>
+  </data>
+  <data name="Marks_MarkNameHeaderLabel" xml:space="preserve">
+    <value>Mark Name</value>
+  </data>
+  <data name="Marks_MarkNameTooltip" xml:space="preserve">
+    <value>The name associated with the mark</value>
+  </data>
+  <data name="MarksView_TableAriaLabel" xml:space="preserve">
+    <value>List of marks and their associated performance values.</value>
+  </data>
+  <data name="MarksView_SearchAriaLabel" xml:space="preserve">
+    <value>Search the list of marks and their associated performance values.</value>
+  </data>
+  <data name="ObjectLifetime_BytesHeader" xml:space="preserve">
+    <value>Total Bytes Allocated</value>
+  </data>
+  <data name="ObjectLifetime_BytesHeaderTooltip" xml:space="preserve">
+    <value>The number of allocated bytes</value>
+  </data>
+  <data name="ObjectLifetime_BytesPercentHeader" xml:space="preserve">
+    <value>Total Bytes %</value>
+  </data>
+  <data name="ObjectLifetime_BytesPercentHeaderTooltip" xml:space="preserve">
+    <value>The percentage of the total number of allocated bytes</value>
+  </data>
+  <data name="ObjectLifetime_Gen0BytesHeader" xml:space="preserve">
+    <value>Gen 0 Bytes Collected</value>
+  </data>
+  <data name="ObjectLifetime_Gen0BytesHeaderTooltip" xml:space="preserve">
+    <value>The number of bytes collected in generation 0</value>
+  </data>
+  <data name="ObjectLifetime_Gen0InstancesHeader" xml:space="preserve">
+    <value>Gen 0 Instances Collected</value>
+  </data>
+  <data name="ObjectLifetime_Gen0InstancesHeaderTooltip" xml:space="preserve">
+    <value>The number of instances collected in generation 0</value>
+  </data>
+  <data name="ObjectLifetime_Gen1BytesHeader" xml:space="preserve">
+    <value>Gen 1 Bytes Collected</value>
+  </data>
+  <data name="ObjectLifetime_Gen1BytesHeaderTooltip" xml:space="preserve">
+    <value>The number of bytes collected in generation 1</value>
+  </data>
+  <data name="ObjectLifetime_Gen1InstancesHeader" xml:space="preserve">
+    <value>Gen 1 Instances Collected</value>
+  </data>
+  <data name="ObjectLifetime_Gen1InstancesHeaderTooltip" xml:space="preserve">
+    <value>The number of instances collected in generation 1</value>
+  </data>
+  <data name="ObjectLifetime_Gen2BytesHeader" xml:space="preserve">
+    <value>Gen 2 Bytes Collected</value>
+  </data>
+  <data name="ObjectLifetime_Gen2BytesHeaderTooltip" xml:space="preserve">
+    <value>The number of bytes collected in generation 2</value>
+  </data>
+  <data name="ObjectLifetime_Gen2InstancesHeader" xml:space="preserve">
+    <value>Gen 2 Instances Collected</value>
+  </data>
+  <data name="ObjectLifetime_Gen2InstancesHeaderTooltip" xml:space="preserve">
+    <value>The number of instances collected in generation 2</value>
+  </data>
+  <data name="ObjectLifetime_InstancesHeader" xml:space="preserve">
+    <value>Instances</value>
+  </data>
+  <data name="ObjectLifetime_InstancesHeaderTooltip" xml:space="preserve">
+    <value>The number of allocations</value>
+  </data>
+  <data name="ObjectLifetime_InstancesPercentHeader" xml:space="preserve">
+    <value>Total Instances %</value>
+  </data>
+  <data name="ObjectLifetime_InstancesPercentHeaderTooltip" xml:space="preserve">
+    <value>The percentage of the total number of allocations</value>
+  </data>
+  <data name="ObjectLifetime_LOBytesHeader" xml:space="preserve">
+    <value>Large Object Heap Bytes Collected</value>
+  </data>
+  <data name="ObjectLifetime_LOBytesHeaderTooltip" xml:space="preserve">
+    <value>The number of Large Object Heap bytes collected</value>
+  </data>
+  <data name="ObjectLifetime_LOInstancesHeader" xml:space="preserve">
+    <value >Large Object Heap Instances Collected</value>
+  </data>
+  <data name="ObjectLifetime_LOInstancesHeaderTooltip" xml:space="preserve">
+    <value >The number of Large Object Heap instances collected</value>
+  </data>
+  <data name="ObjectLifetime_InstancesAliveAtEndHeader" xml:space="preserve">
+    <value>Instances Alive At End</value>
+  </data>
+  <data name="ObjectLifetime_InstancesAliveAtEndHeaderTooltip" xml:space="preserve">
+    <value>The number of instances not collected till the end of profiling</value>
+  </data>
+  <data name="ObjectLifetime_TableAriaLabel" xml:space="preserve">
+    <value>List of allocated types</value>
+  </data>
+  <data name="ObjectLifetime_SearchAriaLabel" xml:space="preserve">
+    <value>Search list of allocated types</value>
+  </data>
+  <data name="ObjectLifetimeViewName" xml:space="preserve">
+    <value>Object Lifetime</value>
+  </data>
+  <data name="ContentionInstances_CallStack" xml:space="preserve">
+    <value>Contention Call Stack</value>
+  </data>
+  <data name="ContentionInstances_EndTimeHeader" xml:space="preserve">
+    <value>End Time (ms)</value>
+  </data>
+  <data name="ContentionInstances_ElapsedTimeHeader" xml:space="preserve">
+    <value>Elapsed Time (ms)</value>
+  </data>
+  <data name="ContentionInstances_StartTimeHeader" xml:space="preserve">
+    <value>Start Time (ms)</value>
+  </data>
+  <data name="ContentionInstances_TableTitle" xml:space="preserve">
+    <value>Contentions ({0})</value>
+  </data>
+  <data name="ContentionInstances_TableEmptyTitle" xml:space="preserve">
+    <value>Contentions</value>
+  </data>
+  <data name="ContentionInstances_TableAriaLabel" xml:space="preserve">
+    <value>List of contentions</value>
+  </data>
+  <data name="ResourceThreadDetails_BlockedTimeHeader" xml:space="preserve">
+    <value>Blocked Time (ms)</value>
+  </data>
+  <data name="ResourceThreadDetails_BlockedTimeHeaderTooltip" xml:space="preserve">
+    <value>The total blocked time for this resource/thread</value>
+  </data>
+  <data name="ResourceThreadDetails_ContentionsHeader" xml:space="preserve">
+    <value>Contentions</value>
+  </data>
+  <data name="ResourceThreadDetails_ContentionsHeaderTooltip" xml:space="preserve">
+    <value>The number of contentions for this resource/thread</value>
+  </data>
+  <data name="ResourceThreadDetails_ResourceNameHeader" xml:space="preserve">
+    <value>Resource Name</value>
+  </data>
+  <data name="ResourceThreadDetails_ResourceNameHeaderTooltip" xml:space="preserve">
+    <value>The name of the resource</value>
+  </data>
+  <data name="ResourceThreadDetails_Subtitle" xml:space="preserve">
+    <value>Total Contentions: {0} - Total Blocked Time: {1}ms</value>
+  </data>
+  <data name="ResourceThreadDetails_ThreadNameHeader" xml:space="preserve">
+    <value>Thread Name</value>
+  </data>
+  <data name="ResourceThreadDetails_ThreadNameHeaderTooltip" xml:space="preserve">
+    <value>The name of the thread</value>
+  </data>
+  <data name="ResourceThreadDetails_ThreadIdHeader" xml:space="preserve">
+    <value>Thread ID</value>
+  </data>
+  <data name="ResourceThreadDetails_ThreadIdHeaderTooltip" xml:space="preserve">
+    <value>The ID of the thread</value>
+  </data>
+  <data name="ResourceThreadDetails_TreeGridAriaLabel" xml:space="preserve">
+    <value>List of contended resources/threads</value>
+  </data>
+  <data name="ResourceDetails_SelectThreads" xml:space="preserve">
+    <value>Select one or more threads to view contentions</value>
+  </data>
+  <data name="ResourceDetails_Title" xml:space="preserve">
+    <value>Resource Contention Details for {0}</value>
+  </data>
+  <data name="ResourceDetailsViewName" xml:space="preserve">
+    <value>Resource Details</value>
+  </data>
+  <data name="SearchControl_Watermark" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="SearchControl_SearchOptionsTitle" xml:space="preserve">
+    <value>Search options</value>
+  </data>
+  <data name="SearchControl_RegExLabel" xml:space="preserve">
+    <value>Use Regular Expressions</value>
+  </data>
+  <data name="SearchControl_CaseSensitiveLabel" xml:space="preserve">
+    <value>Match case</value>
+  </data>
+  <data name="SearchControl_SearchIconAriaLabel" xml:space="preserve">
+    <value>Execute search</value>
+  </data>
+  <data name="ThreadDetails_SelectResources" xml:space="preserve">
+    <value>Select one or more resources to view contentions</value>
+  </data>
+  <data name="ThreadDetails_Title" xml:space="preserve">
+    <value>Thread Contention Details for {0} [{1}]</value>
+  </data>
+  <data name="ThreadDetailsViewName" xml:space="preserve">
+    <value>Thread Details</value>
+  </data>
+  <data name="TierInteractions_AvgElapsedTimeHeader" xml:space="preserve">
+    <value>Avg Elapsed Time</value>
+  </data>
+  <data name="TierInteractions_AvgElapsedTimeHeaderTooltip" xml:space="preserve">
+    <value>The average elapsed time spent processing all instances of this ASP.NET request, if applicable</value>
+  </data>
+  <data name="TierInteractions_CommandTextHeader" xml:space="preserve">
+    <value>Command Text</value>
+  </data>
+  <data name="TierInteractions_CommandTextHeaderTooltip" xml:space="preserve">
+    <value>The command executed against the associated database</value>
+  </data>
+  <data name="TierInteractions_CountHeader" xml:space="preserve">
+    <value>Count</value>
+  </data>
+  <data name="TierInteractions_CountHeaderTooltip" xml:space="preserve">
+    <value>The number of page requests or database queries</value>
+  </data>
+  <data name="TierInteractions_CountQueryPluralFormat" xml:space="preserve">
+    <value>{0} Queries</value>
+  </data>
+  <data name="TierInteractions_CountQuerySingularFormat" xml:space="preserve">
+    <value>{0} Query</value>
+  </data>
+  <data name="TierInteractions_CountRequestPluralFormat" xml:space="preserve">
+    <value>{0} Requests</value>
+  </data>
+  <data name="TierInteractions_CountRequestSingularFormat" xml:space="preserve">
+    <value>{0} Request</value>
+  </data>
+  <data name="TierInteractions_DatabaseCommandsTableAriaLabel" xml:space="preserve">
+    <value>Database commands and their execution times</value>
+  </data>
+  <data name="TierInteractions_DatabaseCommandsTableTitle" xml:space="preserve">
+    <value>Database Connection Details</value>
+  </data>
+  <data name="TierInteractions_DatabaseHeader" xml:space="preserve">
+    <value>Database</value>
+  </data>
+  <data name="TierInteractions_DatabaseHeaderTooltip" xml:space="preserve">
+    <value>The name of the database or database file being used</value>
+  </data>
+  <data name="TierInteractions_MaxElapsedTimeHeader" xml:space="preserve">
+    <value>Max Elapsed Time</value>
+  </data>
+  <data name="TierInteractions_MaxElapsedTimeHeaderTooltip" xml:space="preserve">
+    <value>The maximum elapsed time spent processing an instance of this ASP.NET request, if applicable</value>
+  </data>
+  <data name="TierInteractions_MinElapsedTimeHeader" xml:space="preserve">
+    <value>Min Elapsed Time</value>
+  </data>
+  <data name="TierInteractions_MinElapsedTimeHeaderTooltip" xml:space="preserve">
+    <value>The minimum elapsed time spent processing an instance of this ASP.NET request, if applicable</value>
+  </data>
+  <data name="TierInteractions_NameHeader" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="TierInteractions_NameHeaderTooltip" xml:space="preserve">
+    <value>The name of the process, ASP.NET request, or database server</value>
+  </data>
+  <data name="TierInteractions_OtherRequests" xml:space="preserve">
+    <value>[Other Requests]</value>
+  </data>
+  <data name="TierInteractions_QueryAvgElapsedTimeHeader" xml:space="preserve">
+    <value>Avg Elapsed Time</value>
+  </data>
+  <data name="TierInteractions_QueryAvgElapsedTimeHeaderTooltip" xml:space="preserve">
+    <value>The average elapsed time spent processing all instances of this database command</value>
+  </data>
+  <data name="TierInteractions_QueryCallsHeader" xml:space="preserve">
+    <value>Query Calls</value>
+  </data>
+  <data name="TierInteractions_QueryCallsHeaderTooltip" xml:space="preserve">
+    <value>The number of times this command was executed against the associated database</value>
+  </data>
+  <data name="TierInteractions_QueryMaxElapsedTimeHeader" xml:space="preserve">
+    <value>Max Elapsed Time</value>
+  </data>
+  <data name="TierInteractions_QueryMaxElapsedTimeHeaderTooltip" xml:space="preserve">
+    <value>The maximum elapsed time spent processing an instance of this database command</value>
+  </data>
+  <data name="TierInteractions_QueryMinElapsedTimeHeader" xml:space="preserve">
+    <value>Min Elapsed Time</value>
+  </data>
+  <data name="TierInteractions_QueryMinElapsedTimeHeaderTooltip" xml:space="preserve">
+    <value>The minimum elapsed time spent processing an instance of this database command</value>
+  </data>
+  <data name="TierInteractions_QueryTotalElapsedTimeHeader" xml:space="preserve">
+    <value>Total Elapsed Time</value>
+  </data>
+  <data name="TierInteractions_QueryTotalElapsedTimeHeaderTooltip" xml:space="preserve">
+    <value>The total elapsed time spent processing all instances of this database command</value>
+  </data>
+  <data name="TierInteractions_TreeGridAriaLabel" xml:space="preserve">
+    <value>Tier interactions and their execution times</value>
+  </data>
+  <data name="TierInteractions_TotalElapsedTimeHeader" xml:space="preserve">
+    <value>Total Elapsed Time</value>
+  </data>
+  <data name="TierInteractions_TotalElapsedTimeHeaderTooltip" xml:space="preserve">
+    <value>The total elapsed time spent processing all instances of this ASP.NET request or executing commands against the database, if applicable</value>
+  </data>
+  <data name="TierInteractions_ContextMenuViewCommand" xml:space="preserve">
+    <value>View Command Text...</value>
+  </data>
+  <data name="TierInteractions_SelectDatabaseConnection" xml:space="preserve">
+    <value>Select a database connection to see the commands executed against it.</value>
+  </data>
+  <data name="TierInteractions_LearnAboutTierInteractionsView" xml:space="preserve">
+    <value>Learn more about the Tier Interactions view.</value>
+  </data>
+  <data name="TierInteractionsViewName" xml:space="preserve">
+    <value>Tier Interactions</value>
+  </data>
+  <data name="CallerCalleeView_CalleeTableAriaLabel" xml:space="preserve">
+    <value>List of callee functions</value>
+  </data>
+  <data name="CallerCalleeView_CallerTableAriaLabel" xml:space="preserve">
+    <value>List of caller functions</value>
+  </data>
+  <data name="CallerCalleeView_CalleeTableTitle" xml:space="preserve">
+    <value>Functions that were called by {0}</value>
+  </data>
+  <data name="CallerCalleeView_CallerTableTitle" xml:space="preserve">
+    <value>Functions that called {0}</value>
+  </data>
+  <data name="CallerCalleeView_CurrentFunction" xml:space="preserve">
+    <value>Current Function</value>
+  </data>
+  <data name="CallerCalleeView_CurrentTableAriaLabel" xml:space="preserve">
+    <value>Current Function</value>
+  </data>
+  <data name="CallerCalleeView_ContextMenuSetFunction" xml:space="preserve">
+    <value>Set Function</value>
+  </data>
+  <data name="CallerCalleeView_TopOfCallStackMessage" xml:space="preserve">
+    <value>Top of call stack</value>
+  </data>
+  <data name="CallerCalleeView_TopOfStackAriaLabel" xml:space="preserve">
+    <value>Functions that called {0}, top of call stack</value>
+  </data>
+  <data name="CallerCalleeView_BottomOfCallStackMessage" xml:space="preserve">
+    <value>Bottom of call stack</value>
+  </data>
+  <data name="CallerCalleeView_BottomOfStackAriaLabel" xml:space="preserve">
+    <value>Functions that were called by {0}, bottom of call stack</value>
+  </data>
+  <data name="ProcessesView_TableAriaLabel" xml:space="preserve">
+    <value>List of processes and their associated data</value>
+  </data>
+  <data name="Processes_UniqueIdLabel" xml:space="preserve">
+    <value>Unique ID</value>
+  </data>
+  <data name="Processes_IdLabel" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="Processes_NameLabel" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Processes_BeginTimeLabel" xml:space="preserve">
+    <value>Begin Time</value>
+  </data>
+  <data name="Processes_EndTimeLabel" xml:space="preserve">
+    <value>End Time</value>
+  </data>
+  <data name="Processes_LifeTimeLabel" xml:space="preserve">
+    <value>Lifetime</value>
+  </data>
+  <data name="Processes_ContentionsLabel" xml:space="preserve">
+    <value>Contentions</value>
+  </data>
+  <data name="Processes_ContentionPercentLabel" xml:space="preserve">
+    <value>Contentions %</value>
+  </data>
+  <data name="Processes_BlockedTimeLabel" xml:space="preserve">
+    <value>Blocked Time</value>
+  </data>
+  <data name="Processes_BlockedTimePercentLabel" xml:space="preserve">
+    <value>Blocked Time %</value>
+  </data>
+  <data name="Processes_UniqueIdHeaderTooltip" xml:space="preserve">
+    <value>The process / thread unique ID</value>
+  </data>
+  <data name="Processes_IdHeaderTooltip" xml:space="preserve">
+    <value>The process / thread non-unique ID</value>
+  </data>
+  <data name="Processes_NameHeaderTooltip" xml:space="preserve">
+    <value>The process / thread name</value>
+  </data>
+  <data name="Processes_BeginTimeHeaderTooltip" xml:space="preserve">
+    <value>When the process / thread began</value>
+  </data>
+  <data name="Processes_EndTimeHeaderTooltip" xml:space="preserve">
+    <value>When the process / thread ended</value>
+  </data>
+  <data name="Processes_LifeTimeHeaderTooltip" xml:space="preserve">
+    <value>Lifetime of the process / thread</value>
+  </data>
+  <data name="Processes_ContentionsHeaderTooltip" xml:space="preserve">
+    <value>Number of process / thread contentions</value>
+  </data>
+  <data name="Processes_ContentionPercentHeaderTooltip" xml:space="preserve">
+    <value>The percentage of process / thread contentions</value>
+  </data>
+  <data name="Processes_BlockedTimeHeaderTooltip" xml:space="preserve">
+    <value>Time the process / thread blocked in contention</value>
+  </data>
+  <data name="Processes_BlockedTimePercentHeaderTooltip" xml:space="preserve">
+    <value>The percentage of process / thread life time</value>
+  </data>
+  <data name="IpView_TableAriaLabel" xml:space="preserve">
+    <value>List of IP addresses</value>
+  </data>
+  <data name="IpView_SearchAriaLabel" xml:space="preserve">
+    <value>Search list of IP addresses</value>
+  </data>
+  <data name="Contention_TreeGridAriaLabel" xml:space="preserve">
+    <value>List of contentions</value>
+  </data>
+  <data name="Message_SearchNoMatches" xml:space="preserve">
+    <value>Could not find any matches.</value>
+  </data>
+  <data name="Message_SearchStartFromTop" xml:space="preserve">
+    <value>Reached the end of the document. Do you want to restart the search from the beginning?</value>
+  </data>
+  <data name="Message_InvalidRegularExpression" xml:space="preserve">
+    <value>The supplied regular expression for searching is invalid.</value>
+  </data>
+  <data name="UnsupportedBrowser" xml:space="preserve">
+    <value>The content requires a &lt;a&gt;new version of Internet Explorer&lt;/a&gt;.</value>
+  </data>
+  <data name="UnsupportedBrowserLabel" xml:space="preserve">
+    <value>Click here to download newer version of Internet Explorer</value>
+  </data>
+  <data name="LoadingViewMessage" xml:space="preserve">
+    <value>Preparing data for {0} view</value>
+  </data>
+  <data name="TreeGrid_VisibilityContextMenuAriaLabel" xml:space="preserve">
+    <value>Column chooser</value>
+  </data>
+</root>

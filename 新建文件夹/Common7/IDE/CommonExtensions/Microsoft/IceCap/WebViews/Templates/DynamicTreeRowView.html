@@ -1,0 +1,8 @@
+<tr class="treeGridRow allocationRow"tabindex="-1" role="row" data-bind="
+    treeGridRowFocus: $parent.focusedRow() === $data,
+    ariaExpanded: { expandable: expanded !== null, expanded: expanded },
+    css: { selected: selected() },
+    attr: { 'aria-level': depth + 1 },
+    style: { 'font-weight': depth === 0 ? 'bold' : 'normal' },
+    documentFragment: columns">
+</tr>

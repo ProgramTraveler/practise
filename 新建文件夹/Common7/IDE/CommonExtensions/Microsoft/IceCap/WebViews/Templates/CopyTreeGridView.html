@@ -1,0 +1,23 @@
+<div class="treeGridContainer">
+    <div class="treeGridBody">
+        <table>
+            <thead data-bind="with: header">
+                <tr role="row" data-bind="foreach: columns">
+                    <th role="columnheader" data-bind="text: text, attr: { 'data-columnid': id }"></th>
+                </tr>
+            </thead>
+            <tbody data-bind="foreach: selectedRows().map(function(r) { return treeAsArray()[r]; })">
+                <tr class="copy-metadata">
+                    <td><!-- ko foreach: new Array(depth) -->|<!--/ko--></td>
+                    <!-- ko if: expanded === null--><td>&nbsp;&nbsp;&nbsp;</td><!-- /ko -->
+                    <!-- ko if: expanded !== null-->
+                        <!-- ko if: expanded --><td>&nbsp;+&nbsp;</td><!-- /ko -->
+                        <!-- ko ifnot: expanded --><td>&nbsp;-&nbsp;</td><!-- /ko -->
+                    <!-- /ko -->
+                </tr>
+                <!-- ko template: templateName -->
+                <!-- /ko -->
+            </tbody>
+        </table>
+    </div>
+</div>

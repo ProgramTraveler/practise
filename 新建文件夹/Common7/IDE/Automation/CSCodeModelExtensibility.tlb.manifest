@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- Copyright (C) 1981-2007 Microsoft Corporation -->
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+    <noInheritable/>
+<assemblyIdentity type="win32" processorArchitecture="x86" name="Automation\CSCodeModelExtensibility.tlb" version="1.0.0.0" />
+<file name="CSCodeModelExtensibility.tlb">
+    <typelib tlbid="{c8698856-9cde-4bc4-b86c-1e70f97aa1ea}" version="1.0" helpdir=""/>
+</file>
+  <comInterfaceExternalProxyStub name="ICSCodeTypeLocation" iid="{72551468-315b-47c6-92e2-d20b3b92dc94}" numMethods="8" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{c8698856-9cde-4bc4-b86c-1e70f97aa1ea}"/>
+  <comInterfaceExternalProxyStub name="ICSPartialMethodExtender" iid="{dfcfc5f4-9404-457c-af3b-c116c7bb5c6d}" numMethods="10" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{c8698856-9cde-4bc4-b86c-1e70f97aa1ea}"/>
+  <comInterfaceExternalProxyStub name="ICSExtensionMethodExtender" iid="{f82170cc-efe8-4f5e-8209-bc2c27b3f54d}" numMethods="8" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{c8698856-9cde-4bc4-b86c-1e70f97aa1ea}"/>
+  <comInterfaceExternalProxyStub name="ICSAutoImplementedPropertyExtender" iid="{b093257b-fe0c-4302-ad0f-38e276e57619}" numMethods="8" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{c8698856-9cde-4bc4-b86c-1e70f97aa1ea}"/>
+</assembly>

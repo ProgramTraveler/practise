@@ -1,0 +1,6 @@
+[$Initialization$]
+"ApplicationExtensionsFolder" = "$RootFolder$\Common7\IDE\Extensions"
+"PkgDefSearchPath"            = "$ApplicationExtensionsFolder$;$RootFolder$\Common7\IDE\CommonExtensions;$RootFolder$\Common7\IDE\devenv.admin.pkgdef;"
+"UserExtensionsRootFolder"    = "$AppDataLocalFolder$\Extensions"
+"RegistryRoot"                = "Software\Microsoft\VisualStudio\15.0"
+"ImageManifestSearchPath"     = "$RootFolder$\Common7\IDE\Extensions;$RootFolder$\Common7\IDE\CommonExtensions;$AppDataLocalFolder$\Extensions"

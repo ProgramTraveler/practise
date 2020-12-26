@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- Copyright (C) 1981-2007 Microsoft Corporation -->
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+    <noInheritable/>
+<assemblyIdentity type="win32" processorArchitecture="x86" name="Automation\WebProperties100.tlb" version="1.0.0.0" />
+<file name="WebProperties100.tlb">
+    <typelib tlbid="{ae445664-2b39-4a6a-9a1b-88b9c2bf13fc}" version="10.0" helpdir=""/>
+</file>
+  <comInterfaceExternalProxyStub name="WebSiteProperties4" iid="{102301ab-2290-4067-b0ae-9cb1af9c14b5}" numMethods="72" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{ae445664-2b39-4a6a-9a1b-88b9c2bf13fc}"/>
+  <comInterfaceExternalProxyStub name="WebSiteProperties5" iid="{856aeff3-563b-47f6-8f21-c8fa77583ebd}" numMethods="82" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{ae445664-2b39-4a6a-9a1b-88b9c2bf13fc}"/>
+</assembly>

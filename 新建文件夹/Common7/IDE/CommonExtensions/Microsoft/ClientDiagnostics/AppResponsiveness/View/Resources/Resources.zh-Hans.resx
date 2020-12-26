@@ -1,0 +1,1019 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AFG_Legend" xml:space="preserve">
+    <value>每秒帧数</value>
+  </data>
+  <data name="AFG_Title" xml:space="preserve">
+    <value>可视吞吐量</value>
+  </data>
+  <data name="AFG_Unit" xml:space="preserve">
+    <value>FPS</value>
+  </data>
+  <data name="AnalyzeDataStatus" xml:space="preserve">
+    <value>正在分析收集的数据:</value>
+  </data>
+  <data name="CPUChartTitle" xml:space="preserve">
+    <value>CPU 使用率(%)</value>
+  </data>
+  <data name="CPUTooltipCategoryLabel" xml:space="preserve">
+    <value>类别</value>
+  </data>
+  <data name="CPUTooltipUtilizationLabel" xml:space="preserve">
+    <value>使用率</value>
+  </data>
+  <data name="DurationLabelInclusive" xml:space="preserve">
+    <value>持续时间(总计): {0}</value>
+    <comment>placeholder 0 is replaced with a string containing the number of ms</comment>
+  </data>
+  <data name="GCLegendTooltip" xml:space="preserve">
+    <value>指示收集不再使用的对象的内存所用的时间</value>
+  </data>
+  <data name="GenericDataProcessingError" xml:space="preserve">
+    <value>处理收集的数据时发生错误。错误代码为: {0}。</value>
+    <comment>placeholder 0 is replaced with a number that the product team or CSS can use to help diagnose the issue</comment>
+  </data>
+  <data name="HubGraphHeapLegend" xml:space="preserve">
+    <value>进程内存使用率(专用字节)</value>
+  </data>
+  <data name="RulerLifecycleMarkLabel" xml:space="preserve">
+    <value>应用程序生命周期标记</value>
+  </data>
+  <data name="RulerUserMarkLabel" xml:space="preserve">
+    <value>用户标记</value>
+  </data>
+  <data name="MillisecondsAbbreviation" xml:space="preserve">
+    <value>毫秒</value>
+  </data>
+  <data name="Ruler_LifeCycleEvents" xml:space="preserve">
+    <value>应用程序生命周期事件</value>
+  </data>
+  <data name="Ruler_UserMarks" xml:space="preserve">
+    <value>用户标记</value>
+  </data>
+  <data name="RulerMarkLabel" xml:space="preserve">
+    <value>用于指示发生了以下事件的标尺标记:{0}</value>
+    <comment>placeholder 0 is replaced with the tooltip content of the ruler mark(s)</comment>
+  </data>
+  <data name="Scripting_Category" xml:space="preserve">
+    <value>脚本</value>
+    <comment>Used in the legend &amp; in the tooltips for the CPU graph</comment>
+  </data>
+  <data name="ScriptingLegendTooltip" xml:space="preserve">
+    <value>指示解析和执行 JavaScript 所用的时间。其中涵盖 DOM 事件、计时器、脚本计算和动画帧回调所用时间</value>
+  </data>
+  <data name="SecondsAbbreviation" xml:space="preserve">
+    <value>秒</value>
+  </data>
+  <data name="StartTimeLabel" xml:space="preserve">
+    <value>开始时间: {0}</value>
+    <comment>placeholder 0 is replaced with a string containing the number of ms</comment>
+  </data>
+  <data name="TimelineLabel" xml:space="preserve">
+    <value>时间线详细信息</value>
+  </data>
+  <data name="TimelineSortDuration" xml:space="preserve">
+    <value>持续时间(总计)</value>
+  </data>
+  <data name="TimelineSortLabel" xml:space="preserve">
+    <value>排序依据:</value>
+  </data>
+  <data name="TimelineSortStartTime" xml:space="preserve">
+    <value>开始时间</value>
+  </data>
+  <data name="Unknown_Category" xml:space="preserve">
+    <value>其他</value>
+    <comment>Used in the legend &amp; in the tooltips for the CPU graph</comment>
+  </data>
+  <data name="UnknownLegendTooltip" xml:space="preserve">
+    <value>指示已知线程上的未分类工作</value>
+  </data>
+  <data name="RulerTitle" xml:space="preserve">
+    <value>诊断会话</value>
+  </data>
+  <data name="ToolbarButtonClearSelection" xml:space="preserve">
+    <value>清除选定内容</value>
+  </data>
+  <data name="ToolbarButtonResetZoom" xml:space="preserve">
+    <value>重置缩放</value>
+  </data>
+  <data name="ToolbarButtonZoomIn" xml:space="preserve">
+    <value>放大</value>
+  </data>
+  <data name="AddressNameLabel" xml:space="preserve">
+    <value>地址名称</value>
+  </data>
+  <data name="AtTargetEventPhaseLabel" xml:space="preserve">
+    <value>针对目标</value>
+  </data>
+  <data name="DefaultPreventedLabel" xml:space="preserve">
+    <value>默认阻止</value>
+  </data>
+  <data name="EventNameLabel" xml:space="preserve">
+    <value>事件名称</value>
+  </data>
+  <data name="EventPhaseLabel" xml:space="preserve">
+    <value>事件阶段</value>
+  </data>
+  <data name="ListenerUsesCaptureLabel" xml:space="preserve">
+    <value>侦听器使用捕获</value>
+  </data>
+  <data name="NoLabel" xml:space="preserve">
+    <value>否</value>
+  </data>
+  <data name="PropagationStoppedLabel" xml:space="preserve">
+    <value>已停止传播</value>
+  </data>
+  <data name="ScriptUrlLabel" xml:space="preserve">
+    <value>脚本 URL</value>
+  </data>
+  <data name="StatusCodeLabel" xml:space="preserve">
+    <value>状态代码</value>
+  </data>
+  <data name="YesLabel" xml:space="preserve">
+    <value>是</value>
+  </data>
+  <data name="TimerTypeLabel" xml:space="preserve">
+    <value>计时器类型</value>
+  </data>
+  <data name="TimerFiredEventDescription" xml:space="preserve">
+    <value>计划的时间已到达，触发计时器执行与其相关联的回调。</value>
+  </data>
+  <data name="Layout" xml:space="preserve">
+    <value>布局</value>
+    <comment>This resource name is referenced in Timeline.Intervals.xml.</comment>
+  </data>
+  <data name="TimerFired" xml:space="preserve">
+    <value>定时器</value>
+    <comment>This resource name is referenced in Timeline.Intervals.xml.</comment>
+  </data>
+  <data name="MillisecondsLabel" xml:space="preserve">
+    <value>毫秒</value>
+  </data>
+  <data name="MinutesLabel" xml:space="preserve">
+    <value>分钟</value>
+  </data>
+  <data name="RulerMarkTooltipLabel" xml:space="preserve">
+    <value> 位于 {0}</value>
+    <comment>placeholder 0 is replaced with the formatted time the mark fired.</comment>
+  </data>
+  <data name="SecondsLabel" xml:space="preserve">
+    <value>秒</value>
+  </data>
+  <data name="MinutesAbbreviation" xml:space="preserve">
+    <value>分钟</value>
+  </data>
+  <data name="AlignedBeat" xml:space="preserve">
+    <value>框架</value>
+    <comment>This resource name is referenced in Timeline.Intervals.xml.</comment>
+  </data>
+  <data name="EventHeaderLabel" xml:space="preserve">
+    <value>事件名称</value>
+  </data>
+  <data name="ThreadContextLabel" xml:space="preserve">
+    <value>线程: {0}</value>
+    <comment>placeholder 0 is replaced with the threadId</comment>
+  </data>
+  <data name="UIThreadContext" xml:space="preserve">
+    <value>UI 线程</value>
+  </data>
+  <data name="CPUBarAriaLabel" xml:space="preserve">
+    <value>{0} 在 {2} 使用了 {1}% 的 CPU 时间</value>
+    <comment>placeholder 0 is replaced with the category, placeholder 1 is replaced with the percentage of time spent, and placeholder 2 is replaced with the formatted time</comment>
+  </data>
+  <data name="CPUGraphAriaLabel" xml:space="preserve">
+    <value>表示应用程序的 CPU 使用率的条形图。按向右键和向左键进行导航。</value>
+  </data>
+  <data name="VisualThroughputGraphAriaLabel" xml:space="preserve">
+    <value>表示应用程序的可视吞吐量(以帧数/秒为单位报告)的阶梯线划图。按向右键和向左键进行导航。</value>
+  </data>
+  <data name="VisualThroughputStepAriaLabel" xml:space="preserve">
+    <value>位于 {1} 的 {0} FPS</value>
+    <comment>placeholder 0 is the fps value, and placeholder 1 is the formatted time</comment>
+  </data>
+  <data name="EventsTimelineAriaLabel" xml:space="preserve">
+    <value>可滚动的甘特图，显示在当前所选时间内发生的事件序列。按向上键和向下键进行导航。</value>
+  </data>
+  <data name="EventsTimelineEventAriaLabel" xml:space="preserve">
+    <value>开始时间为 {1} 且持续时间为 {2} 的 {0} 事件</value>
+    <comment>placeholder 0 is replaced with the event name, placeholder 1 is replaced with start time, placeholder 2 is replaced with duration</comment>
+  </data>
+  <data name="RulerAriaLabel" xml:space="preserve">
+    <value>标尺具有的最小值为 {0}，最大值为 {1}</value>
+    <comment>placeholder 0 and placeholder 1 are time with units</comment>
+  </data>
+  <data name="RulerLeftSliderAriaLabel" xml:space="preserve">
+    <value>左滑块</value>
+  </data>
+  <data name="RulerRightSliderAriaLabel" xml:space="preserve">
+    <value>右滑块</value>
+  </data>
+  <data name="RulerSliderAriaValueText" xml:space="preserve">
+    <value>当前值是 {0}。最小值是 {1}。最大值是 {2}。</value>
+    <comment>placeholder 0, placeholder 1 and placeholder 2 are time with units</comment>
+  </data>
+  <data name="DurationLabelExclusive" xml:space="preserve">
+    <value>持续时间(自身): {0}</value>
+    <comment>placeholder 0 is replaced with a string containing the number of ms</comment>
+  </data>
+  <data name="AlignedBeatEventDescription" xml:space="preserve">
+    <value>已处理对 DOM 进行的挂起的可视更改，以便能够更新应用程序的显示。</value>
+  </data>
+  <data name="GarbageCollectionEventDescription" xml:space="preserve">
+    <value>CLR 运行时审核当前内存使用率，以确定哪些对象不再被引用并因此可以收集。阻止垃圾收集会影响应用程序响应性，因为在这段时间所有托管的线程将被挂起。频繁和长时间运行的垃圾收集会对应用程序响应性造成不利影响。</value>
+  </data>
+  <data name="LayoutEventDescription" xml:space="preserve">
+    <value>对需要计算所有受影响元素的大小和/或位置的 XAML 可视化树进行了更改。</value>
+  </data>
+  <data name="GraphCollapseAriaLabel" xml:space="preserve">
+    <value>按 Enter 折叠关系图。</value>
+  </data>
+  <data name="GraphExpandAriaLabel" xml:space="preserve">
+    <value>按 Enter 展开关系图。</value>
+  </data>
+  <data name="OriginLabel" xml:space="preserve">
+    <value>原始</value>
+  </data>
+  <data name="DimensionsLabel" xml:space="preserve">
+    <value>维度</value>
+  </data>
+  <data name="ScriptContentPreviewLabel" xml:space="preserve">
+    <value>内容预览</value>
+  </data>
+  <data name="F12ToolTitle" xml:space="preserve">
+    <value>UI 响应能力</value>
+  </data>
+  <data name="TASK_DoEnReNo" xml:space="preserve">
+    <value>(强制布局)</value>
+  </data>
+  <data name="TASK_DoInsElm" xml:space="preserve">
+    <value>(插入元素)</value>
+  </data>
+  <data name="TASK_Fi" xml:space="preserve">
+    <value>(检测到样式更改)</value>
+  </data>
+  <data name="TASK_FiCmpFmt" xml:space="preserve">
+    <value>(样式计算)</value>
+  </data>
+  <data name="UnknownTask" xml:space="preserve">
+    <value>(未知任务)</value>
+  </data>
+  <data name="TASK_TableBox" xml:space="preserve">
+    <value>已经为 display:table 生成父级</value>
+    <comment>display:table is code and should not be translated</comment>
+  </data>
+  <data name="TASK_SvgCssBox" xml:space="preserve">
+    <value>已经为 SVG 内容生成根容器</value>
+  </data>
+  <data name="TASK_PageFrame" xml:space="preserve">
+    <value>已分页的流的页面</value>
+  </data>
+  <data name="TASK_DocumentResize" xml:space="preserve">
+    <value>文档大小调整</value>
+  </data>
+  <data name="TASK_TextBlock" xml:space="preserve">
+    <value>文本块</value>
+  </data>
+  <data name="TASK_LineBox" xml:space="preserve">
+    <value>文本行</value>
+  </data>
+  <data name="UnknownElement" xml:space="preserve">
+    <value>未知</value>
+  </data>
+  <data name="InclusiveTimeDetailsHeader" xml:space="preserve">
+    <value>总时间摘要:</value>
+    <comment>Inclusive time details breakdown</comment>
+  </data>
+  <data name="UnknownTimerType" xml:space="preserve">
+    <value>未知计时器</value>
+  </data>
+  <data name="MethodNameLabel" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <data name="SourceLocationLabel" xml:space="preserve">
+    <value>源位置</value>
+  </data>
+  <data name="EventTargetLabel" xml:space="preserve">
+    <value>事件目标</value>
+  </data>
+  <data name="SourceLocationLink" xml:space="preserve">
+    <value>{0} ({1},{2})</value>
+  </data>
+  <data name="InclusiveTimeAriaLabel" xml:space="preserve">
+    <value>环状图表，显示在 UI 线程上占用 CPU 时间的百分比最高的事件类型。</value>
+  </data>
+  <data name="DonutSectorAriaLabel" xml:space="preserve">
+    <value>{0} 事件占总 CPU 时间的百分比为 {1}，并且是为 {2} 执行的。</value>
+    <comment>placeholder 0 is the event name, placeholder 1 is the percent value of the event and placeholder 2 is the total exclusive time took to execute that event.</comment>
+  </data>
+  <data name="AccessTypeLabel" xml:space="preserve">
+    <value>访问类型</value>
+  </data>
+  <data name="TargetElementLabel" xml:space="preserve">
+    <value>目标元素</value>
+  </data>
+  <data name="DroppedEventsWarning" xml:space="preserve">
+    <value>由于在收集时目标计算机出现过载，因此丢失了一些性能数据。信息可能不完整、不准确或顺序错误。</value>
+  </data>
+  <data name="StylesheetUrlLabel" xml:space="preserve">
+    <value>样式表 URL</value>
+  </data>
+  <data name="InclusiveTimeSVGLabelString" xml:space="preserve">
+    <value>{0}%</value>
+    <comment>placeholder 0 is the percent value of the Inclusive time summary's donut chart sector.</comment>
+  </data>
+  <data name="TimeoutLabel" xml:space="preserve">
+    <value>延迟</value>
+  </data>
+  <data name="VisualProfilerTooltip" xml:space="preserve">
+    <value>UI 响应能力 {0}</value>
+    <comment>The id must link up with the manifest file for the profiler tool. placeholder 0 is a keyboard shortcut, like (Ctrl+1)</comment>
+  </data>
+  <data name="DurationLabel" xml:space="preserve">
+    <value>持续时间</value>
+  </data>
+  <data name="WarningIncompatibleStandardsModeF12" xml:space="preserve">
+    <value>此工具仅支持文档模式 10 或更高版本；因此，会话中可能缺少信息。若要提高准确性，请转到“模拟”选项卡，将文档模式改为“边缘”，然后启动新会话。</value>
+  </data>
+  <data name="WarningIncompatibleStandardsModeVS" xml:space="preserve">
+    <value>此工具仅支持 (1) 在 Windows 8.1 上运行的 Windows Store 8.1 应用，(2) 在 Windows 8.1 上运行的 Windows Store 8.0 应用和 (3) 在文档模式 10 或更高版本中运行的 Internet Explorer 11 或更高版本。收集的数据可能丢失信息。</value>
+  </data>
+  <data name="Navigation" xml:space="preserve">
+    <value>导航({0})</value>
+    <comment>placeholder 0 is the URL that was navigated to.</comment>
+  </data>
+  <data name="UnableToNavigateToSource" xml:space="preserve">
+    <value>源导航失败，因为找不到请求的文件、行和/或列数。</value>
+  </data>
+  <data name="LayoutModeLabel" xml:space="preserve">
+    <value>布局模式</value>
+  </data>
+  <data name="UserMarkTooltip" xml:space="preserve">
+    <value>指示对 performance.mark() 方法的调用</value>
+  </data>
+  <data name="LifecycleMarkTooltip" xml:space="preserve">
+    <value>指示应用程序生存期内的基本事件</value>
+  </data>
+  <data name="VisualProfilerDisabledAtBreakpoint" xml:space="preserve">
+    <value>在某个断点暂停分析后将禁止分析。必须停止调试才能启用分析。</value>
+  </data>
+  <data name="RulerAggregatedMarks" xml:space="preserve">
+    <value>已合并的标记</value>
+  </data>
+  <data name="SwimlaneCollapseAriaLabel" xml:space="preserve">
+    <value>按 Enter 折叠关系图。</value>
+  </data>
+  <data name="SwimlaneExpandAriaLabel" xml:space="preserve">
+    <value>按 Enter 展开关系图。</value>
+  </data>
+  <data name="ClearSelectionContextMenu" xml:space="preserve">
+    <value>清除筛选器</value>
+  </data>
+  <data name="FilterToEventContextMenu" xml:space="preserve">
+    <value>事件事件范围筛选器</value>
+  </data>
+  <data name="FilterToEventTypeContextMenu" xml:space="preserve">
+    <value>筛选事件类型</value>
+  </data>
+  <data name="ClearFilterContextMenu" xml:space="preserve">
+    <value>清除筛选器</value>
+  </data>
+  <data name="ViewSourceLabel" xml:space="preserve">
+    <value>查看源</value>
+  </data>
+  <data name="EnterKey" xml:space="preserve">
+    <value>输入</value>
+  </data>
+  <data name="SourceInfoFileLabel" xml:space="preserve">
+    <value>文件:</value>
+  </data>
+  <data name="SourceInfoLineLabel" xml:space="preserve">
+    <value>行:</value>
+  </data>
+  <data name="SourceInfoColumnLabel" xml:space="preserve">
+    <value>列:</value>
+  </data>
+  <data name="SourceInfoEventLabel" xml:space="preserve">
+    <value>事件:</value>
+  </data>
+  <data name="FilteringMenuButtonTooltipText" xml:space="preserve">
+    <value>配置时间线上显示的事件</value>
+  </data>
+  <data name="FilterBackgroundActivities" xml:space="preserve">
+    <value>后台活动</value>
+  </data>
+  <data name="FilterIOActivities" xml:space="preserve">
+    <value>磁盘和网络活动</value>
+  </data>
+  <data name="ProfileJustMyCode" xml:space="preserve">
+    <value>仅分析我的代码(Ctrl+J)</value>
+  </data>
+  <data name="ProfileAllCode" xml:space="preserve">
+    <value>分析所有代码(Ctrl+J)</value>
+  </data>
+  <data name="RenderThread" xml:space="preserve">
+    <value>呈现线程</value>
+  </data>
+  <data name="DownloadThread" xml:space="preserve">
+    <value>下载线程</value>
+  </data>
+  <data name="FilterDurationThreshold" xml:space="preserve">
+    <value>可忽略的 UI 活动(&lt;{0})</value>
+    <comment>placeholder 0 is the time, like 1ms</comment>
+  </data>
+  <data name="Formatting" xml:space="preserve">
+    <value>格式设置</value>
+  </data>
+  <data name="ElementFormatting" xml:space="preserve">
+    <value>元素格式设置</value>
+  </data>
+  <data name="TooltipTimeLabel" xml:space="preserve">
+    <value>时间</value>
+  </data>
+  <data name="TooltipValueLabel" xml:space="preserve">
+    <value>值</value>
+  </data>
+  <data name="F12StartButtonTooltip" xml:space="preserve">
+    <value>启动分析会话(Ctrl+E)</value>
+  </data>
+  <data name="F12StopButtonTooltip" xml:space="preserve">
+    <value>停止分析会话(Ctrl+E)</value>
+  </data>
+  <data name="F12StartProfilingMessage" xml:space="preserve">
+    <value>启动分析以开始性能会话(Ctrl+E)</value>
+  </data>
+  <data name="F12StopProfilingMessage" xml:space="preserve">
+    <value>停止分析以生成报告(Ctrl+E)</value>
+  </data>
+  <data name="IntervalTimerTypeLabel" xml:space="preserve">
+    <value>时间间隔</value>
+  </data>
+  <data name="TimelineSortTooltip" xml:space="preserve">
+    <value>按持续时间或开始时间对事件进行排序</value>
+  </data>
+  <data name="TimeoutTimerTypeLabel" xml:space="preserve">
+    <value>超时</value>
+  </data>
+  <data name="FilterScenarios" xml:space="preserve">
+    <value>方案</value>
+  </data>
+  <data name="StartMarkName" xml:space="preserve">
+    <value>开始标记</value>
+  </data>
+  <data name="EndMarkName" xml:space="preserve">
+    <value>结束标记</value>
+  </data>
+  <data name="Frame" xml:space="preserve">
+    <value>框架</value>
+  </data>
+  <data name="FilterFrames" xml:space="preserve">
+    <value>框架</value>
+  </data>
+  <data name="MillisecondsSelectedLabel" xml:space="preserve">
+    <value>选定的毫秒数</value>
+  </data>
+  <data name="SecondsSelectedLabel" xml:space="preserve">
+    <value>选定的秒数</value>
+  </data>
+  <data name="MinutesSelectedLabel" xml:space="preserve">
+    <value>选定的分钟数</value>
+  </data>
+  <data name="EventNameFilterPlaceholder" xml:space="preserve">
+    <value>事件名称筛选器</value>
+  </data>
+  <data name="EventNameFilterTooltip" xml:space="preserve">
+    <value>按名称或类型筛选顶级事件</value>
+  </data>
+  <data name="MutationObserver" xml:space="preserve">
+    <value>Mutation Observer</value>
+    <comment>This resource name is referenced in Timeline.Intervals.xml.</comment>
+  </data>
+  <data name="MutationObserverEventDescription" xml:space="preserve">
+    <value>已修改一个或多个观察到的 DOM 元素，这将导致执行与 MutationObserver 关联的回调。</value>
+  </data>
+  <data name="FrameGroupingTooltip" xml:space="preserve">
+    <value>按框架对顶级事件分组</value>
+  </data>
+  <data name="F12OpenSessionButtonTooltip" xml:space="preserve">
+    <value>导入分析会话(Ctrl+O)</value>
+  </data>
+  <data name="F12SaveSessionButtonTooltip" xml:space="preserve">
+    <value>导出分析会话(Ctrl+S)</value>
+  </data>
+  <data name="OpenSessionFailedMessage" xml:space="preserve">
+    <value>导入的会话不包含任何有效的性能数据。请尝试其他文件。</value>
+  </data>
+  <data name="SaveSessionFailedMessage" xml:space="preserve">
+    <value>导出分析会话时出错。请重试。</value>
+  </data>
+  <data name="FilterUIActivities" xml:space="preserve">
+    <value>UI 活动</value>
+  </data>
+  <data name="WrongDataSource" xml:space="preserve">
+    <value>基础数据的格式不正确</value>
+  </data>
+  <data name="DurationFilterAll" xml:space="preserve">
+    <value>事件持续时间: 全部</value>
+  </data>
+  <data name="DurationFilterTimed" xml:space="preserve">
+    <value>事件持续时间: &gt;{0}</value>
+    <comment>placeholder 0 is the time threshold that is used for the filter (e.g. 1ms)</comment>
+  </data>
+  <data name="DurationFilterTooltip" xml:space="preserve">
+    <value>按其总的持续时间筛选顶级事件</value>
+  </data>
+  <data name="BackgroundActivityFilterTooltip" xml:space="preserve">
+    <value>显示在后台线程上发生的事件(例如图像解码、GC)</value>
+  </data>
+  <data name="IOFilterTooltip" xml:space="preserve">
+    <value>显示 HTTP 请求和磁盘 I/O 操作</value>
+  </data>
+  <data name="UIActivityFilterTooltip" xml:space="preserve">
+    <value>显示在 UI 线程和/或呈现线程上发生的事件(例如 DOM 事件处理程序、布局)</value>
+  </data>
+  <data name="ScenariosFilterTooltip" xml:space="preserve">
+    <value>展示如用户度量事件以及页面加载和输入的方案</value>
+  </data>
+  <data name="SectorTooltipFormat" xml:space="preserve">
+    <value>{0}: {1}% ({2})</value>
+    <comment>placeholder 0 is the name of the Event, placeholder 1 is the percent value and placeholder 2 is the timestamp of the event.</comment>
+  </data>
+  <data name="Idle" xml:space="preserve">
+    <value>空闲</value>
+  </data>
+  <data name="SelectionDurationLabel" xml:space="preserve">
+    <value>选择持续时间: {0}</value>
+    <comment>placeholder 0 is replaced with a string-formatted duration (e.g.:  123 ms)</comment>
+  </data>
+  <data name="UIThreadSummaryHeader" xml:space="preserve">
+    <value>UI 线程摘要:</value>
+  </data>
+  <data name="GC" xml:space="preserve">
+    <value>垃圾回收</value>
+  </data>
+  <data name="XamlParsing" xml:space="preserve">
+    <value>解析</value>
+  </data>
+  <data name="AppCode" xml:space="preserve">
+    <value>应用程序代码</value>
+  </data>
+  <data name="XamlLayout" xml:space="preserve">
+    <value>布局</value>
+  </data>
+  <data name="XamlOther" xml:space="preserve">
+    <value>Xaml 其他</value>
+  </data>
+  <data name="ParsingEventDescription" xml:space="preserve">
+    <value>遇到 XAML 内容，需要分析 XAML 文件和创建对象和/或元素。</value>
+  </data>
+  <data name="ParsingIntervalExclusiveCount" xml:space="preserve">
+    <value>元素(自身)</value>
+  </data>
+  <data name="ParsingIntervalFileName" xml:space="preserve">
+    <value>文件</value>
+  </data>
+  <data name="ParsingIntervalInclusiveCount" xml:space="preserve">
+    <value>元素(总计)</value>
+  </data>
+  <data name="GarbageCollectionIntervalCount" xml:space="preserve">
+    <value>计数</value>
+  </data>
+  <data name="GarbageCollectionIntervalGeneration" xml:space="preserve">
+    <value>代</value>
+  </data>
+  <data name="GarbageCollectionIntervalReason" xml:space="preserve">
+    <value>原因</value>
+  </data>
+  <data name="GarbageCollectionIntervalType" xml:space="preserve">
+    <value>类型</value>
+  </data>
+  <data name="GarbageCollectionReason0" xml:space="preserve">
+    <value>小对象堆分配。</value>
+  </data>
+  <data name="GarbageCollectionReason1" xml:space="preserve">
+    <value>已引发。</value>
+  </data>
+  <data name="GarbageCollectionReason2" xml:space="preserve">
+    <value>内存不足。</value>
+  </data>
+  <data name="GarbageCollectionReason3" xml:space="preserve">
+    <value>内存不足。</value>
+  </data>
+  <data name="GarbageCollectionReason4" xml:space="preserve">
+    <value>大对象堆分配。</value>
+  </data>
+  <data name="GarbageCollectionReason5" xml:space="preserve">
+    <value>空间外(用于小对象堆)。</value>
+  </data>
+  <data name="GarbageCollectionReason6" xml:space="preserve">
+    <value>空间外(用于大对象堆)。</value>
+  </data>
+  <data name="GarbageCollectionReason7" xml:space="preserve">
+    <value>已引发，但不是强制作为阻塞。</value>
+  </data>
+  <data name="GarbageCollectionType0" xml:space="preserve">
+    <value>后台垃圾回收外发生了阻止垃圾回收。</value>
+  </data>
+  <data name="GarbageCollectionType1" xml:space="preserve">
+    <value>后台垃圾回收。</value>
+  </data>
+  <data name="GarbageCollectionType2" xml:space="preserve">
+    <value>后台垃圾回收时发生了阻止垃圾回收。</value>
+  </data>
+  <data name="LayoutIntervalElementCount" xml:space="preserve">
+    <value>受影响的元素</value>
+  </data>
+  <data name="NetworkEventDescription" xml:space="preserve">
+    <value>网络请求在应用程序内执行。如果服务该请求时存在延迟或者接收/发送的数据量大，则可能会影响应用程序感知的响应性。</value>
+  </data>
+  <data name="NetworkIntervalContentType" xml:space="preserve">
+    <value>内容类型</value>
+  </data>
+  <data name="NetworkIntervalMethod" xml:space="preserve">
+    <value>方法</value>
+  </data>
+  <data name="NetworkIntervalReceivedBytes" xml:space="preserve">
+    <value>已收到</value>
+  </data>
+  <data name="NetworkIntervalSentBytes" xml:space="preserve">
+    <value>已发送</value>
+  </data>
+  <data name="NetworkIntervalStatusCode" xml:space="preserve">
+    <value>状态代码</value>
+  </data>
+  <data name="NetworkIntervalUrl" xml:space="preserve">
+    <value>地址</value>
+  </data>
+  <data name="Network" xml:space="preserve">
+    <value>网络</value>
+  </data>
+  <data name="NetworkIntervalStatusCodeValue" xml:space="preserve">
+    <value>HTTP/1.1 {0} {1}</value>
+  </data>
+  <data name="GarbageCollectionReasonUnknown" xml:space="preserve">
+    <value>未知</value>
+  </data>
+  <data name="GarbageCollectionTypeUnknown" xml:space="preserve">
+    <value>未知</value>
+  </data>
+  <data name="NetworkIntervalDetailsHintTooltip" xml:space="preserve">
+    <value>负载: {0}</value>
+  </data>
+  <data name="ParsingIntervalDetailsHintTooltip" xml:space="preserve">
+    <value>总元素: {0}</value>
+  </data>
+  <data name="GCEventTooltip" xml:space="preserve">
+    <value>垃圾收集 
+理由: {0}</value>
+  </data>
+  <data name="LayoutEventTooltip" xml:space="preserve">
+    <value>XAML 布局
+受到影响的元素: {0}</value>
+  </data>
+  <data name="NetworkEventTooltip" xml:space="preserve">
+    <value>网络
+地址: {0}</value>
+  </data>
+  <data name="ParsingEventTooltip" xml:space="preserve">
+    <value>XAML 正在分析
+文件: {0}</value>
+  </data>
+  <data name="ByteUnits" xml:space="preserve">
+    <value>B</value>
+  </data>
+  <data name="GigabyteUnits" xml:space="preserve">
+    <value>GB</value>
+  </data>
+  <data name="IntervalDetailsHintText" xml:space="preserve">
+    <value>[{0}]</value>
+  </data>
+  <data name="KilobyteUnits" xml:space="preserve">
+    <value>KB</value>
+  </data>
+  <data name="MegabyteUnits" xml:space="preserve">
+    <value>MB</value>
+  </data>
+  <data name="DetailsTabHeader" xml:space="preserve">
+    <value>详细信息</value>
+  </data>
+  <data name="UIElementCostEventDescription" xml:space="preserve">
+    <value>对需要计算元素尺寸和/或位置的该元素做了更改。</value>
+  </data>
+  <data name="UIElementCostEventTooltip" xml:space="preserve">
+    <value>{0}
+元素(总计): {1}</value>
+  </data>
+  <data name="UIElementCostClass" xml:space="preserve">
+    <value>类</value>
+  </data>
+  <data name="UIElementCostCount" xml:space="preserve">
+    <value>计数</value>
+  </data>
+  <data name="UIElementCostName" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <data name="UIElementCostTemplateName" xml:space="preserve">
+    <value>模板名称</value>
+  </data>
+  <data name="UIElementCostTemplateName_Implicit" xml:space="preserve">
+    <value>隐式样式</value>
+  </data>
+  <data name="UIElementCostTemplateName_Inline" xml:space="preserve">
+    <value>内嵌定义</value>
+  </data>
+  <data name="UIElementCostTemplateName_Unknown" xml:space="preserve">
+    <value>未知</value>
+  </data>
+  <data name="XamlUIElementCost" xml:space="preserve">
+    <value>元素</value>
+  </data>
+  <data name="FrameNavigationEventClass" xml:space="preserve">
+    <value>类型</value>
+  </data>
+  <data name="FrameNavigationEventDescription" xml:space="preserve">
+    <value>可视内容也因为框架导航被加载。</value>
+  </data>
+  <data name="FrameNavigationEventFromCache" xml:space="preserve">
+    <value>来自缓存</value>
+  </data>
+  <data name="FrameNavigationEventNavigationMode0" xml:space="preserve">
+    <value>新建</value>
+  </data>
+  <data name="FrameNavigationEventNavigationMode1" xml:space="preserve">
+    <value>后退</value>
+  </data>
+  <data name="FrameNavigationEventNavigationMode2" xml:space="preserve">
+    <value>前进</value>
+  </data>
+  <data name="FrameNavigationEventNavigationMode3" xml:space="preserve">
+    <value>刷新</value>
+  </data>
+  <data name="FrameNavigationEventNavigationModeUnknown" xml:space="preserve">
+    <value>未知</value>
+  </data>
+  <data name="FrameNavigationEventTooltip" xml:space="preserve">
+    <value>XAML 页面加载
+类型: {0}</value>
+  </data>
+  <data name="XamlFrameNavigation" xml:space="preserve">
+    <value>页面加载</value>
+  </data>
+  <data name="FrameNavigationEventNavigationModeLabel" xml:space="preserve">
+    <value>导航模式</value>
+  </data>
+  <data name="DiskIo" xml:space="preserve">
+    <value>磁盘</value>
+  </data>
+  <data name="DiskIODescription" xml:space="preserve">
+    <value>磁盘 I/O 请求在应用程序中进行。如果磁盘访问速度较慢或需要写入或读取的数据大，则可能会影响应用程序的感知的响应性。</value>
+  </data>
+  <data name="DiskIOTooltip" xml:space="preserve">
+    <value>磁盘
+操作: {0}
+文件名称: {1}</value>
+  </data>
+  <data name="DiskIOIntervalDetailsHintTooltip" xml:space="preserve">
+    <value>负载: {0}</value>
+  </data>
+  <data name="DiskIOType0" xml:space="preserve">
+    <value>读取</value>
+  </data>
+  <data name="DiskIOType1" xml:space="preserve">
+    <value>写入</value>
+  </data>
+  <data name="DiskIOType2" xml:space="preserve">
+    <value>刷新</value>
+  </data>
+  <data name="DiskIOTypeUnknown" xml:space="preserve">
+    <value>未知</value>
+  </data>
+  <data name="DiskIOIntervalFileName" xml:space="preserve">
+    <value>文件</value>
+  </data>
+  <data name="DiskIOIntervalSize" xml:space="preserve">
+    <value>大小</value>
+  </data>
+  <data name="DiskIOIntervalOperation" xml:space="preserve">
+    <value>操作</value>
+  </data>
+  <data name="XamlRender" xml:space="preserve">
+    <value>呈现</value>
+  </data>
+  <data name="XamlRenderDescription" xml:space="preserve">
+    <value>当 XAML 元素转换为其 Visual 基元且生成的数据提交到复合管道时发生。</value>
+  </data>
+  <data name="XamlRenderTooltip" xml:space="preserve">
+    <value>呈现</value>
+  </data>
+  <data name="ImagePreviewHeader" xml:space="preserve">
+    <value>图像预览({0} x {1})</value>
+  </data>
+  <data name="DiskIOIntervalPath" xml:space="preserve">
+    <value>路径</value>
+  </data>
+  <data name="ParsingIntervalPath" xml:space="preserve">
+    <value>路径</value>
+  </data>
+  <data name="ParsingFromStringEventTooltip" xml:space="preserve">
+    <value>XAML 分析
+文件: 从字符串起</value>
+  </data>
+  <data name="ParsingFromStringValue" xml:space="preserve">
+    <value>从字符串起</value>
+  </data>
+  <data name="IO" xml:space="preserve">
+    <value>I/O</value>
+  </data>
+  <data name="UIThreadIndicatorTooltip" xml:space="preserve">
+    <value>由 UI 线程执行操作</value>
+  </data>
+  <data name="ViewSettingsMenuButtonTooltipText" xml:space="preserve">
+    <value>视图设置</value>
+  </data>
+  <data name="ShowDurationSelfInTimeline" xml:space="preserve">
+    <value>在时间轴中显示持续时间 (自身)</value>
+  </data>
+  <data name="ShowDurationSelfInTimelineTooltip" xml:space="preserve">
+    <value>在时间轴中显示持续时间 (自身)</value>
+  </data>
+  <data name="ShowHintTextInTimeline" xml:space="preserve">
+    <value>在时间轴中显示提示文本</value>
+  </data>
+  <data name="ShowHintTextInTimelineTooltip" xml:space="preserve">
+    <value>在时间轴中显示提示文本</value>
+  </data>
+  <data name="ShowQualifiersInEventNames" xml:space="preserve">
+    <value>显示在事件名称中的限定符</value>
+  </data>
+  <data name="ShowQualifiersInEventNamesTooltip" xml:space="preserve">
+    <value>显示在事件名称中的限定符</value>
+  </data>
+  <data name="ShowThreadIndicator" xml:space="preserve">
+    <value>显示线程指示符</value>
+  </data>
+  <data name="ShowThreadIndicatorTooltip" xml:space="preserve">
+    <value>显示线程指示符</value>
+  </data>
+  <data name="WindowResizedDescription" xml:space="preserve">
+    <value>调整应用程序窗口的大小到将第一帧提交到桌面窗口管理器之间间的持续时间</value>
+  </data>
+  <data name="WindowResizedTooltip" xml:space="preserve">
+    <value>窗口大小已调整</value>
+  </data>
+  <data name="WindowResized" xml:space="preserve">
+    <value>窗口大小已调整</value>
+  </data>
+  <data name="AppStartup" xml:space="preserve">
+    <value>应用程序启动</value>
+  </data>
+  <data name="AppStartupDescription" xml:space="preserve">
+    <value>由操作系统发布应用程序到将第一个帧提交到桌面窗口管理器之间的持续时间</value>
+  </data>
+  <data name="AppStartupTooltip" xml:space="preserve">
+    <value>应用程序启动</value>
+  </data>
+  <data name="VisualStateChanged" xml:space="preserve">
+    <value>VisualState 已更改</value>
+  </data>
+  <data name="VisualStateChangedDescription" xml:space="preserve">
+    <value>当控件在两个状态间转换时发生</value>
+  </data>
+  <data name="VisualStateChangedElementLabel" xml:space="preserve">
+    <value>元素</value>
+  </data>
+  <data name="VisualStateChangedStateLabel" xml:space="preserve">
+    <value>状态</value>
+  </data>
+  <data name="VisualStateChangedTooltip" xml:space="preserve">
+    <value>VisualState 已更改
+状态: {0}</value>
+  </data>
+  <data name="VisualStateChangedTypeLabel" xml:space="preserve">
+    <value>类型</value>
+  </data>
+  <data name="XamlUIThreadFrame" xml:space="preserve">
+    <value>框架</value>
+  </data>
+  <data name="UIThreadFrameDescription" xml:space="preserve">
+    <value>对需要创建新 UI 线程框架的可视化树进行了更改</value>
+  </data>
+  <data name="UIThreadFrameTooltip" xml:space="preserve">
+    <value>UI 线程框架</value>
+  </data>
+</root>

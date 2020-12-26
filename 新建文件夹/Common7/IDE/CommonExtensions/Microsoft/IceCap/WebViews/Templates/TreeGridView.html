@@ -1,0 +1,35 @@
+<div class="treeGridContainer">
+    <div class="treeGridHeader">
+        <table role="treegrid" data-bind="with: header">
+            <thead role="rowgroup" data-bind="visibilityContextMenu: visibilityContextMenuBinding">
+                <tr role="row" data-bind="arrangeableColumns: columnOrder, foreach: columns, reorderHeaderColumns: columnOrder">
+                    <th role="columnheader" data-bind="
+                        text: text,
+                        css: id,
+                        tooltip: tooltip,
+                        attr: { 'data-columnid': id },
+                        justification: justification,
+                        sortable: typeof sortable !== 'undefined' ? { sortColumnId: id, currentColumn: $parent.sortColumnId, currentDirection: $parent.sortDirection, defaultDirection: sortable } : null"></th>
+                </tr>
+            </thead>
+        </table>
+    </div>
+    <div class="treeGridBody" data-bind="focusedRow: { rows: treeAsArray, selected: selectedRows, focused: focusedRowIndex }">
+        <table role="treegrid" data-bind="localizedAriaLabel: ariaLabelToken">
+            <thead role="rowgroup" data-bind="with: header">
+                <tr role="row" data-bind="foreach: columns, reorderHeaderColumns: columnOrder">
+                    <th role="columnheader" data-bind="
+                        text: text, 
+                        attr: { 'data-columnid': id },
+                        sortable: typeof sortable !== 'undefined' ? { sortColumnId: id, currentColumn: $parent.sortColumnId, currentDirection: $parent.sortDirection, defaultDirection: sortable } : null"></th>
+                </tr>
+            </thead>
+            <tbody role="rowgroup" tabindex="0" aria-readonly="true" aria-multiselectable="true" data-bind="
+                localizedAriaLabel: ariaLabelToken,
+                multiClick: { click: onClick, dblclick: onDblClick },
+                event: { keydown: onKeyDown },
+                virtualizedForEach: { rows: treeAsArray, scrollTop: scrollTop, clientHeight: clientHeight, columnOrder: header.columnOrder }">
+            </tbody>
+        </table>
+    </div>
+</div>

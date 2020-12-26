@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- Copyright (C) 1981-2007 Microsoft Corporation -->
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+    <noInheritable/>
+<assemblyIdentity type="win32" processorArchitecture="x86" name="Automation\dteproperties90.tlb" version="1.0.0.0" />
+<file name="dteproperties90.tlb">
+    <typelib tlbid="{7ae87aa8-5610-4f5b-9750-2354e1a0f7db}" version="9.0" helpdir=""/>
+</file>
+  <comInterfaceExternalProxyStub name="_DebuggingGeneralProperties" iid="{2c25466a-555f-424d-ad1c-6f85304325e6}" numMethods="53" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{7ae87aa8-5610-4f5b-9750-2354e1a0f7db}"/>
+  <comInterfaceExternalProxyStub name="_DebuggingEditAndContinueProperties" iid="{eac712c1-55eb-4a2e-8772-5cc2fe547c88}" numMethods="19" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{7ae87aa8-5610-4f5b-9750-2354e1a0f7db}"/>
+  <comInterfaceExternalProxyStub name="_DebuggingJustInTimeProperties" iid="{134a33e0-9c33-44a4-96eb-269420ea60b1}" numMethods="13" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{7ae87aa8-5610-4f5b-9750-2354e1a0f7db}"/>
+  <comInterfaceExternalProxyStub name="_DebuggingNativeProperties" iid="{695fbd97-db0f-420c-8644-38d6f156ad66}" numMethods="11" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{7ae87aa8-5610-4f5b-9750-2354e1a0f7db}"/>
+</assembly>

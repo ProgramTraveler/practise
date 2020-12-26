@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- Copyright (C) 1981-2007 Microsoft Corporation -->
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+    <noInheritable/>
+<assemblyIdentity type="win32" processorArchitecture="x86" name="Automation\VBCodeModelExtensibility.tlb" version="1.0.0.0" />
+<file name="VBCodeModelExtensibility.tlb">
+    <typelib tlbid="{1f86a16e-6ced-4386-8feb-0cc9e9cab42b}" version="8.0" helpdir=""/>
+</file>
+  <comInterfaceExternalProxyStub name="IVBGenericExtender" iid="{2ad71e0d-ad9e-4735-bd4a-aa9ac430a883}" numMethods="11" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{1f86a16e-6ced-4386-8feb-0cc9e9cab42b}"/>
+  <comInterfaceExternalProxyStub name="IVBCodeTypeLocation" iid="{69a529cd-84e3-4ee8-9918-a540cb827993}" numMethods="8" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{1f86a16e-6ced-4386-8feb-0cc9e9cab42b}"/>
+  <comInterfaceExternalProxyStub name="IEventHandler" iid="{9bda66ae-ca28-4e22-aa27-8a7218a0e3fa}" numMethods="4" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{1f86a16e-6ced-4386-8feb-0cc9e9cab42b}"/>
+  <!-- Problem: IVsEnumBSTR is already defined in textmgrp.dll.manifest -->
+  <!--<comInterfaceExternalProxyStub name="IVsEnumBSTR" iid="{a0a9c2b0-95a3-4819-ada3-5bd9756bbd36}" numMethods="5" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{1f86a16e-6ced-4386-8feb-0cc9e9cab42b}"/>-->
+</assembly>

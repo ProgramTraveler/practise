@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text\html" />
+    <script type="text/javascript" src="Scripts/knockout-3.4.0.js"></script>
+    <script type="text/javascript" src="Scripts/plugin.js"></script>
+    <script type="text/javascript" src="Scripts/F1Viz.js"></script>
+    <link href="CSS/Main.css"      type="text/css" rel="stylesheet" data-plugin-theme="true" />
+
+    <link href="CSS/InformationBar.css" type="text/css" rel="stylesheet" data-plugin-theme="true" />
+    <link href="CSS/TreeGrid.css"       type="text/css" rel="stylesheet" data-plugin-theme="true" />
+    <link href="CSS/ToggleButton.css"   type="text/css" rel="stylesheet" data-plugin-theme="true" />
+    <link href="CSS/MultiLineGraph.css" type="text/css" rel="stylesheet" data-plugin-theme="true" />
+    <link href="CSS/Swimlane.css"       type="text/css" rel="stylesheet" data-plugin-theme="true" />
+    <link href="CSS/SearchControl.css"  type="text/css" rel="stylesheet" data-plugin-theme="true" />
+    <link href="CSS/Loading.css"        type="text/css" rel="stylesheet" data-plugin-theme="true" />
+
+    <link href="CSS/Summary.css"               type="text/css" rel="stylesheet" data-plugin-theme="true" />
+    <link href="CSS/FunctionDetails.css"       type="text/css" rel="stylesheet" data-plugin-theme="true" />
+    <link href="CSS/Functions.css"             type="text/css" rel="stylesheet" data-plugin-theme="true" />
+    <link href="CSS/CallTree.css"              type="text/css" rel="stylesheet" data-plugin-theme="true" />
+    <link href="CSS/Contention.css"            type="text/css" rel="stylesheet" data-plugin-theme="true" />
+    <link href="CSS/Ips.css"                   type="text/css" rel="stylesheet" data-plugin-theme="true" />
+    <link href="CSS/Module.css"                type="text/css" rel="stylesheet" data-plugin-theme="true" />
+    <link href="CSS/Lines.css"                 type="text/css" rel="stylesheet" data-plugin-theme="true" />
+    <link href="CSS/Allocation.css"            type="text/css" rel="stylesheet" data-plugin-theme="true" />
+    <link href="CSS/ObjectLifetime.css"        type="text/css" rel="stylesheet" data-plugin-theme="true" />
+    <link href="CSS/Marks.css"                 type="text/css" rel="stylesheet" data-plugin-theme="true" />
+    <link href="CSS/Processes.css"             type="text/css" rel="stylesheet" data-plugin-theme="true" />
+    <link href="CSS/ResourceThreadDetails.css" type="text/css" rel="stylesheet" data-plugin-theme="true" />
+    <link href="CSS/TierInteractions.css"      type="text/css" rel="stylesheet" data-plugin-theme="true" />
+    <link href="CSS/CallerCallee.css"          type="text/css" rel="stylesheet" data-plugin-theme="true" />
+    <title>Profiling Report</title>
+</head>
+<body>
+    <div class="toolbar">
+        <button data-bind="localizedAriaLabel: 'MainView_BackButtonLabel', localizedTooltip: 'MainView_BackButtonLabel', enable: canNavigateBackward, click: onNavigateBackward, onEnter: onNavigateBackward">
+            <div class="icon" data-bind="svgImage: canNavigateBackward() ? 'backwardIcon' : 'backwardDisabledIcon'"></div>
+        </button>
+        <button data-bind="localizedAriaLabel: 'MainView_ForwardButtonLabel', localizedTooltip: 'MainView_ForwardButtonLabel', enable: canNavigateForward, click: onNavigateForward, onEnter: onNavigateForward">
+            <div class="icon" data-bind="svgImage: canNavigateForward() ? 'forwardIcon' : 'forwardDisabledIcon'"></div>
+        </button>
+        <div class="currentViewSelector">
+            <span id="currentViewLabel" data-bind="localizedText: 'MainView_CurrentViewLabel'"></span>
+            <select data-bind="options: availableViews, optionsText: 'localizedName', optionsValue: 'component', value: currentViewName, localizedAriaLabel: 'MainView_CurrentViewLabel'"></select>
+        </div>
+        <!-- ko ifnot: isSerialized -->
+        <button data-bind="localizedAriaLabel: 'MainView_SaveReportButtonLabel', localizedTooltip: 'MainView_SaveReportButtonLabel', click: onSaveReport, onEnter: onSaveReport"><div class="icon" data-bind="svgImage: 'saveIcon'"></div></button>
+        <!-- /ko -->
+        <button data-bind="localizedAriaLabel: 'MainView_ExportReportDataButtonLabel', localizedTooltip: 'MainView_ExportReportDataButtonLabel', click: onExportReport, onEnter: onExportReport"><div class="icon" data-bind="svgImage: 'exportDataIcon'"></div></button>
+        <!-- ko foreach: toolbarItems -->
+            <!-- ko template: { name: template, data: viewModel } -->
+            <!-- /ko -->
+        <!-- /ko -->
+    </div>
+    <!-- ko foreach: infoBars -->
+        <!-- ko iControl: $data -->
+        <!-- /ko -->
+    <!-- /ko -->
+    <!-- ko component: currentView -->
+    <!-- /ko -->
+    <script type="text/javascript">
+        (function () {
+            ko.options.deferUpdates = true;
+            Microsoft.F1Viz.onViewReady();
+        })();
+    </script>
+</body>
+</html>

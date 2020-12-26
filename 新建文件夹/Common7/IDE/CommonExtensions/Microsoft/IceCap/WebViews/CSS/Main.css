@@ -1,0 +1,165 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    -ms-high-contrast-adjust: none;
+}
+
+body {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    font-family: "Segoe Script", Arial, sans-serif; /*[{plugin-font-family}, Arial, sans-serif]*/
+    font-size: 12px; /*[{plugin-font-size}]*/
+    color: fuchsia; /*[{plugin-color}]*/
+}
+
+body > .toolbar {
+    background-color: fuchsia; /*[{Environment-CommandShelfBackgroundGradientMiddle-Background}]*/
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    padding: 4px 10px;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+    body > .toolbar > * {
+        margin: 0px 4px;
+    }
+
+    body > .toolbar > *:first-child {
+        margin-left: 0px;
+    }
+
+    body > .toolbar > *:last-child {
+        margin-right: 0px;
+    }
+
+    body > .toolbar > button {
+        width: 1.3em;
+        height: 1.3em;
+        padding: 0px;
+        background: transparent;
+        border: 1px solid transparent;
+        min-width: 1.3em;
+    }
+
+    body > .toolbar > button > .icon {
+        width: 100%;
+        height: 100%;
+    }
+
+.container {
+    position: relative;
+}
+
+/* This will set the currentView to take up the rest of the body */
+body > .currentView {
+    -ms-flex: 1 1 100%;
+    flex: 1 1 100%;
+    overflow: hidden;
+}
+
+.currentViewSelector {
+    white-space: nowrap;
+}
+
+    .currentViewSelector > span {
+        margin-right: 2px;
+    }
+
+    .currentViewSelector > select {
+        margin-left: 2px;
+    }
+
+/* Hot Path Highlighting */
+td > .hotHighlight {
+    display: inline-block;
+    width: 0px;
+    height: 0px;
+}
+
+td > .hotHighlight.hotPath {
+    width: 1em;
+    height: 1em;
+    vertical-align: middle;
+    background: url("./Icons/invalid.png") no-repeat 0px 0px; /*[ url({hotPathImage}) no-repeat 0px 0px]*/
+    background-size: 100%;
+}
+
+td > .hotHighlight.hotItem {
+    width: 1em;
+    height: 1em;
+    vertical-align: middle;
+    background: url("./Icons/invalid.png") no-repeat 0px 0px; /*[ url({hotItemImage}) no-repeat 0px 0px]*/
+    background-size: 100%;
+}
+
+/* Common Controls */
+.hyperlink-button {
+    padding: 0px;
+    cursor: pointer;
+    background: transparent;
+    color: fuchsia; /*[{DiagnosticsHub-Hyperlink-Background}]*/
+    border: none;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-justify-content: center;
+    justify-content: center;
+}
+
+    .hyperlink-button:disabled {
+        background: transparent;
+        border: none;
+        cursor: not-allowed;
+    }
+
+    .hyperlink-button:enabled:hover {
+        color: fuchsia; /*[{DiagnosticsHub-HyperlinkHover-Background}]*/
+        text-decoration: underline;
+        background: transparent;
+        border: none;
+    }
+
+    .hyperlink-button:enabled:focus {
+        color: fuchsia; /*[{DiagnosticsHub-HyperlinkHover-Background}]*/
+        text-decoration: underline;
+        background: transparent;
+        border: none;
+    }
+
+.icon {
+    display: inline-block;
+    width: 1.1em;
+    height: 1.1em;
+}
+
+    .icon svg {
+        width: auto;
+        height: 100%;
+        vertical-align: baseline;
+    }
+
+.hyperlink-button > .icon {
+    flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+}
+
+.hyperlink-button > *:not(.icon) {
+    flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+/* If there is an icon with the hyperlink button, give space between the two objects */
+.hyperlink-button > .icon + * {
+    margin-left: 6px;
+}

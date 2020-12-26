@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- Copyright (C) 1981-2007 Microsoft Corporation -->
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+    <noInheritable/>
+<assemblyIdentity type="win32" processorArchitecture="x86" name="Automation\VCSharpExtensibilityLib.tlb" version="1.0.0.0" />
+<file name="VCSharpExtensibilityLib.tlb">
+    <typelib tlbid="{b23072ce-16e0-465b-9f1e-b66bcf5e582a}" version="1.0" helpdir=""/>
+</file>
+  <comInterfaceExternalProxyStub name="ICSharpEventsRoot" iid="{8827318c-33c6-11d3-bf4b-00c04f79efbc}" numMethods="11" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{b23072ce-16e0-465b-9f1e-b66bcf5e582a}"/>
+</assembly>

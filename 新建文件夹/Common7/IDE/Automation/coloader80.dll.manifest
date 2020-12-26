@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- Copyright (C) 1981-2007 Microsoft Corporation -->
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+    <noInheritable/>
+<assemblyIdentity type="win32" processorArchitecture="x86" name="Automation\coloader80.dll" version="1.0.0.0" />
+<file name="coloader80.dll">
+    <comClass clsid="{CA554A15-4410-45C9-B5C1-20DE052D9CD3}" threadingModel="Apartment" tlbid="{6A1A7D39-8449-4287-8EF0-CE256582C940}" progid="Coloader.VsApartmentLoader.8.0"/>
+    <comClass clsid="{87123A30-0975-417D-9457-10066C5B69C3}" threadingModel="Both" tlbid="{6A1A7D39-8449-4287-8EF0-CE256582C940}" progid="Coloader.VsBothLoader.8.0"/>
+    <comClass clsid="{72213061-c9bc-40be-a916-a28f5fba091e}" tlbid="{6A1A7D39-8449-4287-8EF0-CE256582C940}" progid="Coloader.VsDefaultLoader.8.0"/>
+    <comClass clsid="{46408325-AF70-4AB0-90D9-7B1779C1AD87}" threadingModel="Free" tlbid="{6A1A7D39-8449-4287-8EF0-CE256582C940}" progid="Coloader.VsFreeLoader.8.0"/>
+</file>
+<file name="coloader80.tlb">
+    <typelib tlbid="{6A1A7D39-8449-4287-8EF0-CE256582C940}" version="8.0" helpdir=""/>
+</file>
+  <comInterfaceExternalProxyStub name="IVsLoader" iid="{10E4254C-6D73-4C38-B011-E0049B2E0A0F}" numMethods="0" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{6A1A7D39-8449-4287-8EF0-CE256582C940}"/>
+</assembly>

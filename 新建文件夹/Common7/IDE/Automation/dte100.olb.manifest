@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- Copyright (C) 1981-2007 Microsoft Corporation -->
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+    <noInheritable/>
+<assemblyIdentity type="win32" processorArchitecture="x86" name="Automation\dte100.olb" version="1.0.0.0" />
+<file name="dte100.olb">
+    <typelib tlbid="{26ad1324-4b7c-44bc-84f8-b86aed45729f}" version="10.0" helpdir=""/>
+</file>
+  <comInterfaceExternalProxyStub name="Solution4" iid="{cda7305c-78b6-4d9d-90ad-93ebe71f9341}" numMethods="42" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{26ad1324-4b7c-44bc-84f8-b86aed45729f}"/>
+  <comInterfaceExternalProxyStub name="Expression2" iid="{f15a2dad-5c82-4802-bebc-5431b6ed5557}" numMethods="18" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{26ad1324-4b7c-44bc-84f8-b86aed45729f}"/>
+  <comInterfaceExternalProxyStub name="Debugger5" iid="{c8bbaa3a-7e99-4630-942c-570f085141eb}" numMethods="57" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{26ad1324-4b7c-44bc-84f8-b86aed45729f}"/>
+</assembly>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- Copyright (C) 1981-2007 Microsoft Corporation -->
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+    <noInheritable/>
+<assemblyIdentity type="win32" processorArchitecture="x86" name="Automation\msenv157p.dll" version="1.0.0.0" />
+<file name="msenv157p.dll">
+    <comClass clsid="{B6C311E6-1CD8-490F-BE09-11CA73DE3DD3}" threadingModel="Both"/>
+</file>
+  <comInterfaceExternalProxyStub name="IVsDebugger9" iid="{BFDFF000-3761-49B2-BA9B-4C1DB1D82789}" numMethods="5" proxyStubClsid32="{B6C311E6-1CD8-490F-BE09-11CA73DE3DD3}"/>
+  <comInterfaceExternalProxyStub name="IVsResponseTime3" iid="{86771512-0219-48EE-9A67-39937B67FD0A}" numMethods="10" proxyStubClsid32="{B6C311E6-1CD8-490F-BE09-11CA73DE3DD3}"/>
+  <comInterfaceExternalProxyStub name="IVsBatchedInitializationPrivateCallback157" iid="{B6766617-6132-4C46-BC07-491C11812812}" numMethods="5" proxyStubClsid32="{B6C311E6-1CD8-490F-BE09-11CA73DE3DD3}"/>
+  <comInterfaceExternalProxyStub name="IVsExplicitProjectProperties" iid="{D2657620-5AEE-46A5-BAEC-BF5FF3DB545B}" numMethods="4" proxyStubClsid32="{B6C311E6-1CD8-490F-BE09-11CA73DE3DD3}"/>
+  <comInterfaceExternalProxyStub name="IVsLegacyProjectSystemPrefetchPrivate157" iid="{9F686331-FFA7-4151-BCB7-B63A8E883AEC}" numMethods="10" proxyStubClsid32="{B6C311E6-1CD8-490F-BE09-11CA73DE3DD3}"/>
+  <comInterfaceExternalProxyStub name="IVsFreeThreadedFileChangeEvents2" iid="{2019C53D-105B-4116-8A1A-4703796E5052}" numMethods="7" proxyStubClsid32="{B6C311E6-1CD8-490F-BE09-11CA73DE3DD3}"/>
+  <comInterfaceExternalProxyStub name="IVsFileChangeEx3" iid="{A4AFCB52-B595-43F9-87DD-6EB348181E14}" numMethods="6" proxyStubClsid32="{B6C311E6-1CD8-490F-BE09-11CA73DE3DD3}"/>
+  <comInterfaceExternalProxyStub name="IVsLegacyProjectSystemHelperPrivate157" iid="{D15B0256-D2E0-4700-8C79-EA9FFD5AB41D}" numMethods="10" proxyStubClsid32="{B6C311E6-1CD8-490F-BE09-11CA73DE3DD3}"/>
+  <comInterfaceExternalProxyStub name="IVsLegacyProjectSystemDiagnostic" iid="{FF34B259-82EF-496E-AB96-76AF8A98C64D}" numMethods="5" proxyStubClsid32="{B6C311E6-1CD8-490F-BE09-11CA73DE3DD3}"/>
+  <comInterfaceExternalProxyStub name="IVsBulkFileOperation" iid="{2D124B9B-8989-4F82-8E9D-AE0B002E0615}" numMethods="5" proxyStubClsid32="{B6C311E6-1CD8-490F-BE09-11CA73DE3DD3}"/>
+  <comInterfaceExternalProxyStub name="IVsLegacyProjectSystemBackgroundLoadPrivate157" iid="{E5FE8DBD-0C34-4C2F-B9C8-A340E4537715}" numMethods="8" proxyStubClsid32="{B6C311E6-1CD8-490F-BE09-11CA73DE3DD3}"/>
+  <comInterfaceExternalProxyStub name="IVsWorkspaceManager" iid="{DCE32AC9-2A63-4DFC-A323-CAC9CFBF1C5C}" numMethods="5" proxyStubClsid32="{B6C311E6-1CD8-490F-BE09-11CA73DE3DD3}"/>
+  <comInterfaceExternalProxyStub name="IVsPrefetchLoadProgress2" iid="{C917ECD8-ED08-49BE-97F2-6C994BF32072}" numMethods="4" proxyStubClsid32="{B6C311E6-1CD8-490F-BE09-11CA73DE3DD3}"/>
+</assembly>

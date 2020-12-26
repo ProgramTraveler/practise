@@ -1,0 +1,507 @@
+﻿<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+  <assemblyIdentity version="1.0.0.0" processorArchitecture="X86" name="Automation" type="win32"></assemblyIdentity>
+  <description>Visual Studio Automation</description>
+  <dependency optional="yes">
+    <dependentAssembly>
+      <assemblyIdentity name="ADODB" version="7.0.3300.0" publicKeyToken="b03f5f7f11d50a3a" processorArchitecture="msil"></assemblyIdentity>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly>
+      <assemblyIdentity type="win32" name="Automation\CSCodeModelExtensibility.tlb" processorArchitecture="X86" version="1.0.0.0"></assemblyIdentity>
+    </dependentAssembly>
+  </dependency>
+  <dependency optional="yes">
+    <dependentAssembly>
+      <assemblyIdentity type="win32" name="Automation\clientbuildmgr.tlb" processorArchitecture="X86" version="1.0.0.0"/>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly>
+      <assemblyIdentity type="win32" name="Automation\coloader80.dll" processorArchitecture="X86" version="1.0.0.0"/>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly>
+      <assemblyIdentity type="win32" name="Automation\contextp.dll" processorArchitecture="X86" version="1.0.0.0"></assemblyIdentity>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly>
+      <assemblyIdentity type="win32" name="Automation\csiface.tlb" processorArchitecture="X86" version="1.0.0.0"></assemblyIdentity>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly>
+      <assemblyIdentity type="win32" name="Automation\debuggerproxy.dll" processorArchitecture="X86" version="1.0.0.0"/>
+    </dependentAssembly>
+  </dependency>
+  <dependency optional="yes">
+    <dependentAssembly>
+      <assemblyIdentity type="win32" name="Automation\DiagnosticsTap.dll" processorArchitecture="X86" version="1.0.0.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency optional="yes">
+    <dependentAssembly>
+      <assemblyIdentity type="win32" name="Automation\dsref80.dll" processorArchitecture="X86" version="1.0.0.0"/>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly>
+      <assemblyIdentity type="win32" name="Automation\dte80.olb" processorArchitecture="X86" version="1.0.0.0"></assemblyIdentity>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly>
+      <assemblyIdentity type="win32" name="Automation\dte80a.olb" processorArchitecture="X86" version="1.0.0.0"></assemblyIdentity>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly>
+      <assemblyIdentity type="win32" name="Automation\dte90.olb" processorArchitecture="X86" version="1.0.0.0"></assemblyIdentity>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly>
+      <assemblyIdentity type="win32" name="Automation\dte90a.olb" processorArchitecture="X86" version="1.0.0.0"></assemblyIdentity>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly>
+      <assemblyIdentity type="win32" name="Automation\dte100.olb" processorArchitecture="X86" version="1.0.0.0"></assemblyIdentity>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly>
+      <assemblyIdentity type="win32" name="Automation\dteproperties.tlb" processorArchitecture="X86" version="1.0.0.0"></assemblyIdentity>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly>
+      <assemblyIdentity type="win32" name="Automation\dteproperties90.tlb" processorArchitecture="X86" version="1.0.0.0"></assemblyIdentity>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly>
+      <assemblyIdentity type="win32" name="Automation\dteproperties90a.tlb" processorArchitecture="X86" version="1.0.0.0"></assemblyIdentity>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly>
+      <assemblyIdentity type="win32" name="Automation\dteproperties100.tlb" processorArchitecture="X86" version="1.0.0.0"></assemblyIdentity>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly>
+      <assemblyIdentity type="win32" name="Automation\dteproperties110.tlb" processorArchitecture="X86" version="1.0.0.0"></assemblyIdentity>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly>
+      <assemblyIdentity type="win32" name="Automation\dteproperties120.tlb" processorArchitecture="X86" version="1.0.0.0"></assemblyIdentity>
+    </dependentAssembly>
+  </dependency>
+  <dependency optional="yes">
+    <dependentAssembly>
+      <assemblyIdentity type="win32" name="..\Packages\fpeditax.dll" processorArchitecture="X86" version="1.0.0.0"/>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly>
+      <assemblyIdentity type="win32" name="Automation\Microsoft.VisualStudio.CompilerHostObjectsProxy.dll" processorArchitecture="X86" version="1.0.0.0"/>
+    </dependentAssembly>
+  </dependency>
+  <!-- Remove until we fix the SxS problem with Dev14: Bug 248142 -->
+  <!-- <dependency optional="yes">
+    <dependentAssembly>
+      <assemblyIdentity name="Microsoft.VisualStudio.ManagedInterfaces" version="8.0.0.0" publicKeyToken="b03f5f7f11d50a3a" processorArchitecture="msil"></assemblyIdentity>
+    </dependentAssembly>
+  </dependency> -->
+  <dependency>
+    <dependentAssembly>
+      <assemblyIdentity type="win32" name="Automation\Microsoft.VisualStudio.ProductKeyDialog.tlb" processorArchitecture="X86" version="1.0.0.0"/>
+    </dependentAssembly>
+  </dependency>
+  <dependency optional="yes">
+    <dependentAssembly>
+      <assemblyIdentity name="Microsoft.VisualStudio.Publish" version="15.0.0.0" publicKeyToken="b03f5f7f11d50a3a" processorArchitecture="msil"></assemblyIdentity>
+    </dependentAssembly>
+  </dependency>
+  <dependency optional="yes">
+    <dependentAssembly>
+      <assemblyIdentity name="Microsoft.VisualStudio.QualityTools.Wizard.TestProjectWizards" version="15.0.0.0" publicKeyToken="b03f5f7f11d50a3a" processorArchitecture="msil"></assemblyIdentity>
+    </dependentAssembly>
+  </dependency>
+  <dependency optional="yes">
+    <dependentAssembly>
+      <assemblyIdentity type="win32" name="Automation\msdia140.dll" processorArchitecture="X86" version="1.0.0.0"></assemblyIdentity>
+    </dependentAssembly>
+  </dependency>
+  <dependency optional="yes">
+    <dependentAssembly>
+      <assemblyIdentity type="win32" name="VS SCC\msemp.dll" processorArchitecture="X86" version="1.0.0.0"></assemblyIdentity>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly>
+      <assemblyIdentity type="win32" name="Automation\msenvp.dll" processorArchitecture="X86" version="1.0.0.0"></assemblyIdentity>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly>
+      <assemblyIdentity type="win32" name="Automation\msenv2p.dll" processorArchitecture="X86" version="1.0.0.0"></assemblyIdentity>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly>
+      <assemblyIdentity type="win32" name="Automation\msenv80p.dll" processorArchitecture="X86" version="1.0.0.0"></assemblyIdentity>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly>
+      <assemblyIdentity type="win32" name="Automation\msenv90p.dll" processorArchitecture="X86" version="1.0.0.0"></assemblyIdentity>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly>
+      <assemblyIdentity type="win32" name="Automation\msenv100p.dll" processorArchitecture="X86" version="1.0.0.0"></assemblyIdentity>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly>
+      <assemblyIdentity type="win32" name="Automation\msenv110p.dll" processorArchitecture="X86" version="1.0.0.0"></assemblyIdentity>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly>
+      <assemblyIdentity type="win32" name="Automation\msenv120p.dll" processorArchitecture="X86" version="1.0.0.0"></assemblyIdentity>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly>
+      <assemblyIdentity type="win32" name="Automation\msenv121p.dll" processorArchitecture="X86" version="1.0.0.0"></assemblyIdentity>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly>
+      <assemblyIdentity type="win32" name="Automation\msenv140p.dll" processorArchitecture="X86" version="1.0.0.0"></assemblyIdentity>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly>
+      <assemblyIdentity type="win32" name="Automation\msenv141p.dll" processorArchitecture="X86" version="1.0.0.0"></assemblyIdentity>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly>
+      <assemblyIdentity type="win32" name="Automation\msenv150p.dll" processorArchitecture="X86" version="1.0.0.0"></assemblyIdentity>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly>
+      <assemblyIdentity type="win32" name="Automation\msenv151p.dll" processorArchitecture="X86" version="1.0.0.0"></assemblyIdentity>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly>
+      <assemblyIdentity type="win32" name="Automation\msenv153p.dll" processorArchitecture="X86" version="1.0.0.0"></assemblyIdentity>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly>
+      <assemblyIdentity type="win32" name="Automation\msenv155p.dll" processorArchitecture="X86" version="1.0.0.0"></assemblyIdentity>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly>
+      <assemblyIdentity type="win32" name="Automation\msenv156p.dll" processorArchitecture="X86" version="1.0.0.0"></assemblyIdentity>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly>
+      <assemblyIdentity type="win32" name="Automation\msenv157p.dll" processorArchitecture="X86" version="1.0.0.0"></assemblyIdentity>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly>
+      <assemblyIdentity type="win32" name="Automation\msenv158p.dll" processorArchitecture="X86" version="1.0.0.0"></assemblyIdentity>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly>
+      <assemblyIdentity type="win32" name="Automation\msenv159p.dll" processorArchitecture="X86" version="1.0.0.0"></assemblyIdentity>
+    </dependentAssembly>
+  </dependency>
+  <dependency optional="yes">
+    <dependentAssembly>
+      <assemblyIdentity type="win32" name="..\Packages\mswebprj.dll" processorArchitecture="X86" version="1.0.0.0"></assemblyIdentity>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly>
+      <assemblyIdentity type="win32" name="Automation\publish.tlb" processorArchitecture="X86" version="1.0.0.0"></assemblyIdentity>
+    </dependentAssembly>
+  </dependency>
+  <dependency optional="yes">
+    <dependentAssembly>
+      <assemblyIdentity name="StanPackage" version="15.0.0.0" publicKeyToken="b03f5f7f11d50a3a" processorArchitecture="x86"></assemblyIdentity>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly>
+      <assemblyIdentity type="win32" name="Automation\textmgrp.dll" processorArchitecture="X86" version="1.0.0.0"></assemblyIdentity>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly>
+      <assemblyIdentity type="win32" name="Automation\VBCodeModelExtensibility.tlb" processorArchitecture="X86" version="1.0.0.0"></assemblyIdentity>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly>
+      <assemblyIdentity type="win32" name="Automation\VCSharpExtensibilityLib.tlb" processorArchitecture="X86" version="1.0.0.0"></assemblyIdentity>
+    </dependentAssembly>
+  </dependency>
+  <dependency optional="yes">
+    <dependentAssembly>
+      <assemblyIdentity type="win32" name="..\Tools\VDT\vdt80.dll" processorArchitecture="X86" version="1.0.0.0"></assemblyIdentity>
+    </dependentAssembly>
+  </dependency>
+  <dependency optional="yes">
+    <dependentAssembly>
+      <assemblyIdentity type="win32" name="VSConvertersPackage.dll" processorArchitecture="X86" version="1.0.0.0"></assemblyIdentity>
+    </dependentAssembly>
+  </dependency>
+  <dependency optional="yes">
+    <dependentAssembly>
+      <assemblyIdentity type="win32" name="Automation\vsdebug.dll" processorArchitecture="X86" version="1.0.0.0"></assemblyIdentity>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly>
+      <assemblyIdentity type="win32" name="Automation\vsext.olb" processorArchitecture="X86" version="1.0.0.0"></assemblyIdentity>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly>
+      <assemblyIdentity type="win32" name="Automation\vshelp.tlb" processorArchitecture="X86" version="1.0.0.0"></assemblyIdentity>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly>
+      <assemblyIdentity type="win32" name="Automation\vshelp80.tlb" processorArchitecture="X86" version="1.0.0.0"></assemblyIdentity>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly>
+      <assemblyIdentity type="win32" name="Automation\vslangproj.olb" processorArchitecture="X86" version="1.0.0.0"></assemblyIdentity>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly>
+      <assemblyIdentity type="win32" name="Automation\vslangproj2.olb" processorArchitecture="X86" version="1.0.0.0"></assemblyIdentity>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly>
+      <assemblyIdentity type="win32" name="Automation\vslangproj80.olb" processorArchitecture="X86" version="1.0.0.0"></assemblyIdentity>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly>
+      <assemblyIdentity type="win32" name="Automation\vslangproj90.olb" processorArchitecture="X86" version="1.0.0.0"></assemblyIdentity>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly>
+      <assemblyIdentity type="win32" name="Automation\vslangproj100.olb" processorArchitecture="X86" version="1.0.0.0"></assemblyIdentity>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly>
+      <assemblyIdentity type="win32" name="Automation\vslangproj110.olb" processorArchitecture="X86" version="1.0.0.0"></assemblyIdentity>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly>
+      <assemblyIdentity type="win32" name="Automation\vslangproj140.olb" processorArchitecture="X86" version="1.0.0.0"></assemblyIdentity>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly>
+      <assemblyIdentity type="win32" name="Automation\VsLogP.dll" processorArchitecture="X86" version="1.0.0.0"></assemblyIdentity>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly>
+      <assemblyIdentity type="win32" name="Automation\vsmso.olb" processorArchitecture="X86" version="1.0.0.0"></assemblyIdentity>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly>
+      <assemblyIdentity type="win32" name="Automation\vsprojhostproc.olb" processorArchitecture="X86" version="1.0.0.0"></assemblyIdentity>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly>
+      <assemblyIdentity type="win32" name="Automation\VxExtensibilitylib.tlb" processorArchitecture="X86" version="1.0.0.0"></assemblyIdentity>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly>
+      <assemblyIdentity type="win32" name="Automation\VxExtensibilitylib2.tlb" processorArchitecture="X86" version="1.0.0.0"></assemblyIdentity>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly>
+      <assemblyIdentity type="win32" name="Automation\VxExtensibilitylib3.tlb" processorArchitecture="X86" version="1.0.0.0"></assemblyIdentity>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly>
+      <assemblyIdentity type="win32" name="Automation\VxExtensibilitylib4.tlb" processorArchitecture="X86" version="1.0.0.0"></assemblyIdentity>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly>
+      <assemblyIdentity type="win32" name="Automation\webproperties.tlb" processorArchitecture="X86" version="1.0.0.0"></assemblyIdentity>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly>
+      <assemblyIdentity type="win32" name="Automation\webproperties90.tlb" processorArchitecture="X86" version="1.0.0.0"></assemblyIdentity>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly>
+      <assemblyIdentity type="win32" name="Automation\webproperties100.tlb" processorArchitecture="X86" version="1.0.0.0"></assemblyIdentity>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly>
+      <assemblyIdentity type="win32" name="Automation\webproperties110.tlb" processorArchitecture="X86" version="1.0.0.0"></assemblyIdentity>
+    </dependentAssembly>
+  </dependency>
+  <dependency optional="yes">
+    <dependentAssembly>
+      <assemblyIdentity type="win32" name="Automation\wfinterop.tlb" processorArchitecture="X86" version="1.0.0.0"/>
+    </dependentAssembly>
+  </dependency>
+  <dependency optional="yes">
+    <dependentAssembly>
+      <assemblyIdentity type="win32" name="VC" processorArchitecture="X86" version="1.0.0.0"/>
+    </dependentAssembly>
+  </dependency>
+  <dependency optional="yes">
+    <dependentAssembly>
+      <assemblyIdentity type="win32" name="VC\dircontrol" processorArchitecture="X86" version="1.0.0.0"/>
+    </dependentAssembly>
+  </dependency>
+  <dependency optional="yes">
+    <dependentAssembly>
+      <assemblyIdentity type="win32" name="VsWizards" processorArchitecture="X86" version="1.0.0.0"/>
+    </dependentAssembly>
+  </dependency>
+  <dependency optional="yes">
+    <dependentAssembly>
+      <assemblyIdentity type="win32" name="Automation\workflowproject.dll" processorArchitecture="X86" version="1.0.0.0"/>
+    </dependentAssembly>
+  </dependency>
+  <dependency optional="yes">
+    <dependentAssembly>
+      <assemblyIdentity type="win32" name="Automation\AgaveDebug.tlb" processorArchitecture="X86" version="1.0.0.0"/>
+    </dependentAssembly>
+  </dependency>
+  <dependency optional="yes">
+    <dependentAssembly>
+      <assemblyIdentity type="win32" name="Automation\Microsoft.VisualStudio.Tools.Applications.ProgrammingModel.tlb" processorArchitecture="X86" version="1.0.0.0"/>
+    </dependentAssembly>
+  </dependency>
+  <dependency optional="yes">
+    <dependentAssembly>
+      <assemblyIdentity type="win32" name="Automation\Microsoft.VisualStudio.Tools.Office.Designer.tlb" processorArchitecture="X86" version="1.0.0.0"/>
+    </dependentAssembly>
+  </dependency>
+  <dependency optional="yes">
+    <dependentAssembly>
+      <assemblyIdentity type="win32" name="Automation\Microsoft.VisualStudio.Tools.Office.ProgrammingModel.tlb" processorArchitecture="X86" version="1.0.0.0"/>
+    </dependentAssembly>
+  </dependency>
+  <dependency optional="yes">
+    <dependentAssembly>
+      <assemblyIdentity type="win32" name="Automation\VSTAProject.dll" processorArchitecture="X86" version="1.0.0.0"/>
+    </dependentAssembly>
+  </dependency>
+  <dependency optional="yes">
+    <dependentAssembly>
+      <assemblyIdentity type="win32" name="Automation\VSTOExcelClientPkg.dll" processorArchitecture="X86" version="1.0.0.0"/>
+    </dependentAssembly>
+  </dependency>
+  <dependency optional="yes">
+    <dependentAssembly>
+      <assemblyIdentity type="win32" name="Automation\VSTOWordClientPkg.dll" processorArchitecture="X86" version="1.0.0.0"/>
+    </dependentAssembly>
+  </dependency>
+  <dependency optional="yes">
+    <dependentAssembly>
+      <assemblyIdentity type="win32" name="Automation\x86\VSTOExcelAdaptor.dll" processorArchitecture="X86" version="1.0.0.0"/>
+    </dependentAssembly>
+  </dependency>
+  <dependency optional="yes">
+    <dependentAssembly>
+      <assemblyIdentity type="win32" name="Automation\x86\VSTOWordAdaptor.dll" processorArchitecture="X86" version="1.0.0.0"/>
+    </dependentAssembly>
+  </dependency>
+  <dependency optional="yes">
+    <dependentAssembly>
+      <assemblyIdentity type="win32" name="Automation\x64\VSTOExcelAdaptor.dll" processorArchitecture="X86" version="1.0.0.0"/>
+    </dependentAssembly>
+  </dependency>
+  <dependency optional="yes">
+    <dependentAssembly>
+      <assemblyIdentity type="win32" name="Automation\x64\VSTOWordAdaptor.dll" processorArchitecture="X86" version="1.0.0.0"/>
+    </dependentAssembly>
+  </dependency>
+  <dependency optional="yes">
+    <dependentAssembly>
+      <assemblyIdentity name="Microsoft.VisualStudio.Tools.Office.Designer" version="15.0.0.0" publicKeyToken="b03f5f7f11d50a3a" processorArchitecture="msil"/>
+    </dependentAssembly>
+  </dependency>
+  <dependency optional="yes">
+    <dependentAssembly>
+      <assemblyIdentity name="CommonExtensions\Microsoft\BIShared\BIShared" type="win32" processorArchitecture="X86" version="1.0.0.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency optional="yes">
+    <dependentAssembly>
+      <assemblyIdentity name="CommonExtensions\Microsoft\SSAS\SSAS" type="win32" processorArchitecture="X86" version="1.0.0.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency optional="yes">
+    <dependentAssembly>
+      <assemblyIdentity name="CommonExtensions\Microsoft\SSIS\SSIS" type="win32" processorArchitecture="X86" version="1.0.0.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency optional="yes">
+    <dependentAssembly>
+      <assemblyIdentity name="CommonExtensions\Microsoft\SSRS\SSRS" type="win32" processorArchitecture="X86" version="1.0.0.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency optional="yes">
+    <dependentAssembly>
+      <assemblyIdentity name="CommonExtensions\Microsoft\VSI\vsi" type="win32" processorArchitecture="X86" version="1.0.0.0" />
+    </dependentAssembly>
+  </dependency>
+
+  <!-- Automation.Extensions.manifest contains manifests provided by extenders -->
+  <dependency optional="yes">
+    <dependentAssembly>
+      <assemblyIdentity type="win32" name="Automation.Extensions" processorArchitecture="X86" version="1.0.0.0"></assemblyIdentity>
+    </dependentAssembly>
+  </dependency>  
+  <dependency optional="yes">
+    <dependentAssembly>
+      <assemblyIdentity type="win32" name="Automation\ssdebugps.dll" processorArchitecture="X86" version="1.0.0.0"></assemblyIdentity>
+    </dependentAssembly>
+  </dependency>
+</assembly>

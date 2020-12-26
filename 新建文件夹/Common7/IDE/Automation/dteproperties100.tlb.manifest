@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- Copyright (C) 1981-2007 Microsoft Corporation -->
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+    <noInheritable/>
+<assemblyIdentity type="win32" processorArchitecture="x86" name="Automation\dteproperties100.tlb" version="1.0.0.0" />
+<file name="dteproperties100.tlb">
+    <typelib tlbid="{3867da1e-8958-4636-bee2-5a7b2633bbbf}" version="10.0" helpdir=""/>
+</file>
+  <comInterfaceExternalProxyStub name="_EnvironmentDocumentsProperties2" iid="{51564140-486e-4ab6-bfac-ebe4e9c6a6fc}" numMethods="29" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{3867da1e-8958-4636-bee2-5a7b2633bbbf}"/>
+  <comInterfaceExternalProxyStub name="_EnvironmentGeneralProperties2" iid="{6fd4b543-6f84-4fdd-9adc-c78acc67eb80}" numMethods="25" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{3867da1e-8958-4636-bee2-5a7b2633bbbf}"/>
+</assembly>

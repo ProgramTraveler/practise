@@ -1,0 +1,14 @@
+.modules {
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.modules > .treeGridContainer {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    overflow: hidden;
+}
+
+.moduleRow > .leftAlign, .moduleHeader > .leftAlign {
+    text-align: left;
+}

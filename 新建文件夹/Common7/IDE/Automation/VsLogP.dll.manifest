@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- Copyright (C) 1981-2007 Microsoft Corporation -->
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+    <noInheritable/>
+<assemblyIdentity type="win32" processorArchitecture="x86" name="Automation\VsLogP.dll" version="1.0.0.0" />
+<file name="VsLogP.dll">
+    <comClass clsid="{C1F63D0C-4CAE-4907-BE74-EEB75D386ECB}" threadingModel="Both"/>
+</file>
+  <comInterfaceExternalProxyStub name="IVsLog" iid="{4AAEA0BD-4327-44E0-B958-365EBCBEF679}" numMethods="5" proxyStubClsid32="{C1F63D0C-4CAE-4907-BE74-EEB75D386ECB}"/>
+</assembly>

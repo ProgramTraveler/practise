@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- Copyright (C) 1981-2007 Microsoft Corporation -->
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+    <noInheritable/>
+<assemblyIdentity type="win32" processorArchitecture="x86" name="Automation\WebProperties90.tlb" version="1.0.0.0" />
+<file name="WebProperties90.tlb">
+    <typelib tlbid="{8689211b-2b18-4914-a1cb-bc38a3ce22e4}" version="9.0" helpdir=""/>
+</file>
+  <comInterfaceExternalProxyStub name="VSWebProjectItem2" iid="{ac170ac6-d938-4796-bada-bb4dece4c2c5}" numMethods="17" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{8689211b-2b18-4914-a1cb-bc38a3ce22e4}"/>
+  <comInterfaceExternalProxyStub name="WebSiteProperties3" iid="{42b54c4b-2a9c-4ebc-a9a2-344a8f96107f}" numMethods="57" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{8689211b-2b18-4914-a1cb-bc38a3ce22e4}"/>
+  <comInterfaceExternalProxyStub name="WebFileProperties2" iid="{899456b4-e5ad-49ef-ab04-1ced913a6e44}" numMethods="26" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{8689211b-2b18-4914-a1cb-bc38a3ce22e4}"/>
+  <comInterfaceExternalProxyStub name="WebReference2" iid="{9d6065ec-93a1-4caa-8985-9b7783330be7}" numMethods="23" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{8689211b-2b18-4914-a1cb-bc38a3ce22e4}"/>
+</assembly>

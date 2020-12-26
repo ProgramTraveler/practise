@@ -1,0 +1,75 @@
+.tierInteractionsView {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.tierInteractions {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex: 1 1 50%;
+    flex: 1 1 50%;
+    overflow: auto;
+}
+
+.tierInteractions > .treeGridContainer {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    overflow: hidden;
+}
+
+.tierInteractionsRow > .leftAlign, .tierInteractionsHeader > .leftAlign {
+    text-align: left;
+}
+
+.databaseCommandsTitle {
+    background-color: magenta; /*[{Diagnostics-ControlContent-Background}]*/
+    font-weight: bold;
+    padding: 4px;
+}
+
+.detailsPanel {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex: 1 1 50%;
+    flex: 1 1 50%;
+}
+
+.detailsPanel > .overlay {
+    -ms-flex: 1 1 100%;
+    flex: 1 1 100%;
+    overflow: hidden;
+    z-index: 10000;
+    background-color: orangered; /*[{plugin-background-color}]*/
+    text-align: center;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.detailsPanel > .overlay > a {
+    cursor: pointer;
+}
+
+.databaseCommands {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    overflow: auto;
+}
+
+.databaseCommands > .treeGridContainer {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+}
+
+.databaseCommandsRow > .leftAlign, .databaseCommandsHeader > .leftAlign {
+    text-align: left;
+}

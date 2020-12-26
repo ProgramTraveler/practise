@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- Copyright (C) 1981-2007 Microsoft Corporation -->
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+    <noInheritable/>
+<assemblyIdentity type="win32" processorArchitecture="x86" name="Automation\vslangproj.olb" version="1.0.0.0" />
+<file name="vslangproj.olb">
+    <comClass clsid="{1cdb29fe-33b7-4392-9742-d9415d3408fe}" tlbid="{49a1950e-3e35-4595-8cb9-920c64c44d67}"/>
+    <comClass clsid="{66923b02-677b-4920-a319-f8925a0ba8a8}" tlbid="{49a1950e-3e35-4595-8cb9-920c64c44d67}"/>
+    <comClass clsid="{ac779606-837c-444f-b8fa-a69805b59976}" tlbid="{49a1950e-3e35-4595-8cb9-920c64c44d67}"/>
+    <typelib tlbid="{49a1950e-3e35-4595-8cb9-920c64c44d67}" version="7.0" helpdir=""/>
+</file>
+  <comInterfaceExternalProxyStub name="ProjectConfigurationProperties" iid="{3cdaa65d-1e9d-11d3-b202-00c04f79cacb}" numMethods="73" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{49a1950e-3e35-4595-8cb9-920c64c44d67}"/>
+  <comInterfaceExternalProxyStub name="ProjectProperties" iid="{3cdaa65e-1e9d-11d3-b202-00c04f79cacb}" numMethods="67" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{49a1950e-3e35-4595-8cb9-920c64c44d67}"/>
+  <comInterfaceExternalProxyStub name="FileProperties" iid="{516bd64e-51c0-11d3-85cf-00c04f6123b3}" numMethods="36" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{49a1950e-3e35-4595-8cb9-920c64c44d67}"/>
+  <comInterfaceExternalProxyStub name="FolderProperties" iid="{8e4aa768-51e1-11d3-85cf-00c04f6123b3}" numMethods="21" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{49a1950e-3e35-4595-8cb9-920c64c44d67}"/>
+  <comInterfaceExternalProxyStub name="Reference" iid="{35d6fb50-35b6-4c81-b91c-3930b0d95386}" numMethods="30" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{49a1950e-3e35-4595-8cb9-920c64c44d67}"/>
+  <comInterfaceExternalProxyStub name="References" iid="{b8758ee4-0553-4bc9-8432-440449d35c14}" numMethods="17" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{49a1950e-3e35-4595-8cb9-920c64c44d67}"/>
+  <comInterfaceExternalProxyStub name="_ReferencesEvents" iid="{1cf40c9e-d548-4b45-ad0f-3d7843f62bbb}" numMethods="7" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{49a1950e-3e35-4595-8cb9-920c64c44d67}"/>
+  <comInterfaceExternalProxyStub name="_dispReferencesEvents" iid="{287eb27c-0f8b-4d2d-8e82-a9ca50b6766e}" numMethods="3" proxyStubClsid32="{00020420-0000-0000-C000-000000000046}" tlbid="{49a1950e-3e35-4595-8cb9-920c64c44d67}"/>
+  <comInterfaceExternalProxyStub name="BuildManager" iid="{c711e2b7-3c58-4c37-9359-705208a890ae}" numMethods="12" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{49a1950e-3e35-4595-8cb9-920c64c44d67}"/>
+  <comInterfaceExternalProxyStub name="_BuildManagerEvents" iid="{5f4aae42-bc94-401d-9213-b8a8b9e553de}" numMethods="7" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{49a1950e-3e35-4595-8cb9-920c64c44d67}"/>
+  <comInterfaceExternalProxyStub name="_dispBuildManagerEvents" iid="{828914f7-1d81-4f5c-83ce-37819d7ee759}" numMethods="2" proxyStubClsid32="{00020420-0000-0000-C000-000000000046}" tlbid="{49a1950e-3e35-4595-8cb9-920c64c44d67}"/>
+  <comInterfaceExternalProxyStub name="Imports" iid="{642789f9-210d-4574-96fd-5a653451e216}" numMethods="15" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{49a1950e-3e35-4595-8cb9-920c64c44d67}"/>
+  <comInterfaceExternalProxyStub name="_ImportsEvents" iid="{037ad859-7a75-4cf3-8a38-83d6e045fee3}" numMethods="7" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{49a1950e-3e35-4595-8cb9-920c64c44d67}"/>
+  <comInterfaceExternalProxyStub name="_dispImportsEvents" iid="{40806cea-abab-4887-a356-d8869c28a6e6}" numMethods="2" proxyStubClsid32="{00020420-0000-0000-C000-000000000046}" tlbid="{49a1950e-3e35-4595-8cb9-920c64c44d67}"/>
+  <comInterfaceExternalProxyStub name="VSProjectEvents" iid="{f8b92546-f1a2-4066-92f6-fdf2e691a50c}" numMethods="10" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{49a1950e-3e35-4595-8cb9-920c64c44d67}"/>
+  <comInterfaceExternalProxyStub name="VSProject" iid="{2cfb826f-f6bf-480d-a546-95a0381cc411}" numMethods="24" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{49a1950e-3e35-4595-8cb9-920c64c44d67}"/>
+  <comInterfaceExternalProxyStub name="VSProjectItem" iid="{89ff44c6-979d-49b6-af56-ec9509001de4}" numMethods="11" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{49a1950e-3e35-4595-8cb9-920c64c44d67}"/>
+  <comInterfaceExternalProxyStub name="WebSettings" iid="{8fa8d496-caf1-40b3-bc58-5fc877fefea7}" numMethods="14" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{49a1950e-3e35-4595-8cb9-920c64c44d67}"/>
+</assembly>

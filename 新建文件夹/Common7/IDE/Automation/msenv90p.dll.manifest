@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- Copyright (C) 1981-2007 Microsoft Corporation -->
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+    <noInheritable/>
+<assemblyIdentity type="win32" processorArchitecture="x86" name="Automation\msenv90p.dll" version="1.0.0.0" />
+<file name="msenv90p.dll">
+    <comClass clsid="{8C1C28BE-1ADC-4C83-82F9-B1670FB9D04B}" threadingModel="Both"/>
+</file>
+  <comInterfaceExternalProxyStub name="ILocalRegistry4" iid="{5C45B909-E820-4ACC-B894-0A013C6DA212}" numMethods="7" proxyStubClsid32="{8C1C28BE-1ADC-4C83-82F9-B1670FB9D04B}"/>
+  <comInterfaceExternalProxyStub name="SVsSymbolicNavigationManager" iid="{C67A5F0C-31C0-4316-9EF9-B451B30C829E}" numMethods="3" proxyStubClsid32="{8C1C28BE-1ADC-4C83-82F9-B1670FB9D04B}"/>
+  <comInterfaceExternalProxyStub name="IVsFileUpgrade2" iid="{F2394417-A219-4297-BB4E-E66864A6A7DB}" numMethods="5" proxyStubClsid32="{8C1C28BE-1ADC-4C83-82F9-B1670FB9D04B}"/>
+  <comInterfaceExternalProxyStub name="IVsOutputWindowPane2" iid="{4A65481B-49CF-4FCB-A891-32AE435EC941}" numMethods="4" proxyStubClsid32="{8C1C28BE-1ADC-4C83-82F9-B1670FB9D04B}"/>
+  <comInterfaceExternalProxyStub name="IVsPackage2" iid="{0130701B-B0BE-474B-B4B6-35BABB2008F1}" numMethods="4" proxyStubClsid32="{8C1C28BE-1ADC-4C83-82F9-B1670FB9D04B}"/>
+  <comInterfaceExternalProxyStub name="IVsUpgradeBuildPropertyStorage" iid="{27712A1D-ABEA-42E2-95A5-31D370759429}" numMethods="10" proxyStubClsid32="{8C1C28BE-1ADC-4C83-82F9-B1670FB9D04B}"/>
+  <comInterfaceExternalProxyStub name="IVsUIShell3" iid="{1C763D26-637C-46F8-A55C-6ECC84DF4E4F}" numMethods="5" proxyStubClsid32="{8C1C28BE-1ADC-4C83-82F9-B1670FB9D04B}"/>
+  <comInterfaceExternalProxyStub name="IVsProjectFlavorUpgradeViaFactory" iid="{D717B926-12EE-4285-9123-522ED54C4859}" numMethods="6" proxyStubClsid32="{8C1C28BE-1ADC-4C83-82F9-B1670FB9D04B}"/>
+  <comInterfaceExternalProxyStub name="IVsShell3" iid="{07BDC931-E86D-4531-A59C-20C614D6E492}" numMethods="5" proxyStubClsid32="{8C1C28BE-1ADC-4C83-82F9-B1670FB9D04B}"/>
+  <comInterfaceExternalProxyStub name="IVsHelpPrivate2" iid="{6A638140-845B-48F4-A0E7-EEDFE86E8F34}" numMethods="4" proxyStubClsid32="{8C1C28BE-1ADC-4C83-82F9-B1670FB9D04B}"/>
+  <comInterfaceExternalProxyStub name="IVsEditorFactory2" iid="{8ABD2347-3360-46AE-96FA-3B70A44D3F73}" numMethods="4" proxyStubClsid32="{8C1C28BE-1ADC-4C83-82F9-B1670FB9D04B}"/>
+  <comInterfaceExternalProxyStub name="IVsQueryEditQuerySave3" iid="{53474C4D-6279-30C2-B4B4-005004775AB4}" numMethods="5" proxyStubClsid32="{8C1C28BE-1ADC-4C83-82F9-B1670FB9D04B}"/>
+  <comInterfaceExternalProxyStub name="IVsSearchService2" iid="{65C5CF57-C443-4AD5-9EF5-8F521A4C391A}" numMethods="4" proxyStubClsid32="{8C1C28BE-1ADC-4C83-82F9-B1670FB9D04B}"/>
+  <comInterfaceExternalProxyStub name="IVsSymbolicNavigationNotify" iid="{4DE38661-BB8F-4B9B-8D2F-425949341BBE}" numMethods="5" proxyStubClsid32="{8C1C28BE-1ADC-4C83-82F9-B1670FB9D04B}"/>
+  <comInterfaceExternalProxyStub name="IVsFindCancelDialog2" iid="{0C8E8E61-71AF-41DD-B213-B98D042F07FE}" numMethods="4" proxyStubClsid32="{8C1C28BE-1ADC-4C83-82F9-B1670FB9D04B}"/>
+  <comInterfaceExternalProxyStub name="IVsMSBuildHostObject" iid="{45F31264-BACD-45A9-AE64-036120C52582}" numMethods="7" proxyStubClsid32="{8C1C28BE-1ADC-4C83-82F9-B1670FB9D04B}"/>
+  <comInterfaceExternalProxyStub name="IVsMSBuildTaskFileManager" iid="{33372170-A08F-47F9-B1AE-CD9F2C3BB7C9}" numMethods="10" proxyStubClsid32="{8C1C28BE-1ADC-4C83-82F9-B1670FB9D04B}"/>
+  <comInterfaceExternalProxyStub name="IVsLaunchPad3" iid="{96A8C871-BD60-47CD-BCBA-D4455806C54F}" numMethods="4" proxyStubClsid32="{8C1C28BE-1ADC-4C83-82F9-B1670FB9D04B}"/>
+  <comInterfaceExternalProxyStub name="IVsFindSymbol2" iid="{7FF85072-4667-4532-B149-63A7B205060B}" numMethods="6" proxyStubClsid32="{8C1C28BE-1ADC-4C83-82F9-B1670FB9D04B}"/>
+  <comInterfaceExternalProxyStub name="IVsProjectServerHost" iid="{C044F284-CA0B-41F9-A4C0-E2B650234F30}" numMethods="7" proxyStubClsid32="{8C1C28BE-1ADC-4C83-82F9-B1670FB9D04B}"/>
+  <comInterfaceExternalProxyStub name="SVsCachingResourceManager" iid="{0EB7B18C-6295-46E0-A88A-01C49368A9C8}" numMethods="3" proxyStubClsid32="{8C1C28BE-1ADC-4C83-82F9-B1670FB9D04B}"/>
+  <comInterfaceExternalProxyStub name="IVsResourceManagerCacheControl" iid="{F243088D-4D54-4F09-A0C6-3F7F46F538B5}" numMethods="7" proxyStubClsid32="{8C1C28BE-1ADC-4C83-82F9-B1670FB9D04B}"/>
+  <comInterfaceExternalProxyStub name="IVsSymbolicNavigationManager" iid="{C4D4F197-941E-43B1-9D42-BE527F9D5D00}" numMethods="7" proxyStubClsid32="{8C1C28BE-1ADC-4C83-82F9-B1670FB9D04B}"/>
+  <comInterfaceExternalProxyStub name="IVsToolbox4" iid="{8A9899AE-041F-431B-85D0-E44F35D65CDD}" numMethods="4" proxyStubClsid32="{8C1C28BE-1ADC-4C83-82F9-B1670FB9D04B}"/>
+  <comInterfaceExternalProxyStub name="IVsFindSymbolEvents2" iid="{18220DB2-1AEB-44EA-A924-F3571D202EF4}" numMethods="4" proxyStubClsid32="{8C1C28BE-1ADC-4C83-82F9-B1670FB9D04B}"/>
+  <comInterfaceExternalProxyStub name="IVsComponentSelectorDlg3" iid="{00AE51BD-26D7-4974-801B-B0890E1753F8}" numMethods="5" proxyStubClsid32="{8C1C28BE-1ADC-4C83-82F9-B1670FB9D04B}"/>
+  <comInterfaceExternalProxyStub name="IVsUserSettingsMigration" iid="{692E1EBF-9D60-4A56-B10F-596DC48CC230}" numMethods="4" proxyStubClsid32="{8C1C28BE-1ADC-4C83-82F9-B1670FB9D04B}"/>
+  <comInterfaceExternalProxyStub name="SVsWebProxy" iid="{6454F7CA-478C-4932-B007-ABB100905BD4}" numMethods="3" proxyStubClsid32="{8C1C28BE-1ADC-4C83-82F9-B1670FB9D04B}"/>
+  <comInterfaceExternalProxyStub name="IVsWebProxy" iid="{62A84AEF-423D-4827-833F-7918753C0269}" numMethods="4" proxyStubClsid32="{8C1C28BE-1ADC-4C83-82F9-B1670FB9D04B}"/>
+  <comInterfaceExternalProxyStub name="IVsStartPagePrivate" iid="{67335DF7-77E7-4520-AEDA-F374729356FB}" numMethods="5" proxyStubClsid32="{8C1C28BE-1ADC-4C83-82F9-B1670FB9D04B}"/>
+  <comInterfaceExternalProxyStub name="IVsHelpUserSettings2" iid="{63343EFC-E66A-4333-94DB-BC2B99C288EC}" numMethods="4" proxyStubClsid32="{8C1C28BE-1ADC-4C83-82F9-B1670FB9D04B}"/>
+</assembly>

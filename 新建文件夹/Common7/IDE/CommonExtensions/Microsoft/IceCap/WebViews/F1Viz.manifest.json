@@ -1,0 +1,498 @@
+{
+    "start_url": "MainView.html",
+    "domain": "http://microsoft.com",
+    "name": "F1Viz",
+    "resource_aliases": {
+        "Resources": {
+            "path": "F1Viz.ScriptResources",
+            "is_default": true
+        }
+    },
+    "vs": {
+        "theme_token_aliases": {
+            "CommonControls-FocusVisual-Foreground": {
+                "category": "c01072a1-a915-4abf-89b7-e2f9e8ec4c7f",
+                "key_type": "ForegroundColor",
+                "name": "FocusVisual"
+            },
+            "CpuUsageTool-CallerCalleeFunctionBackground-Background": {
+                "category": "02071ec8-0cf0-4822-af30-9f001537e7eb",
+                "key_type": "BackgroundColor",
+                "name": "CallerCalleeFunctionBackground"
+            },
+            "CpuUsageTool-CallerCalleeFunctionBackgroundHover-Background": {
+                "category": "02071ec8-0cf0-4822-af30-9f001537e7eb",
+                "key_type": "BackgroundColor",
+                "name": "CallerCalleeFunctionBackgroundHover"
+            },
+            "CpuUsageTool-CallerCalleeFunctionBorder-Background": {
+                "category": "02071ec8-0cf0-4822-af30-9f001537e7eb",
+                "key_type": "BackgroundColor",
+                "name": "CallerCalleeFunctionBorder"
+            },
+            "CpuUsageTool-CallerCalleeFunctionBorderHover-Background": {
+                "category": "02071ec8-0cf0-4822-af30-9f001537e7eb",
+                "key_type": "BackgroundColor",
+                "name": "CallerCalleeFunctionBorderHover"
+            },
+            "CpuUsageTool-CallerCalleeFunctionGroupBackground-Background": {
+                "category": "02071ec8-0cf0-4822-af30-9f001537e7eb",
+                "key_type": "BackgroundColor",
+                "name": "CallerCalleeFunctionGroupBackground"
+            },
+            "CpuUsageTool-CallerCalleeFunctionGroupBorder-Background": {
+                "category": "02071ec8-0cf0-4822-af30-9f001537e7eb",
+                "key_type": "BackgroundColor",
+                "name": "CallerCalleeFunctionGroupBorder"
+            },
+            "CpuUsageTool-CallerCalleeFunctionHighUsageBackground-Background": {
+                "category": "02071ec8-0cf0-4822-af30-9f001537e7eb",
+                "key_type": "BackgroundColor",
+                "name": "CallerCalleeFunctionHighUsageBackground"
+            },
+            "CpuUsageTool-CallerCalleeFunctionHighUsageBackgroundHover-Background": {
+                "category": "02071ec8-0cf0-4822-af30-9f001537e7eb",
+                "key_type": "BackgroundColor",
+                "name": "CallerCalleeFunctionHighUsageBackgroundHover"
+            },
+            "CpuUsageTool-CallerCalleeFunctionHighUsageBorder-Background": {
+                "category": "02071ec8-0cf0-4822-af30-9f001537e7eb",
+                "key_type": "BackgroundColor",
+                "name": "CallerCalleeFunctionHighUsageBorder"
+            },
+            "CpuUsageTool-CallerCalleeFunctionHighUsageBorderHover-Background": {
+                "category": "02071ec8-0cf0-4822-af30-9f001537e7eb",
+                "key_type": "BackgroundColor",
+                "name": "CallerCalleeFunctionHighUsageBorderHover"
+            },
+            "CpuUsageTool-CallerCalleeFunctionLowUsageBackground-Background": {
+                "category": "02071ec8-0cf0-4822-af30-9f001537e7eb",
+                "key_type": "BackgroundColor",
+                "name": "CallerCalleeFunctionLowUsageBackground"
+            },
+            "CpuUsageTool-CallerCalleeFunctionLowUsageBorder-Background": {
+                "category": "02071ec8-0cf0-4822-af30-9f001537e7eb",
+                "key_type": "BackgroundColor",
+                "name": "CallerCalleeFunctionLowUsageBorder"
+            },
+            "CpuUsageTool-CallerCalleeFunctionLowUsageBackgroundHover-Background": {
+                "category": "02071ec8-0cf0-4822-af30-9f001537e7eb",
+                "key_type": "BackgroundColor",
+                "name": "CallerCalleeFunctionLowUsageBackgroundHover"
+            },
+            "CpuUsageTool-CallerCalleeFunctionLowUsageBorderHover-Background": {
+                "category": "02071ec8-0cf0-4822-af30-9f001537e7eb",
+                "key_type": "BackgroundColor",
+                "name": "CallerCalleeFunctionLowUsageBorderHover"
+            },
+            "CpuUsageTool-CallerCalleeSubTitleText-Background": {
+                "category": "02071ec8-0cf0-4822-af30-9f001537e7eb",
+                "key_type": "BackgroundColor",
+                "name": "CallerCalleeSubTitleText"
+            },
+            "CpuUsageTool-CallerCalleeTitleText-Background": {
+                "category": "02071ec8-0cf0-4822-af30-9f001537e7eb",
+                "key_type": "BackgroundColor",
+                "name": "CallerCalleeTitleText"
+            },
+            "Diagnostics-ControlContent-Background": {
+                "category": "6f4c1845-5111-4f31-b204-47cb6a466ee8",
+                "key_type": "BackgroundColor",
+                "name": "ControlContent"
+            },
+            "Diagnostics-ControlContent-Foreground": {
+                "category": "6f4c1845-5111-4f31-b204-47cb6a466ee8",
+                "key_type": "ForegroundColor",
+                "name": "ControlContent"
+            },
+            "Diagnostics-ControlHeader-Background": {
+                "category": "6f4c1845-5111-4f31-b204-47cb6a466ee8",
+                "key_type": "BackgroundColor",
+                "name": "ControlHeader"
+            },
+            "Diagnostics-ControlHeader-Foreground": {
+                "category": "6f4c1845-5111-4f31-b204-47cb6a466ee8",
+                "key_type": "ForegroundColor",
+                "name": "ControlHeader"
+            },
+            "DiagnosticsHub-GraphLine-Background": {
+                "category": "f8a8b2a5-dd35-43f6-a382-fd6a61325c22",
+                "key_type": "BackgroundColor",
+                "name": "GraphLine"
+            },
+            "DiagnosticsHub-Hyperlink-Background": {
+                "category": "f8a8b2a5-dd35-43f6-a382-fd6a61325c22",
+                "key_type": "BackgroundColor",
+                "name": "Hyperlink"
+            },
+            "DiagnosticsHub-HyperlinkHover-Background": {
+                "category": "f8a8b2a5-dd35-43f6-a382-fd6a61325c22",
+                "key_type": "BackgroundColor",
+                "name": "HyperlinkHover"
+            },
+            "DiagnosticsHub-SwimlaneBorder-Background": {
+                "category": "f8a8b2a5-dd35-43f6-a382-fd6a61325c22",
+                "key_type": "BackgroundColor",
+                "name": "SwimlaneBorder"
+            },
+            "Environment-CommandShelfBackgroundGradientMiddle-Background": {
+                "category": "624ed9c3-bdfd-41fa-96c3-7c824ea32e3d",
+                "key_type": "BackgroundColor",
+                "name": "CommandShelfBackgroundGradientMiddle"
+            },
+            "Environment-CommandBarTextActive-Background": {
+                "category": "624ed9c3-bdfd-41fa-96c3-7c824ea32e3d",
+                "key_type": "BackgroundColor",
+                "name": "CommandBarTextActive"
+            },
+            "Environment-CommandBarTextHover-Background": {
+                "category": "624ed9c3-bdfd-41fa-96c3-7c824ea32e3d",
+                "key_type": "BackgroundColor",
+                "name": "CommandBarTextHover"
+            },
+            "Environment-CommandBarSelected-Background": {
+                "category": "624ed9c3-bdfd-41fa-96c3-7c824ea32e3d",
+                "key_type": "BackgroundColor",
+                "name": "CommandBarSelected"
+            },
+            "Environment-CommandBarBorder-Background": {
+                "category": "624ed9c3-bdfd-41fa-96c3-7c824ea32e3d",
+                "key_type": "BackgroundColor",
+                "name": "CommandBarBorder"
+            },
+            "Environment-CommandBarTextSelected-Background": {
+                "category": "624ed9c3-bdfd-41fa-96c3-7c824ea32e3d",
+                "key_type": "BackgroundColor",
+                "name": "CommandBarTextSelected"
+            },
+            "Environment-CommandBarSelectedBorder-Background": {
+                "category": "624ed9c3-bdfd-41fa-96c3-7c824ea32e3d",
+                "key_type": "BackgroundColor",
+                "name": "CommandBarSelectedBorder"
+            },
+            "Environment-CommandBarHoverOverSelected-Background": {
+                "category": "624ed9c3-bdfd-41fa-96c3-7c824ea32e3d",
+                "key_type": "BackgroundColor",
+                "name": "CommandBarHoverOverSelected"
+            },
+            "Environment-CommandBarHoverOverSelectedIconBorder-Background": {
+                "category": "624ed9c3-bdfd-41fa-96c3-7c824ea32e3d",
+                "key_type": "BackgroundColor",
+                "name": "CommandBarHoverOverSelectedIconBorder"
+            },
+            "Environment-CommandBarTextInactive-Background": {
+                "category": "624ed9c3-bdfd-41fa-96c3-7c824ea32e3d",
+                "key_type": "BackgroundColor",
+                "name": "CommandBarTextInactive"
+            },
+            "Environment-CommandBarTextHoverOverSelected-Background": {
+                "category": "624ed9c3-bdfd-41fa-96c3-7c824ea32e3d",
+                "key_type": "BackgroundColor",
+                "name": "CommandBarTextHoverOverSelected"
+            },
+            "Environment-CommandBarMouseDownBackgroundBegin-Background": {
+                "category": "624ed9c3-bdfd-41fa-96c3-7c824ea32e3d",
+                "key_type": "BackgroundColor",
+                "name": "CommandBarMouseDownBackgroundBegin"
+            },
+            "Environment-CommandBarTextMouseDown-Background": {
+                "category": "624ed9c3-bdfd-41fa-96c3-7c824ea32e3d",
+                "key_type": "BackgroundColor",
+                "name": "CommandBarTextMouseDown"
+            },
+            "Environment-CommandBarMouseOverBackgroundBegin-Background": {
+                "category": "624ed9c3-bdfd-41fa-96c3-7c824ea32e3d",
+                "key_type": "BackgroundColor",
+                "name": "CommandBarMouseOverBackgroundBegin"
+            },
+            "Environment-DiagReportLinkText-Background": {
+                "category": "624ed9c3-bdfd-41fa-96c3-7c824ea32e3d",
+                "key_type": "BackgroundColor",
+                "name": "DiagReportLinkText"
+            },
+            "Environment-GridLine-Background": {
+                "category": "624ed9c3-bdfd-41fa-96c3-7c824ea32e3d",
+                "key_type": "BackgroundColor",
+                "name": "GridLine"
+            },
+            "InfoBar-InfoBarBackground-Background": {
+                "category": "832df9d1-d9a9-4eb7-ad13-ff5b421f7432",
+                "key_type": "BackgroundColor",
+                "name": "InfoBarBackground"
+            },
+            "InfoBar-InfoBarBackground-Foreground": {
+                "category": "832df9d1-d9a9-4eb7-ad13-ff5b421f7432",
+                "key_type": "ForegroundColor",
+                "name": "InfoBarBackground"
+            },
+            "InfoBar-InfoBarBorder-Background": {
+                "category": "832df9d1-d9a9-4eb7-ad13-ff5b421f7432",
+                "key_type": "BackgroundColor",
+                "name": "InfoBarBorder"
+            },
+            "InfoBar-CloseButtonGlyph-Background": {
+                "category": "832df9d1-d9a9-4eb7-ad13-ff5b421f7432",
+                "key_type": "BackgroundColor",
+                "name": "CloseButtonGlyph"
+            },
+            "InfoBar-Hyperlink-Foreground": {
+                "category": "832df9d1-d9a9-4eb7-ad13-ff5b421f7432",
+                "key_type": "ForegroundColor",
+                "name": "Hyperlink"
+            },
+            "InfoBar-HyperlinkMouseOver-Foreground": {
+                "category": "832df9d1-d9a9-4eb7-ad13-ff5b421f7432",
+                "key_type": "ForegroundColor",
+                "name": "HyperlinkMouseOver"
+            },
+            "InfoBar-HyperlinkMouseDown-Foreground": {
+                "category": "832df9d1-d9a9-4eb7-ad13-ff5b421f7432",
+                "key_type": "ForegroundColor",
+                "name": "HyperlinkMouseDown"
+            },
+            "Header-Default-Background": {
+                "category": "4997f547-1379-456e-b985-2f413cdfa536",
+                "key_type": "BackgroundColor",
+                "name": "Default"
+            },
+            "Header-MouseOver-Background": {
+                "category": "4997f547-1379-456e-b985-2f413cdfa536",
+                "key_type": "BackgroundColor",
+                "name": "MouseOver"
+            },
+            "Header-SeparatorLine-Background": {
+                "category": "4997f547-1379-456e-b985-2f413cdfa536",
+                "key_type": "BackgroundColor",
+                "name": "SeparatorLine"
+            },
+            "IntelliTrace-ReportHeaderActive-Background": {
+                "category": "ffa74b06-e011-49be-a58c-3efaa4b957d5",
+                "key_type": "BackgroundColor",
+                "name": "ReportHeaderActive"
+            },
+            "IntelliTrace-ReportHeaderActive-Foreground": {
+                "category": "ffa74b06-e011-49be-a58c-3efaa4b957d5",
+                "key_type": "ForegroundColor",
+                "name": "ReportHeaderActive"
+            },
+            "SearchControl-FocusedBackground-Background": {
+                "category": "f1095fad-881f-45f1-8580-589e10325eb8",
+                "key_type": "BackgroundColor",
+                "name": "FocusedBackground"
+            },
+            "SearchControl-FocusedBackground-Foreground": {
+                "category": "f1095fad-881f-45f1-8580-589e10325eb8",
+                "key_type": "ForegroundColor",
+                "name": "FocusedBackground"
+            },
+            "SearchControl-FocusedBorder-Background": {
+                "category": "f1095fad-881f-45f1-8580-589e10325eb8",
+                "key_type": "BackgroundColor",
+                "name": "FocusedBorder"
+            },
+            "SearchControl-FocusedDropDownButton-Background": {
+                "category": "f1095fad-881f-45f1-8580-589e10325eb8",
+                "key_type": "BackgroundColor",
+                "name": "FocusedDropDownButton"
+            },
+            "SearchControl-FocusedDropDownButtonGlyph-Background": {
+                "category": "f1095fad-881f-45f1-8580-589e10325eb8",
+                "key_type": "BackgroundColor",
+                "name": "FocusedDropDownButtonGlyph"
+            },
+            "SearchControl-FocusedDropDownButtonBorder-Background": {
+                "category": "f1095fad-881f-45f1-8580-589e10325eb8",
+                "key_type": "BackgroundColor",
+                "name": "FocusedDropDownButtonBorder"
+            },
+            "SearchControl-Unfocused-Background": {
+                "category": "f1095fad-881f-45f1-8580-589e10325eb8",
+                "key_type": "BackgroundColor",
+                "name": "Unfocused"
+            },
+            "SearchControl-Unfocused-Foreground": {
+                "category": "f1095fad-881f-45f1-8580-589e10325eb8",
+                "key_type": "ForegroundColor",
+                "name": "Unfocused"
+            },
+            "SearchControl-UnfocusedBorder-Background": {
+                "category": "f1095fad-881f-45f1-8580-589e10325eb8",
+                "key_type": "BackgroundColor",
+                "name": "UnfocusedBorder"
+            },
+            "SearchControl-UnfocusedDropDownButton-Background": {
+                "category": "f1095fad-881f-45f1-8580-589e10325eb8",
+                "key_type": "BackgroundColor",
+                "name": "UnfocusedDropDownButton"
+            },
+            "SearchControl-UnfocusedDropDownButtonBorder-Background": {
+                "category": "f1095fad-881f-45f1-8580-589e10325eb8",
+                "key_type": "BackgroundColor",
+                "name": "UnfocusedDropDownButtonBorder"
+            },
+            "SearchControl-UnfocusedDropDownButtonGlyph-Background": {
+                "category": "f1095fad-881f-45f1-8580-589e10325eb8",
+                "key_type": "BackgroundColor",
+                "name": "UnfocusedDropDownButtonGlyph"
+            },
+            "SearchControl-MouseOverBackground-Background": {
+                "category": "f1095fad-881f-45f1-8580-589e10325eb8",
+                "key_type": "BackgroundColor",
+                "name": "MouseOverBackground"
+            },
+            "SearchControl-MouseOverBackground-Foreground": {
+                "category": "f1095fad-881f-45f1-8580-589e10325eb8",
+                "key_type": "ForegroundColor",
+                "name": "MouseOverBackground"
+            },
+            "SearchControl-MouseOverBorder-Background": {
+                "category": "f1095fad-881f-45f1-8580-589e10325eb8",
+                "key_type": "BackgroundColor",
+                "name": "MouseOverBorder"
+            },
+            "SearchControl-MouseOverDropDownButton-Background": {
+                "category": "f1095fad-881f-45f1-8580-589e10325eb8",
+                "key_type": "BackgroundColor",
+                "name": "MouseOverDropDownButton"
+            },
+            "SearchControl-MouseOverDropDownButtonGlyph-Background": {
+                "category": "f1095fad-881f-45f1-8580-589e10325eb8",
+                "key_type": "BackgroundColor",
+                "name": "MouseOverDropDownButtonGlyph"
+            },
+            "SearchControl-MouseOverDropDownButtonBorder-Background": {
+                "category": "f1095fad-881f-45f1-8580-589e10325eb8",
+                "key_type": "BackgroundColor",
+                "name": "MouseOverDropDownButtonBorder"
+            },
+            "SearchControl-MouseOverWatermarkText-Background": {
+                "category": "f1095fad-881f-45f1-8580-589e10325eb8",
+                "key_type": "BackgroundColor",
+                "name": "MouseOverWatermarkText"
+            },
+            "SearchControl-ActionButtonMouseOver-Background": {
+                "category": "f1095fad-881f-45f1-8580-589e10325eb8",
+                "key_type": "BackgroundColor",
+                "name": "ActionButtonMouseOver"
+            },
+            "SearchControl-ActionButtonMouseOverGlyph-Background": {
+                "category": "f1095fad-881f-45f1-8580-589e10325eb8",
+                "key_type": "BackgroundColor",
+                "name": "ActionButtonMouseOverGlyph"
+            },
+            "SearchControl-ActionButtonDisabledGlyph-Background": {
+                "category": "f1095fad-881f-45f1-8580-589e10325eb8",
+                "key_type": "BackgroundColor",
+                "name": "ActionButtonDisabledGlyph"
+            },
+            "SearchControl-PopupBorder-Background": {
+                "category": "f1095fad-881f-45f1-8580-589e10325eb8",
+                "key_type": "BackgroundColor",
+                "name": "PopupBorder"
+            },
+            "SearchControl-PopupSectionHeaderText-Background": {
+                "category": "f1095fad-881f-45f1-8580-589e10325eb8",
+                "key_type": "BackgroundColor",
+                "name": "PopupSectionHeaderText"
+            },
+            "SearchControl-PopupItemsListBackgroundGradientBegin-Background": {
+                "category": "f1095fad-881f-45f1-8580-589e10325eb8",
+                "key_type": "BackgroundColor",
+                "name": "PopupItemsListBackgroundGradientBegin"
+            },
+            "SearchControl-PopupItemText-Background": {
+                "category": "f1095fad-881f-45f1-8580-589e10325eb8",
+                "key_type": "BackgroundColor",
+                "name": "PopupItemText"
+            },
+            "SearchControl-PopupCheckboxMouseDownText-Background": {
+                "category": "f1095fad-881f-45f1-8580-589e10325eb8",
+                "key_type": "BackgroundColor",
+                "name": "PopupCheckboxMouseDownText"
+            },
+            "SearchControl-PopupControlMouseOverBackgroundGradientBegin-Background": {
+                "category": "f1095fad-881f-45f1-8580-589e10325eb8",
+                "key_type": "BackgroundColor",
+                "name": "PopupControlMouseOverBackgroundGradientBegin"
+            },
+            "SearchControl-Disabled-Background": {
+                "category": "f1095fad-881f-45f1-8580-589e10325eb8",
+                "key_type": "BackgroundColor",
+                "name": "Disabled"
+            },
+            "SearchControl-Disabled-Foreground": {
+                "category": "f1095fad-881f-45f1-8580-589e10325eb8",
+                "key_type": "ForegroundColor",
+                "name": "Disabled"
+            },
+            "SearchControl-DisabledBorder-Background": {
+                "category": "f1095fad-881f-45f1-8580-589e10325eb8",
+                "key_type": "BackgroundColor",
+                "name": "DisabledBorder"
+            },
+            "SearchControl-DisabledDownButtonGlyph-Background": {
+                "category": "f1095fad-881f-45f1-8580-589e10325eb8",
+                "key_type": "BackgroundColor",
+                "name": "DisabledDownButtonGlyph"
+            },
+            "SearchControl-SearchGlyph-Background": {
+                "category": "f1095fad-881f-45f1-8580-589e10325eb8",
+                "key_type": "BackgroundColor",
+                "name": "SearchGlyph"
+            },
+            "SearchControl-MouseDownDropDownButton-Background": {
+                "category": "f1095fad-881f-45f1-8580-589e10325eb8",
+                "key_type": "BackgroundColor",
+                "name": "MouseDownDropDownButton"
+            },
+            "SearchControl-MouseDownDropDownButtonGlyph-Background": {
+                "category": "f1095fad-881f-45f1-8580-589e10325eb8",
+                "key_type": "BackgroundColor",
+                "name": "MouseDownDropDownButtonGlyph"
+            }
+        },
+        "themed_images": {
+            "backwardIcon":             { "svg_source": "Images\\Backward.svg" },
+            "backwardDisabledIcon":     { "svg_source": "Images\\BackwardDisabled.svg" },
+            "codeDirectionArrowIcon":   { "svg_source": "Images\\CodeDirectionArrow.svg" },
+            "compareReportsIcon":       { "svg_source": "Images\\CompareReports.svg" },
+            "exportDataIcon":           { "svg_source": "Images\\ExportData.svg" },
+            "hotItemIcon":              { "svg_source": "Images\\HotItem.svg" },
+            "hotPathIcon":              { "svg_source": "Images\\HotPath.svg" },
+            "hotPathDisabledIcon":      { "svg_source": "Images\\HotPathDisabled.svg" },
+            "infoIcon":                 { "svg_source": "Images\\Information.svg" },
+            "jmcIcon":                  { "svg_source": "Images\\JustMyCode.svg" },
+            "deleteFilterIcon":         { "svg_source": "Images\\DeleteFilter.svg"},
+            "forwardIcon":              { "svg_source": "Images\\Forward.svg" },
+            "forwardDisabledIcon":      { "svg_source": "Images\\ForwardDisabled.svg" },
+            "noiseReductionIcon":       { "svg_source": "Images\\NoiseReduction.svg" },
+            "saveIcon":                 { "svg_source": "Images\\Save.svg" },
+            "searchIcon":               { "svg_source": "Images\\Search.svg" },
+            "setSymbolPathIcon":        { "svg_source": "Images\\SetSymbolPath.svg" },
+            "showExternalCodeIcon":     { "svg_source": "Images\\ShowExternalCode.svg" },
+            "showTrimmedCallTreeIcon":  { "svg_source": "Images\\ShowTrimmedCallTree.svg" },
+            "showUserMarksIcon":        { "svg_source": "Images\\ShowUserMarks.svg" },
+            "toggleFullscreenIcon":     { "svg_source": "Images\\ToggleFullScreen.svg" },
+            "hotItemImage": {
+                "bitmap_source": "Images\\HotItem.png",
+                "background_color": "plugin-background-color"
+            },
+            "hotPathImage": {
+                "bitmap_source": "Images\\HotPath.png",
+                "background_color": "plugin-background-color"
+            },
+            "itemCollapsed": {
+                "bitmap_source": "Images\\itemCollapsed.png",
+                "background_color": "plugin-background-color"
+            },
+            "itemExpanded": {
+                "bitmap_source": "Images\\itemExpanded.png",
+                "background_color": "plugin-background-color"
+            },
+            "filter": {
+              "bitmap_source": "Images\\filter.png",
+              "background_color": "plugin-background-color"
+            }
+        }
+    }
+}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- Copyright (C) 1981-2007 Microsoft Corporation -->
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+    <noInheritable/>
+<assemblyIdentity type="win32" processorArchitecture="x86" name="Automation\dteproperties.tlb" version="1.0.0.0" />
+<file name="dteproperties.tlb">
+    <typelib tlbid="{a128db83-f218-41db-8314-34c333f3b7fd}" version="8.0" helpdir=""/>
+</file>
+  <comInterfaceExternalProxyStub name="_EnvironmentExtensibilitySecurity" iid="{33279e51-7488-4ba6-bc96-55b3c434cebf}" numMethods="11" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{a128db83-f218-41db-8314-34c333f3b7fd}"/>
+  <comInterfaceExternalProxyStub name="_EnvironmentWebBrowserProperties" iid="{143234ae-8fbe-4568-a8bb-1af9bfc3eab3}" numMethods="15" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{a128db83-f218-41db-8314-34c333f3b7fd}"/>
+  <comInterfaceExternalProxyStub name="_EnvironmentHelpProperties" iid="{0e770700-ef5c-4b04-a643-1750da946e04}" numMethods="25" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{a128db83-f218-41db-8314-34c333f3b7fd}"/>
+  <comInterfaceExternalProxyStub name="_EnvironmentGeneralProperties" iid="{88cd9652-0a17-4fe7-9af6-36fb73aa1ac2}" numMethods="21" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{a128db83-f218-41db-8314-34c333f3b7fd}"/>
+  <comInterfaceExternalProxyStub name="_EnvironmentStartupProperties" iid="{7413c871-565d-45fa-b63b-31c893e5760b}" numMethods="15" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{a128db83-f218-41db-8314-34c333f3b7fd}"/>
+  <comInterfaceExternalProxyStub name="_EnvironmentProjectsAndSolutionProperties" iid="{b114c6c0-860c-464a-8274-2da1958c09e3}" numMethods="41" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{a128db83-f218-41db-8314-34c333f3b7fd}"/>
+  <comInterfaceExternalProxyStub name="_EnvironmentDocumentsProperties" iid="{b440433c-c8a1-4813-905d-6dd389f383df}" numMethods="27" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{a128db83-f218-41db-8314-34c333f3b7fd}"/>
+  <comInterfaceExternalProxyStub name="_EnvironmentFindAndReplaceProperties" iid="{09cbf6ca-087a-465c-886e-0e5ada508f3c}" numMethods="15" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{a128db83-f218-41db-8314-34c333f3b7fd}"/>
+  <comInterfaceExternalProxyStub name="_EnvironmentTaskListProperties" iid="{6cc511a3-c79b-4483-a0dd-a8dedf37731e}" numMethods="15" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{a128db83-f218-41db-8314-34c333f3b7fd}"/>
+  <comInterfaceExternalProxyStub name="_EnvironmentKeyboardProperties" iid="{3e2150bc-169d-4826-9852-38f152872880}" numMethods="9" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{a128db83-f218-41db-8314-34c333f3b7fd}"/>
+  <comInterfaceExternalProxyStub name="IVsTextEditGeneralProperties" iid="{ffa3007f-5c84-43a0-be37-4a31a84c08f7}" numMethods="29" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{a128db83-f218-41db-8314-34c333f3b7fd}"/>
+  <comInterfaceExternalProxyStub name="IVsTextEditPerLanguageProperties" iid="{ee456d20-3e50-4f9b-8fd4-13209cea3d8b}" numMethods="35" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{a128db83-f218-41db-8314-34c333f3b7fd}"/>
+  <comInterfaceExternalProxyStub name="IVsTextEditFontsProperties" iid="{fe1fe7d0-d892-484c-a0f3-996a8ba5be7c}" numMethods="13" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{a128db83-f218-41db-8314-34c333f3b7fd}"/>
+  <comInterfaceExternalProxyStub name="_EnvironmentInternationalProperties" iid="{46041297-f3b2-49cb-b48f-3a752fb90631}" numMethods="9" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{a128db83-f218-41db-8314-34c333f3b7fd}"/>
+  <comInterfaceExternalProxyStub name="_EnvironmentProfilesProperties" iid="{d6a795b4-0bd7-4f76-9a2c-b0549ea16afd}" numMethods="13" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{a128db83-f218-41db-8314-34c333f3b7fd}"/>
+</assembly>

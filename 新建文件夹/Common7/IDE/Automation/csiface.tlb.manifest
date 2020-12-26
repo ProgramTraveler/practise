@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- Copyright (C) 1981-2007 Microsoft Corporation -->
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+    <noInheritable/>
+<assemblyIdentity type="win32" processorArchitecture="x86" name="Automation\csiface.tlb" version="1.0.0.0" />
+<file name="csiface.tlb">
+    <typelib tlbid="{97e74276-2fc6-11d3-9b5e-00c04f68380c}" version="1.0" helpdir=""/>
+</file>
+  <comInterfaceExternalProxyStub name="ICSError" iid="{4ceee5d4-fbb0-42ac-b558-5d764c8240c7}" numMethods="5" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{97e74276-2fc6-11d3-9b5e-00c04f68380c}"/>
+  <comInterfaceExternalProxyStub name="ICSErrorContainer" iid="{376a7828-db0d-4cfd-956e-5143f71f5ccd}" numMethods="4" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{97e74276-2fc6-11d3-9b5e-00c04f68380c}"/>
+  <comInterfaceExternalProxyStub name="ICSharpPropertyContainer" iid="{a9205033-1d7d-41ab-a2e9-f3b3bd86cf2f}" numMethods="16" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{97e74276-2fc6-11d3-9b5e-00c04f68380c}"/>
+  <comInterfaceExternalProxyStub name="ISpecifyPropertyPages" iid="{b196b28b-bab4-101a-b69c-00aa00341d07}" numMethods="1" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{97e74276-2fc6-11d3-9b5e-00c04f68380c}"/>
+  <comInterfaceExternalProxyStub name="ICSSourceTextEvents" iid="{ed8a54fc-e2ea-11d2-b555-00c04f68d4db}" numMethods="1" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{97e74276-2fc6-11d3-9b5e-00c04f68380c}"/>
+  <comInterfaceExternalProxyStub name="ICSSourceText" iid="{e3783f08-e098-11d2-b554-00c04f68d4db}" numMethods="12" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{97e74276-2fc6-11d3-9b5e-00c04f68380c}"/>
+  <comInterfaceExternalProxyStub name="ICSSourceModule" iid="{d9bf2800-e098-11d2-b554-00c04f68d4db}" numMethods="8" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{97e74276-2fc6-11d3-9b5e-00c04f68380c}"/>
+  <comInterfaceExternalProxyStub name="ICSSourceModuleEvents" iid="{f78e9d16-e63f-11d2-b556-00c04f68d4db}" numMethods="7" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{97e74276-2fc6-11d3-9b5e-00c04f68380c}"/>
+  <comInterfaceExternalProxyStub name="ICSCompilerHost" iid="{d2686af8-e098-11d2-b554-00c04f68d4dc}" numMethods="3" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{97e74276-2fc6-11d3-9b5e-00c04f68380c}"/>
+  <comInterfaceExternalProxyStub name="ICSCommandLineCompilerHost" iid="{bd7cf4ef-1821-4719-aa60-df81b9eafa01}" numMethods="3" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{97e74276-2fc6-11d3-9b5e-00c04f68380c}"/>
+  <comInterfaceExternalProxyStub name="ICSNameTable" iid="{a1dea584-feb7-4ba5-acc1-0c0eb3eaf016}" numMethods="11" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{97e74276-2fc6-11d3-9b5e-00c04f68380c}"/>
+  <comInterfaceExternalProxyStub name="ICSLexer" iid="{064c8c67-5f66-4bf1-af98-ed8bfa7b690a}" numMethods="3" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{97e74276-2fc6-11d3-9b5e-00c04f68380c}"/>
+  <comInterfaceExternalProxyStub name="ICSParser" iid="{e5b1b490-850b-4aad-9d68-b5b7ca2daad2}" numMethods="9" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{97e74276-2fc6-11d3-9b5e-00c04f68380c}"/>
+  <comInterfaceExternalProxyStub name="ICSCompilerConfig" iid="{4d5d4c21-ee19-11d2-b556-00c04f68d4db}" numMethods="10" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{97e74276-2fc6-11d3-9b5e-00c04f68380c}"/>
+  <comInterfaceExternalProxyStub name="ICSCompiler" iid="{bd6ee4c6-3be2-4df9-98d5-4bb2bc874bc1}" numMethods="12" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{97e74276-2fc6-11d3-9b5e-00c04f68380c}"/>
+  <comInterfaceExternalProxyStub name="ICSInputSet" iid="{4d5d4c22-ee19-11d2-b556-00c04f68d4db}" numMethods="17" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{97e74276-2fc6-11d3-9b5e-00c04f68380c}"/>
+  <comInterfaceExternalProxyStub name="ICSCompileProgress" iid="{93615958-1fa4-4d6a-aa14-cb3b9a6b08ac}" numMethods="1" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{97e74276-2fc6-11d3-9b5e-00c04f68380c}"/>
+  <comInterfaceExternalProxyStub name="ICSEncProjectServices" iid="{09bddb73-784a-4791-a962-2699bf0706f6}" numMethods="4" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{97e74276-2fc6-11d3-9b5e-00c04f68380c}"/>
+  <comInterfaceExternalProxyStub name="ICSCompilerFactory" iid="{694dd9b6-b865-4c5b-ad85-86356e9c88dc}" numMethods="3" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{97e74276-2fc6-11d3-9b5e-00c04f68380c}"/>
+  <comInterfaceExternalProxyStub name="ICSharpProjectSite" iid="{5d41cf84-3a90-48d6-a445-ca22e125b691}" numMethods="21" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{97e74276-2fc6-11d3-9b5e-00c04f68380c}"/>
+  <comInterfaceExternalProxyStub name="ICSharpVenusProjectSite" iid="{97604d5d-7935-47fd-91c6-2747a5523855}" numMethods="5" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{97e74276-2fc6-11d3-9b5e-00c04f68380c}"/>
+  <comInterfaceExternalProxyStub name="ICSharpProjectRoot" iid="{c7fedb89-b36d-4a62-93f4-dc7a95999921}" numMethods="12" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{97e74276-2fc6-11d3-9b5e-00c04f68380c}"/>
+  <!-- Problem: IVsHierarchy is already defined in msenvp.dll.manifest -->
+  <!--<comInterfaceExternalProxyStub name="IVsHierarchy" iid="{59b2d1d0-5db0-4f9f-9609-13f0168516d6}" numMethods="18" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{97e74276-2fc6-11d3-9b5e-00c04f68380c}"/>-->
+  <!-- Problem: Visual Studio uses IServiceProvider interface defined by the system, with ProxyStubClsid32 pointing to ActXPrxy.dll -->
+  <!--<comInterfaceExternalProxyStub name="IServiceProvider" iid="{6d5140c1-7436-11ce-8034-00aa006009fa}" numMethods="1" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{97e74276-2fc6-11d3-9b5e-00c04f68380c}"/>-->
+  <!-- Problem: IVsHierarchyEvents is already defined in msenvp.dll.manifest -->
+  <!--<comInterfaceExternalProxyStub name="IVsHierarchyEvents" iid="{6ddd8dc3-32b2-4bf1-a1e1-b6da40526d1e}" numMethods="6" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{97e74276-2fc6-11d3-9b5e-00c04f68380c}"/>-->
+  <comInterfaceExternalProxyStub name="ICSharpBuildMgrSite" iid="{6ff8b47a-5d24-4c8e-bb21-1a60ccff9a8f}" numMethods="2" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{97e74276-2fc6-11d3-9b5e-00c04f68380c}"/>
+  <comInterfaceExternalProxyStub name="ICSharpProjectHost" iid="{1f3b9583-a66a-4be1-a15b-901da4db4acf}" numMethods="1" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{97e74276-2fc6-11d3-9b5e-00c04f68380c}"/>
+  <comInterfaceExternalProxyStub name="CSharpProjectConfigProperties" iid="{b060e65c-2fc6-11d3-9b5e-00c04f68380c}" numMethods="29" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{97e74276-2fc6-11d3-9b5e-00c04f68380c}"/>
+  <comInterfaceExternalProxyStub name="CSharpProjectProperties" iid="{ccc3e5eb-2fc6-11d3-9b5e-00c04f68380c}" numMethods="18" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{97e74276-2fc6-11d3-9b5e-00c04f68380c}"/>
+  <comInterfaceExternalProxyStub name="ICSharpGeneralPropPage" iid="{ab389361-1996-4dad-9499-0b67640d6721}" numMethods="28" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{97e74276-2fc6-11d3-9b5e-00c04f68380c}"/>
+  <comInterfaceExternalProxyStub name="ICSharpWebSettingsPropPage" iid="{f6f9cf2b-1621-44f9-a07f-e4faf200ce65}" numMethods="21" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{97e74276-2fc6-11d3-9b5e-00c04f68380c}"/>
+  <comInterfaceExternalProxyStub name="ICSharpDesignerPropPage" iid="{748d3e29-57f6-49bc-ae71-0bf84d98d585}" numMethods="16" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{97e74276-2fc6-11d3-9b5e-00c04f68380c}"/>
+  <comInterfaceExternalProxyStub name="ICSharpCommonBuildPropPage" iid="{3c099ff0-634f-4ffa-8a79-7bbf56c5265c}" numMethods="12" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{97e74276-2fc6-11d3-9b5e-00c04f68380c}"/>
+  <comInterfaceExternalProxyStub name="ICSharpBuildPropPage" iid="{97843d99-bc75-45c0-a4e1-a6eeffdedab8}" numMethods="32" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{97e74276-2fc6-11d3-9b5e-00c04f68380c}"/>
+  <comInterfaceExternalProxyStub name="ICSharpAdvancedPropPage" iid="{aa142d6b-95a0-4f40-ab54-a626205af9a4}" numMethods="18" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{97e74276-2fc6-11d3-9b5e-00c04f68380c}"/>
+  <comInterfaceExternalProxyStub name="ICSharpDebugPropPage" iid="{e5f73ebe-1856-43e4-b4dc-97706298fb9a}" numMethods="36" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{97e74276-2fc6-11d3-9b5e-00c04f68380c}"/>
+  <comInterfaceExternalProxyStub name="ICSharpBuildEventsPropPage" iid="{ab389362-1996-4dad-9499-0b67640d6721}" numMethods="16" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{97e74276-2fc6-11d3-9b5e-00c04f68380c}"/>
+  <comInterfaceExternalProxyStub name="ICSharpTempPECompilerService" iid="{dba64c84-56df-4e20-8aa6-02332a97f474}" numMethods="1" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{97e74276-2fc6-11d3-9b5e-00c04f68380c}"/>
+  <!-- Problem: IVsPackage is already defined in msenvp.dll.manifest -->
+  <!--<comInterfaceExternalProxyStub name="IVsPackage" iid="{d4f3f4b1-e900-4e51-adb3-d532348f83cb}" numMethods="7" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{97e74276-2fc6-11d3-9b5e-00c04f68380c}"/>-->
+</assembly>

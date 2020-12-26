@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- Copyright (C) 1981-2007 Microsoft Corporation -->
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+    <noInheritable/>
+<assemblyIdentity type="win32" processorArchitecture="x86" name="Automation\Microsoft.VisualStudio.ProductKeyDialog.tlb" version="1.0.0.0" />
+<file name="Microsoft.VisualStudio.ProductKeyDialog.tlb">
+    <comClass clsid="{ae30b1aa-b0e0-44c0-94aa-05b0747fa41d}" tlbid="{5395220c-0361-3cd0-a270-8f684c67f6ae}"/>
+    <typelib tlbid="{5395220c-0361-3cd0-a270-8f684c67f6ae}" version="15.0" helpdir=""/>
+</file>
+  <comInterfaceExternalProxyStub name="IElevatedLicensingState" iid="{71cf10ca-e22d-4f4c-8b9c-32d7c8c24c9c}" numMethods="9" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{5395220c-0361-3cd0-a270-8f684c67f6ae}"/>
+</assembly>

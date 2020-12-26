@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- Copyright (C) 1981-2007 Microsoft Corporation -->
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+    <noInheritable/>
+<assemblyIdentity type="win32" processorArchitecture="x86" name="Automation\vsmso.olb" version="1.0.0.0" />
+<file name="vsmso.olb">
+    <typelib tlbid="{1CBA492E-7263-47BB-87FE-639000619B15}" version="8.0" helpdir=""/>
+</file>
+  <comInterfaceExternalProxyStub name="_IVsMsoDispObj" iid="{19165052-5025-47F1-A7CD-B4E428E1A348}" numMethods="0" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{1CBA492E-7263-47BB-87FE-639000619B15}"/>
+  <comInterfaceExternalProxyStub name="_IVsMsoOleAccDispObj" iid="{5ACEB159-4442-4C84-8099-80FD11FD2CA2}" numMethods="0" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{1CBA492E-7263-47BB-87FE-639000619B15}"/>
+  <comInterfaceExternalProxyStub name="CommandBarControl" iid="{43FD5911-7BAC-4BDC-AB6C-2DE65B5C0233}" numMethods="0" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{1CBA492E-7263-47BB-87FE-639000619B15}"/>
+  <comInterfaceExternalProxyStub name="CommandBar" iid="{D27B4DFE-351C-4AD4-9211-F49BEC19106D}" numMethods="0" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{1CBA492E-7263-47BB-87FE-639000619B15}"/>
+  <comInterfaceExternalProxyStub name="CommandBarControls" iid="{9F0A2735-2303-4E7B-82A9-21101530B842}" numMethods="0" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{1CBA492E-7263-47BB-87FE-639000619B15}"/>
+  <comInterfaceExternalProxyStub name="_CommandBars" iid="{83D31B2E-9990-4275-AE39-77D1FB5BBCD9}" numMethods="0" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{1CBA492E-7263-47BB-87FE-639000619B15}"/>
+  <comInterfaceExternalProxyStub name="_CommandBarButton" iid="{E11C7CE2-8641-4183-9458-309C6A201CDD}" numMethods="0" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{1CBA492E-7263-47BB-87FE-639000619B15}"/>
+  <comInterfaceExternalProxyStub name="CommandBarPopup" iid="{AAD0C7E1-12EB-4271-9538-2C91B460012B}" numMethods="0" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{1CBA492E-7263-47BB-87FE-639000619B15}"/>
+  <comInterfaceExternalProxyStub name="_CommandBarComboBox" iid="{B9223DAC-9C92-4916-9396-6E7673A93724}" numMethods="0" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{1CBA492E-7263-47BB-87FE-639000619B15}"/>
+  <comInterfaceExternalProxyStub name="_CommandBarActiveX" iid="{7F1EE169-15BE-44BE-B21E-6339FC029807}" numMethods="0" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{1CBA492E-7263-47BB-87FE-639000619B15}"/>
+  <comInterfaceExternalProxyStub name="ICommandBarsEvents" iid="{37318B32-4553-4B37-B0B9-3A0F8A2C1E60}" numMethods="0" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{1CBA492E-7263-47BB-87FE-639000619B15}"/>
+  <comInterfaceExternalProxyStub name="_CommandBarsEvents" iid="{DB12E968-CAC8-4EDC-AF8A-909E9222E132}" numMethods="0" proxyStubClsid32="{00020420-0000-0000-C000-000000000046}" tlbid="{1CBA492E-7263-47BB-87FE-639000619B15}"/>
+  <comInterfaceExternalProxyStub name="ICommandBarComboBoxEvents" iid="{9D13162A-8059-4210-B4E6-306D00FE3C49}" numMethods="0" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{1CBA492E-7263-47BB-87FE-639000619B15}"/>
+  <comInterfaceExternalProxyStub name="_CommandBarComboBoxEvents" iid="{B9FC4679-BA92-44DE-824B-B1FC7C739D87}" numMethods="0" proxyStubClsid32="{00020420-0000-0000-C000-000000000046}" tlbid="{1CBA492E-7263-47BB-87FE-639000619B15}"/>
+  <comInterfaceExternalProxyStub name="ICommandBarButtonEvents" iid="{40864B73-C4B0-4E9C-9C17-567D130CB413}" numMethods="0" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{1CBA492E-7263-47BB-87FE-639000619B15}"/>
+  <comInterfaceExternalProxyStub name="_CommandBarButtonEvents" iid="{5B6BB734-FC7D-4372-A67D-0D7A212A98F7}" numMethods="0" proxyStubClsid32="{00020420-0000-0000-C000-000000000046}" tlbid="{1CBA492E-7263-47BB-87FE-639000619B15}"/>
+</assembly>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- Copyright (C) 1981-2007 Microsoft Corporation -->
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+    <noInheritable/>
+<assemblyIdentity type="win32" processorArchitecture="x86" name="Automation\msenv159p.dll" version="1.0.0.0" />
+<file name="msenv159p.dll">
+    <comClass clsid="{98C8A37C-7540-4398-8F80-5F04A687AD25}" threadingModel="Both"/>
+</file>
+  <comInterfaceExternalProxyStub name="SVsDesignTimeBuildManager" iid="{BF177C0B-2778-42ED-B449-D07934801BDD}" numMethods="3" proxyStubClsid32="{98C8A37C-7540-4398-8F80-5F04A687AD25}"/>
+  <comInterfaceExternalProxyStub name="IVsDesignTimeBuildCallback" iid="{C2ECF72C-C9B2-4FE7-BEEB-9CCE1EF2C88F}" numMethods="5" proxyStubClsid32="{98C8A37C-7540-4398-8F80-5F04A687AD25}"/>
+  <comInterfaceExternalProxyStub name="IVsDesignTimeBuildGroup" iid="{65C1BB62-8852-41CA-9403-FEC4AA00CAC6}" numMethods="4" proxyStubClsid32="{98C8A37C-7540-4398-8F80-5F04A687AD25}"/>
+  <comInterfaceExternalProxyStub name="IVsDesignTimeBuild" iid="{6FA59274-C447-4F28-98D8-E7920CA4B6E4}" numMethods="4" proxyStubClsid32="{98C8A37C-7540-4398-8F80-5F04A687AD25}"/>
+  <comInterfaceExternalProxyStub name="IVsDesignTimeBuildManager" iid="{0967989A-E2EE-496A-B920-4611C7CFE5BE}" numMethods="5" proxyStubClsid32="{98C8A37C-7540-4398-8F80-5F04A687AD25}"/>
+</assembly>

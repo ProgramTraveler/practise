@@ -1,0 +1,14 @@
+.processes {
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.processes > .treeGridContainer {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    overflow: hidden;
+}
+
+.processesRow > .leftAlign, .processHeader > .leftAlign {
+    text-align: left;
+}

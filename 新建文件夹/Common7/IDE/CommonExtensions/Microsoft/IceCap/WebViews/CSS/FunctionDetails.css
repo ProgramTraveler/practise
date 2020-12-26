@@ -1,0 +1,199 @@
+.functionDetailsOverlay {
+    position: relative;
+}
+
+    .functionDetailsOverlay>.message {
+        text-align: center;
+        width: 100%;
+        position: absolute;
+        top: 30%;
+    }
+
+.functionDetailsView {
+    padding: 2px 10px 10px 10px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+    .functionDetailsView > span {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .functionDetailsView > .currentFunctionName {
+        display: block;
+        font-size: 200%;
+        color: chartreuse; /*[{CpuUsageTool-CallerCalleeTitleText-Background}]*/
+        -ms-flex: 0 auto;
+        flex: 0 auto;
+    }
+
+    .functionDetailsView > .currentModuleName {
+        display: block;
+        padding: 2px 0px;
+        color: fuchsia; /*[{CpuUsageTool-CallerCalleeSubTitleText-Background}]*/
+        -ms-flex: 0 auto;
+        flex: 0 auto;
+    }
+
+    .functionDetailsView > .functionDetailsFooter {
+        -ms-flex: 0 auto;
+        flex: 0 auto;
+    }
+
+.functionDetailsViewItem.chart {
+    -ms-flex: 1;
+    flex: 1;
+    display: -ms-flexbox;
+    display: flex;
+    box-sizing: content-box;
+}
+
+    .functionDetailsViewItem.chart > .arrowIcon {
+        width: 1.33em;
+        height: 1.33em;
+        margin: auto;
+    }
+
+.functionDetailsViewItem.functionGroup {
+    -ms-flex: 1;
+    flex: 1;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.functionDetailsViewItem.functionGroup-title {
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    padding: 5px;
+    margin: 0px;
+}
+
+.functionDetailsViewItem.functions {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex: 1;
+    flex: 1;
+    margin: 0px;
+    background-color: hotpink; /*[{CpuUsageTool-CallerCalleeFunctionGroupBackground-Background}]*/
+    border: 1px solid turquoise; /*[1px solid {CpuUsageTool-CallerCalleeFunctionGroupBorder-Background}]*/
+    padding: 5px;
+}
+
+.functionDetailsViewItem > .function-name {
+    -ms-flex: 1;
+    flex: 1;
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.functionDetailsViewItem > .metric {
+    display: block;
+}
+
+.functionDetailsViewItem.function {
+    display: -ms-flexbox;
+    display: flex;
+    margin: 5px 0px 0px 0px;
+    padding: 5px 10px;
+    min-height: calc(1.5em + 10px); /** We add 10 pixels here for the padding in our function cell */
+}
+
+.functionDetailsViewItem.function.invokable {
+    cursor: pointer;
+}
+
+.functionDetailsViewItem.functions > .function:first-child {
+    margin-top: 0px;
+}
+
+.functionDetailsViewItem.functions > .function:last-child {
+    margin-bottom: 0px;
+}
+
+.functionDetailsViewItem.callers .function {
+    border: 1px solid rgb(194, 0, 220); /*[1px solid {CpuUsageTool-CallerCalleeFunctionBorder-Background}]*/
+    background-color: rgb(207, 0, 229); /*[{CpuUsageTool-CallerCalleeFunctionBackground-Background}]*/
+}
+
+    .functionDetailsViewItem.callers .function.invokable:focus {
+        border: 1px solid rgb(194, 0, 220); /*[1px solid {CpuUsageTool-CallerCalleeFunctionBorderHover-Background}]*/
+        background-color: rgb(217, 0, 239); /*[{CpuUsageTool-CallerCalleeFunctionBackgroundHover-Background}]*/
+    }
+
+    .functionDetailsViewItem.callers .function.invokable:hover {
+        border: 1px solid rgb(194, 0, 220); /*[1px solid {CpuUsageTool-CallerCalleeFunctionBorderHover-Background}]*/
+        background-color: rgb(237, 0, 255); /*[{CpuUsageTool-CallerCalleeFunctionBackgroundHover-Background}]*/
+    }
+
+.functionDetailsViewItem.currentFunction .functionBody {
+    border: 1px solid rgb(194, 203, 0); /*[1px solid {CpuUsageTool-CallerCalleeFunctionBorder-Background}]*/
+    background-color: rgb(207, 214, 0); /*[{CpuUsageTool-CallerCalleeFunctionBackground-Background}]*/
+}
+
+    .functionDetailsViewItem.currentFunction .functionBody:focus {
+        /* This is a workaround for a bug in IE where the focus outline is not shown for elements with a tabIndex=-1 */
+        outline: thin dotted;
+    }
+
+    .functionDetailsViewItem.currentFunction .function:focus {
+        outline: thin dotted;
+    }
+
+.functionDetailsViewItem.callees .function {
+    border: 1px solid rgb(0, 203, 220); /*[1px solid {CpuUsageTool-CallerCalleeFunctionLowUsageBorder-Background}]*/
+    background-color: rgb(0, 214, 229); /*[{CpuUsageTool-CallerCalleeFunctionLowUsageBackground-Background}]*/
+}
+
+    .functionDetailsViewItem.callees .function.invokable:focus {
+        border: 1px solid rgb(0, 213, 230); /*[1px solid {CpuUsageTool-CallerCalleeFunctionLowUsageBorderHover-Background}]*/
+        background-color: rgb(0, 224, 239); /*[{CpuUsageTool-CallerCalleeFunctionLowUsageBackgroundHover-Background}]*/
+    }
+
+    .functionDetailsViewItem.callees .function.invokable:hover {
+        border: 1px solid rgb(0, 223, 240); /*[1px solid {CpuUsageTool-CallerCalleeFunctionLowUsageBorderHover-Background}]*/
+        background-color: rgb(0, 214, 249); /*[{CpuUsageTool-CallerCalleeFunctionLowUsageBackgroundHover-Background}]*/
+    }
+
+    .functionDetailsViewItem.callees .function.hotpath {
+        border: 1px solid rgb(0, 203, 220); /*[1px solid {CpuUsageTool-CallerCalleeFunctionHighUsageBorder-Background}]*/
+        background-color: rgb(0, 214, 229); /*[{CpuUsageTool-CallerCalleeFunctionHighUsageBackground-Background}]*/
+    }
+
+    .functionDetailsViewItem.callees .function.invokable.hotpath:focus {
+        border: 1px solid rgb(0, 213, 230); /*[1px solid {CpuUsageTool-CallerCalleeFunctionHighUsageBorderHover-Background}]*/
+        background-color: rgb(0, 224, 239); /*[{CpuUsageTool-CallerCalleeFunctionHighUsageBackgroundHover-Background}]*/
+    }
+
+    .functionDetailsViewItem.callees .function.invokable.hotpath:hover {
+        border: 1px solid rgb(0, 223, 240); /*[1px solid {CpuUsageTool-CallerCalleeFunctionHighUsageBorderHover-Background}]*/
+        background-color: rgb(0, 214, 249); /*[{CpuUsageTool-CallerCalleeFunctionHighUsageBackgroundHover-Background}]*/
+    }
+
+.functionDetailsFooter {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    overflow: hidden;
+    margin-top: 5px;
+}
+
+    .functionDetailsFooter .relatedViews {
+        white-space: nowrap;
+    }
+
+    .functionDetailsFooter .performanceMetric {
+        white-space: nowrap;
+    }

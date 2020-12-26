@@ -1,0 +1,33 @@
+<!-- ko ifnot: tierInteractions -->
+    <!-- ko template: { name: 'Loading' } --><!-- /ko -->
+<!-- /ko -->
+<!-- ko if: tierInteractions -->
+<div class="tierInteractionsView currentView">
+    <div class="tierInteractions" data-bind="
+        template: { name: 'TreeGridView', data: tierInteractions, afterRender: tierInteractions().onAfterDomInsert.bind($data) },
+        event: { keydown: onKeyDownMain },
+        dynamicContextMenu: contextMenuMain">
+    </div>
+    <!-- ko template: { name: 'Loading', if: tierInteractions().dataLoadStatus() !== Microsoft.F1Viz.DataLoadEvent.DataLoadCompleted || tierInteractions().header.columnConfigLoadStatus() !== Microsoft.F1Viz.DataLoadEvent.DataLoadCompleted } -->
+    <!-- /ko -->
+    <div class="databaseCommandsTitle" data-bind="localizedText: 'TierInteractions_DatabaseCommandsTableTitle'"></div>
+    <div class="detailsPanel">
+        <!-- ko if: showOverlay-->
+        <div class="overlay">
+            <span data-bind="localizedText: 'TierInteractions_SelectDatabaseConnection'"></span>
+            <a role="link" tabindex="0" data-bind="
+                localizedText: 'TierInteractions_LearnAboutTierInteractionsView',
+                click: showHelp,
+                onEnter: showHelp"></a>
+        </div>
+        <!-- /ko -->
+        <!-- ko ifnot: showOverlay -->
+        <div class="databaseCommands" data-bind="
+            template: { name: 'TreeGridView', data: databaseCommands, afterRender: databaseCommands().onAfterDomInsert.bind($data) },
+            event: { keydown: onKeyDownDetails },
+            dynamicContextMenu: contextMenuDetails">
+        </div>
+        <!-- /ko -->
+    </div>
+</div>
+<!-- /ko -->

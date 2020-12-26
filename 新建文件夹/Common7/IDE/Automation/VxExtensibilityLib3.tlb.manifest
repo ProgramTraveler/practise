@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- Copyright (C) 1981-2007 Microsoft Corporation -->
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+    <noInheritable/>
+<assemblyIdentity type="win32" processorArchitecture="x86" name="Automation\VxExtensibilityLib3.tlb" version="1.0.0.0" />
+<file name="VxExtensibilityLib3.tlb">
+    <typelib tlbid="{5a61c236-a586-4831-84e1-93b80bf11e75}" version="1.0" helpdir=""/>
+</file>
+  <comInterfaceExternalProxyStub name="IVBTextEditSpecific3" iid="{f9d1c535-addc-4f18-8cee-19899e3418a3}" numMethods="19" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{5a61c236-a586-4831-84e1-93b80bf11e75}"/>
+</assembly>

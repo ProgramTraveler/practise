@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- Copyright (C) 1981-2007 Microsoft Corporation -->
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+    <noInheritable/>
+<assemblyIdentity type="win32" processorArchitecture="x86" name="Automation\dteproperties90a.tlb" version="1.0.0.0" />
+<file name="dteproperties90a.tlb">
+    <typelib tlbid="{dbe64193-83fe-4c06-a6b1-619ef0a25c40}" version="9.0" helpdir=""/>
+</file>
+  <comInterfaceExternalProxyStub name="_DebuggingGeneralProperties2" iid="{75ccda33-6c58-4458-8b9f-df812a6e07f9}" numMethods="57" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{dbe64193-83fe-4c06-a6b1-619ef0a25c40}"/>
+</assembly>

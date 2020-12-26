@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- Copyright (C) 1981-2007 Microsoft Corporation -->
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+    <noInheritable/>
+<assemblyIdentity type="win32" processorArchitecture="x86" name="Automation\dte90.olb" version="1.0.0.0" />
+<file name="dte90.olb">
+    <typelib tlbid="{2ce2370e-d744-4936-a090-3fffe667b0e1}" version="9.0" helpdir=""/>
+</file>
+  <comInterfaceExternalProxyStub name="ToolBoxTab3" iid="{09d8476f-e6bf-46fb-a0a9-61c331b90f06}" numMethods="20" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{2ce2370e-d744-4936-a090-3fffe667b0e1}"/>
+  <comInterfaceExternalProxyStub name="HTMLWindow3" iid="{bad0a3dd-8109-4684-b806-a5282267bfe4}" numMethods="12" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{2ce2370e-d744-4936-a090-3fffe667b0e1}"/>
+  <comInterfaceExternalProxyStub name="Debugger3" iid="{87dfc8da-67b4-4954-bb89-6a277a50bafc}" numMethods="53" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{2ce2370e-d744-4936-a090-3fffe667b0e1}"/>
+  <comInterfaceExternalProxyStub name="ExceptionGroups" iid="{21bdc491-f828-4846-9fd8-75c9148aea24}" numMethods="13" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{2ce2370e-d744-4936-a090-3fffe667b0e1}"/>
+  <comInterfaceExternalProxyStub name="ExceptionSettings" iid="{0e1ab53b-4065-4884-a39f-02e16eb57f7d}" numMethods="20" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{2ce2370e-d744-4936-a090-3fffe667b0e1}"/>
+  <comInterfaceExternalProxyStub name="ExceptionSetting" iid="{115998bf-a603-4848-b5de-3b250a13d109}" numMethods="15" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{2ce2370e-d744-4936-a090-3fffe667b0e1}"/>
+  <comInterfaceExternalProxyStub name="Thread2" iid="{86fd0779-fbbe-41cc-b444-6ee8676f4f2c}" numMethods="26" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{2ce2370e-d744-4936-a090-3fffe667b0e1}"/>
+  <comInterfaceExternalProxyStub name="Process3" iid="{d401c665-4ec7-452b-aa91-985d16772d84}" numMethods="24" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{2ce2370e-d744-4936-a090-3fffe667b0e1}"/>
+  <comInterfaceExternalProxyStub name="Modules" iid="{b0f3b256-d962-4319-b7c0-a52486c16cb9}" numMethods="12" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{2ce2370e-d744-4936-a090-3fffe667b0e1}"/>
+  <comInterfaceExternalProxyStub name="Module" iid="{72832ee4-5808-433d-83a7-b8f149a79db4}" numMethods="23" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{2ce2370e-d744-4936-a090-3fffe667b0e1}"/>
+  <comInterfaceExternalProxyStub name="Template" iid="{76a0263c-083c-49f1-b312-9db360fcc9f1}" numMethods="14" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{2ce2370e-d744-4936-a090-3fffe667b0e1}"/>
+  <comInterfaceExternalProxyStub name="Templates" iid="{30c96324-a117-4618-a9a9-0b06ec455121}" numMethods="10" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{2ce2370e-d744-4936-a090-3fffe667b0e1}"/>
+  <comInterfaceExternalProxyStub name="Solution3" iid="{df23915f-fda3-4dd5-9caa-2e1372c2bb16}" numMethods="41" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{2ce2370e-d744-4936-a090-3fffe667b0e1}"/>
+</assembly>

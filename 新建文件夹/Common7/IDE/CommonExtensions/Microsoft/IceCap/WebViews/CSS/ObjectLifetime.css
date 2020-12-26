@@ -1,0 +1,14 @@
+.objectLifetime {
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.objectLifetime > .treeGridContainer {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    overflow: hidden;
+}
+
+.objectLifetimeRow > .leftAlign, .objectLifetimeHeader > .leftAlign {
+    text-align: left;
+}

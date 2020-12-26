@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- Copyright (C) 1981-2007 Microsoft Corporation -->
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+    <noInheritable/>
+<assemblyIdentity type="win32" processorArchitecture="x86" name="Automation\msenv155p.dll" version="1.0.0.0" />
+<file name="msenv155p.dll">
+    <comClass clsid="{D4BC6EC1-28CD-4A41-B0CC-A64C7D1BBCA4}" threadingModel="Both"/>
+</file>
+  <comInterfaceExternalProxyStub name="IVsUserSettings3" iid="{2AD1813A-8691-468A-A777-BD0FDA5CF48E}" numMethods="6" proxyStubClsid32="{D4BC6EC1-28CD-4A41-B0CC-A64C7D1BBCA4}"/>
+  <comInterfaceExternalProxyStub name="SVsUserEngagement" iid="{8D9C3D40-98F1-4A94-8DA6-25191470DA86}" numMethods="3" proxyStubClsid32="{D4BC6EC1-28CD-4A41-B0CC-A64C7D1BBCA4}"/>
+  <comInterfaceExternalProxyStub name="IVsDeferredSolutionLoadService3" iid="{A3384C87-154F-41E6-B5F8-364BAEB2B3FB}" numMethods="4" proxyStubClsid32="{D4BC6EC1-28CD-4A41-B0CC-A64C7D1BBCA4}"/>
+  <comInterfaceExternalProxyStub name="IVsProjectExpansionService" iid="{3E8EEED7-802C-4C8E-AA0E-85F54E24C4BC}" numMethods="4" proxyStubClsid32="{D4BC6EC1-28CD-4A41-B0CC-A64C7D1BBCA4}"/>
+  <comInterfaceExternalProxyStub name="IVsUserEngagement" iid="{953DC8DE-7F0B-43B9-B5CF-B1FA72E6E93E}" numMethods="15" proxyStubClsid32="{D4BC6EC1-28CD-4A41-B0CC-A64C7D1BBCA4}"/>
+  <comInterfaceExternalProxyStub name="IVsUserEngagementEvents" iid="{DF41B3ED-EC49-4B9B-BE31-8B59C0891625}" numMethods="5" proxyStubClsid32="{D4BC6EC1-28CD-4A41-B0CC-A64C7D1BBCA4}"/>
+  <comInterfaceExternalProxyStub name="IVsWindowManager5" iid="{EE2ABAF2-E6DF-4BEE-93DD-44279B091432}" numMethods="16" proxyStubClsid32="{D4BC6EC1-28CD-4A41-B0CC-A64C7D1BBCA4}"/>
+</assembly>

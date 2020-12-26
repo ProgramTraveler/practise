@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- Copyright (C) 1981-2007 Microsoft Corporation -->
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+    <noInheritable/>
+<assemblyIdentity type="win32" processorArchitecture="x86" name="Automation\vslangproj80.olb" version="1.0.0.0" />
+<file name="vslangproj80.olb">
+    <comClass clsid="{2df4b0de-579d-46b2-9d6e-88af01e08fb0}" tlbid="{307953c0-7973-490a-a4a7-25999e023be8}"/>
+    <typelib tlbid="{307953c0-7973-490a-a4a7-25999e023be8}" version="8.0" helpdir=""/>
+</file>
+  <comInterfaceExternalProxyStub name="ProjectConfigurationProperties3" iid="{9918dab5-fc67-4cd4-b352-2f3fa1e2bd08}" numMethods="103" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{307953c0-7973-490a-a4a7-25999e023be8}"/>
+  <comInterfaceExternalProxyStub name="_VSLangProjWebReferencesEvents" iid="{33bd7fef-eeb4-412a-a4c1-9fbff6f57067}" numMethods="7" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{307953c0-7973-490a-a4a7-25999e023be8}"/>
+  <comInterfaceExternalProxyStub name="_dispVSLangProjWebReferencesEvents" iid="{9aad53a9-32cb-4d84-97a7-b4afa94f5878}" numMethods="3" proxyStubClsid32="{00020420-0000-0000-C000-000000000046}" tlbid="{307953c0-7973-490a-a4a7-25999e023be8}"/>
+  <comInterfaceExternalProxyStub name="VSProjectEvents2" iid="{6dcbc5a7-37bf-461c-958f-a81da10d242e}" numMethods="11" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{307953c0-7973-490a-a4a7-25999e023be8}"/>
+  <comInterfaceExternalProxyStub name="VSProject2" iid="{b1042570-25c6-424a-b58b-56fa83aa828a}" numMethods="26" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{307953c0-7973-490a-a4a7-25999e023be8}"/>
+  <comInterfaceExternalProxyStub name="ProjectProperties3" iid="{7c9d1773-f1f3-447c-af1a-218e5e2c2f7f}" numMethods="127" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{307953c0-7973-490a-a4a7-25999e023be8}"/>
+  <comInterfaceExternalProxyStub name="VBProjectProperties3" iid="{a93bfe7b-cfda-471d-93c6-1747d0b06e8e}" numMethods="130" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{307953c0-7973-490a-a4a7-25999e023be8}"/>
+  <comInterfaceExternalProxyStub name="CSharpProjectConfigurationProperties3" iid="{f25c9ad7-e371-414d-82a0-24e8bbc25c99}" numMethods="107" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{307953c0-7973-490a-a4a7-25999e023be8}"/>
+  <comInterfaceExternalProxyStub name="Reference3" iid="{5021602e-2025-4299-88d2-0a92e8b41adf}" numMethods="42" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{307953c0-7973-490a-a4a7-25999e023be8}"/>
+  <comInterfaceExternalProxyStub name="JSharpProjectConfigurationProperties3" iid="{3600ddb7-34c2-4ced-9337-5b266cc0a169}" numMethods="111" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{307953c0-7973-490a-a4a7-25999e023be8}"/>
+  <comInterfaceExternalProxyStub name="FolderProperties2" iid="{2aca2576-0738-466f-845f-16062ed8d1bc}" numMethods="22" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{307953c0-7973-490a-a4a7-25999e023be8}"/>
+  <comInterfaceExternalProxyStub name="FileProperties2" iid="{41be8d4d-f235-46d4-b9f8-c6d6459d503c}" numMethods="41" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{307953c0-7973-490a-a4a7-25999e023be8}"/>
+  <comInterfaceExternalProxyStub name="IVsApplicationSettings" iid="{cc5b9866-bd93-4aff-8d61-c73ed3bb77d0}" numMethods="4" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{307953c0-7973-490a-a4a7-25999e023be8}"/>
+  <comInterfaceExternalProxyStub name="SVSWebReferenceDynamicProperties" iid="{c65a2f92-b350-4b0f-9bc6-b00e24bc8b9d}" numMethods="0" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{307953c0-7973-490a-a4a7-25999e023be8}"/>
+  <comInterfaceExternalProxyStub name="IVSWebReferenceDynamicProperties2" iid="{e4311e4c-0819-404b-b0d9-f5f44716ecec}" numMethods="10" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{307953c0-7973-490a-a4a7-25999e023be8}"/>
+</assembly>

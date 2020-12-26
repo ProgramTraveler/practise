@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- Copyright (C) 1981-2007 Microsoft Corporation -->
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+    <noInheritable/>
+<assemblyIdentity type="win32" processorArchitecture="x86" name="Automation\dte80.olb" version="1.0.0.0" />
+<file name="dte80.olb">
+    <comClass clsid="{b2fa9979-35eb-4ca2-b467-7370152e53b7}" tlbid="{1a31287a-4d7d-413e-8e32-3b374931bd89}"/>
+    <comClass clsid="{d14b8b85-e4a8-42f8-b486-8a14dc74adeb}" tlbid="{1a31287a-4d7d-413e-8e32-3b374931bd89}"/>
+    <comClass clsid="{1aa6b3e4-42f7-4396-80fa-76728d1b824c}" tlbid="{1a31287a-4d7d-413e-8e32-3b374931bd89}"/>
+    <comClass clsid="{8b7e04ad-b109-4b96-8ba3-2f348813f238}" tlbid="{1a31287a-4d7d-413e-8e32-3b374931bd89}"/>
+    <comClass clsid="{e7532a4e-ab9e-41df-bb9a-7c764677e5c3}" tlbid="{1a31287a-4d7d-413e-8e32-3b374931bd89}"/>
+    <comClass clsid="{045448ea-e8c1-4122-ac7b-d96d8e5c6e5b}" tlbid="{1a31287a-4d7d-413e-8e32-3b374931bd89}"/>
+    <typelib tlbid="{1a31287a-4d7d-413e-8e32-3b374931bd89}" version="8.0" helpdir=""/>
+</file>
+  <comInterfaceExternalProxyStub name="Commands2" iid="{7eaa857b-2356-494b-9e13-0f6eefa86e43}" numMethods="20" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{1a31287a-4d7d-413e-8e32-3b374931bd89}"/>
+  <comInterfaceExternalProxyStub name="SourceControl2" iid="{111522ab-f439-4d85-9a36-1716da4da114}" numMethods="20" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{1a31287a-4d7d-413e-8e32-3b374931bd89}"/>
+  <comInterfaceExternalProxyStub name="SourceControlBindings" iid="{544a6477-be0b-42ed-b47b-553ed8c5f22c}" numMethods="14" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{1a31287a-4d7d-413e-8e32-3b374931bd89}"/>
+  <comInterfaceExternalProxyStub name="ErrorItem" iid="{f49a191f-7258-493b-9310-5f7771ddf3d7}" numMethods="16" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{1a31287a-4d7d-413e-8e32-3b374931bd89}"/>
+  <comInterfaceExternalProxyStub name="ErrorItems" iid="{dcf93a30-d013-42f4-8aee-9f5ba215fb8b}" numMethods="11" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{1a31287a-4d7d-413e-8e32-3b374931bd89}"/>
+  <comInterfaceExternalProxyStub name="ErrorList" iid="{7bf84ef1-8246-498a-a127-2ea37824fda1}" numMethods="17" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{1a31287a-4d7d-413e-8e32-3b374931bd89}"/>
+  <comInterfaceExternalProxyStub name="CodeAttributeArgument" iid="{80f4779b-835d-4873-8356-2f34a759a514}" numMethods="28" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{1a31287a-4d7d-413e-8e32-3b374931bd89}"/>
+  <comInterfaceExternalProxyStub name="CodeEvent" iid="{ce615bd2-8ed5-4f0c-a7b6-4a299d8801fd}" numMethods="48" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{1a31287a-4d7d-413e-8e32-3b374931bd89}"/>
+  <comInterfaceExternalProxyStub name="CodeElement2" iid="{f03dcce8-233b-43d7-a66b-a66efc1f85c3}" numMethods="27" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{1a31287a-4d7d-413e-8e32-3b374931bd89}"/>
+  <comInterfaceExternalProxyStub name="CodeImport" iid="{0c9a256e-0ff9-4d4a-88e6-304acf78225f}" numMethods="30" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{1a31287a-4d7d-413e-8e32-3b374931bd89}"/>
+  <comInterfaceExternalProxyStub name="FileCodeModel2" iid="{a65964df-3a07-45eb-882a-dd04602016b9}" numMethods="29" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{1a31287a-4d7d-413e-8e32-3b374931bd89}"/>
+  <comInterfaceExternalProxyStub name="CodeModel2" iid="{99b9cd0e-6c89-4bc4-bba2-ffd3529d3acb}" numMethods="29" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{1a31287a-4d7d-413e-8e32-3b374931bd89}"/>
+  <comInterfaceExternalProxyStub name="CodeClass2" iid="{295adcd4-b052-49ee-934e-c6b36862a7c6}" numMethods="66" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{1a31287a-4d7d-413e-8e32-3b374931bd89}"/>
+  <comInterfaceExternalProxyStub name="CodeParameter2" iid="{35cd9e36-7c96-4429-968f-c0c350cb1a47}" numMethods="36" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{1a31287a-4d7d-413e-8e32-3b374931bd89}"/>
+  <comInterfaceExternalProxyStub name="CodeFunction2" iid="{7e20cd35-8689-466d-8ea0-a863b7ea5db9}" numMethods="52" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{1a31287a-4d7d-413e-8e32-3b374931bd89}"/>
+  <comInterfaceExternalProxyStub name="CodeAttribute2" iid="{35187e2a-e5f6-4f89-a4ce-da254640855b}" numMethods="33" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{1a31287a-4d7d-413e-8e32-3b374931bd89}"/>
+  <comInterfaceExternalProxyStub name="CodeVariable2" iid="{f747a8a0-01b1-4da2-9259-0d5a0cb4c049}" numMethods="46" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{1a31287a-4d7d-413e-8e32-3b374931bd89}"/>
+  <comInterfaceExternalProxyStub name="CodeDelegate2" iid="{3b1b24ef-dd8e-4c98-8799-4efac80080e9}" numMethods="50" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{1a31287a-4d7d-413e-8e32-3b374931bd89}"/>
+  <comInterfaceExternalProxyStub name="CodeStruct2" iid="{f6dc1a01-e65a-404b-8b6d-9cdd603db4ed}" numMethods="59" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{1a31287a-4d7d-413e-8e32-3b374931bd89}"/>
+  <comInterfaceExternalProxyStub name="CodeInterface2" iid="{860ab609-8af2-4434-b4dd-a43dee31b017}" numMethods="49" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{1a31287a-4d7d-413e-8e32-3b374931bd89}"/>
+  <comInterfaceExternalProxyStub name="CodeTypeRef2" iid="{9883c07a-fa07-4ce7-bd8e-01e1a3f3a3f7}" numMethods="20" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{1a31287a-4d7d-413e-8e32-3b374931bd89}"/>
+  <comInterfaceExternalProxyStub name="CodeProperty2" iid="{33770c02-21b7-4224-a577-6877bdba60ea}" numMethods="53" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{1a31287a-4d7d-413e-8e32-3b374931bd89}"/>
+  <comInterfaceExternalProxyStub name="_dispCodeModelEvents" iid="{4ea8090e-d289-4d56-98cd-c48dd2853b2e}" numMethods="3" proxyStubClsid32="{00020420-0000-0000-C000-000000000046}" tlbid="{1a31287a-4d7d-413e-8e32-3b374931bd89}"/>
+  <comInterfaceExternalProxyStub name="_CodeModelEvents" iid="{66adc510-0ca2-475d-a343-57192bce38bf}" numMethods="0" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{1a31287a-4d7d-413e-8e32-3b374931bd89}"/>
+  <comInterfaceExternalProxyStub name="_CodeModelEventsRoot" iid="{c6e28776-b7ff-421f-8c18-57f82e447704}" numMethods="8" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{1a31287a-4d7d-413e-8e32-3b374931bd89}"/>
+  <comInterfaceExternalProxyStub name="Debugger2" iid="{8b5e2bfd-4642-4efe-8af4-0b2da9aaa23c}" numMethods="45" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{1a31287a-4d7d-413e-8e32-3b374931bd89}"/>
+  <comInterfaceExternalProxyStub name="Transport" iid="{c977eaed-9e6c-4122-9d28-9d5eae2bdc33}" numMethods="13" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{1a31287a-4d7d-413e-8e32-3b374931bd89}"/>
+  <comInterfaceExternalProxyStub name="Engines" iid="{9f998c5e-549e-4c74-9fd8-b3a93d85a248}" numMethods="12" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{1a31287a-4d7d-413e-8e32-3b374931bd89}"/>
+  <comInterfaceExternalProxyStub name="Engine" iid="{8cea6d39-ebee-4de9-b282-b5cece9c9861}" numMethods="13" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{1a31287a-4d7d-413e-8e32-3b374931bd89}"/>
+  <comInterfaceExternalProxyStub name="Transports" iid="{ea47c3d9-fd41-4402-bdc6-7f07d0c8e3fc}" numMethods="12" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{1a31287a-4d7d-413e-8e32-3b374931bd89}"/>
+  <comInterfaceExternalProxyStub name="Process2" iid="{95ac1923-6eaa-427c-b43e-6274a8ca6c95}" numMethods="23" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{1a31287a-4d7d-413e-8e32-3b374931bd89}"/>
+  <comInterfaceExternalProxyStub name="Breakpoint2" iid="{fbc8d85a-e449-4cb3-b026-f7808deb7792}" numMethods="43" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{1a31287a-4d7d-413e-8e32-3b374931bd89}"/>
+  <comInterfaceExternalProxyStub name="_dispDebuggerProcessEvents" iid="{7d04c01d-bb7a-47e8-92eb-e914cd61366b}" numMethods="1" proxyStubClsid32="{00020420-0000-0000-C000-000000000046}" tlbid="{1a31287a-4d7d-413e-8e32-3b374931bd89}"/>
+  <comInterfaceExternalProxyStub name="_DebuggerProcessEventsRoot" iid="{c2eb9070-38b3-404d-bed8-2d5f5d971df5}" numMethods="8" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{1a31287a-4d7d-413e-8e32-3b374931bd89}"/>
+  <comInterfaceExternalProxyStub name="_DebuggerProcessEvents" iid="{ce9ddba3-b23b-4c53-bb3e-5471659289d1}" numMethods="0" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{1a31287a-4d7d-413e-8e32-3b374931bd89}"/>
+  <comInterfaceExternalProxyStub name="_dispDebuggerExpressionEvaluationEvents" iid="{73ffa13f-ad72-4154-be77-d4288f2e4fc5}" numMethods="1" proxyStubClsid32="{00020420-0000-0000-C000-000000000046}" tlbid="{1a31287a-4d7d-413e-8e32-3b374931bd89}"/>
+  <comInterfaceExternalProxyStub name="_DebuggerExpressionEvaluationEvents" iid="{6973a466-e09c-4195-9ae8-07b7aaff7d85}" numMethods="0" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{1a31287a-4d7d-413e-8e32-3b374931bd89}"/>
+  <comInterfaceExternalProxyStub name="_DebuggerExpressionEvaluationEventsRoot" iid="{45ae9835-6090-4cca-97e0-5ea9a5608fbe}" numMethods="8" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{1a31287a-4d7d-413e-8e32-3b374931bd89}"/>
+  <comInterfaceExternalProxyStub name="ToolWindows" iid="{19ac6f68-3019-4d65-8d98-404dfb96b8e2}" numMethods="15" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{1a31287a-4d7d-413e-8e32-3b374931bd89}"/>
+  <comInterfaceExternalProxyStub name="Windows2" iid="{31efb5b1-c655-4ada-bb52-3ed87fb2a4ae}" numMethods="15" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{1a31287a-4d7d-413e-8e32-3b374931bd89}"/>
+  <comInterfaceExternalProxyStub name="Window2" iid="{25731932-3283-4ae0-b7cf-f4691b8be523}" numMethods="51" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{1a31287a-4d7d-413e-8e32-3b374931bd89}"/>
+  <comInterfaceExternalProxyStub name="DTE2" iid="{2ee1e9fa-0afe-4348-a89f-ed9cb45c99cf}" numMethods="58" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{1a31287a-4d7d-413e-8e32-3b374931bd89}"/>
+  <comInterfaceExternalProxyStub name="WindowVisibilityEventsRoot" iid="{c7b4bcc9-e23e-400c-8821-c85b6b31369e}" numMethods="8" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{1a31287a-4d7d-413e-8e32-3b374931bd89}"/>
+  <comInterfaceExternalProxyStub name="_WindowVisibilityEvents" iid="{84de07bc-43a2-4275-bcf9-d207d20e49ed}" numMethods="7" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{1a31287a-4d7d-413e-8e32-3b374931bd89}"/>
+  <comInterfaceExternalProxyStub name="_dispWindowVisibilityEvents" iid="{94259e4b-a44a-4b77-b18f-f2cc9a601d03}" numMethods="2" proxyStubClsid32="{00020420-0000-0000-C000-000000000046}" tlbid="{1a31287a-4d7d-413e-8e32-3b374931bd89}"/>
+  <comInterfaceExternalProxyStub name="_TextDocumentKeyPressEventsRoot" iid="{d7eade3f-bd19-4422-9c4c-85a02535437c}" numMethods="8" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{1a31287a-4d7d-413e-8e32-3b374931bd89}"/>
+  <comInterfaceExternalProxyStub name="_TextDocumentKeyPressEvents" iid="{505b7600-8fcc-487c-9e4f-c7fd0b5fb690}" numMethods="7" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{1a31287a-4d7d-413e-8e32-3b374931bd89}"/>
+  <comInterfaceExternalProxyStub name="_dispTextDocumentKeyPressEvents" iid="{4b57c85e-5100-4caf-9301-4544b85c7945}" numMethods="2" proxyStubClsid32="{00020420-0000-0000-C000-000000000046}" tlbid="{1a31287a-4d7d-413e-8e32-3b374931bd89}"/>
+  <comInterfaceExternalProxyStub name="_PublishEvents" iid="{827be7dc-1817-4171-a8ff-aab3854913bf}" numMethods="0" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{1a31287a-4d7d-413e-8e32-3b374931bd89}"/>
+  <comInterfaceExternalProxyStub name="_dispPublishEvents" iid="{a0b40b93-9311-410f-b210-1f65bafb0e27}" numMethods="2" proxyStubClsid32="{00020420-0000-0000-C000-000000000046}" tlbid="{1a31287a-4d7d-413e-8e32-3b374931bd89}"/>
+  <comInterfaceExternalProxyStub name="Events2" iid="{bed31e8c-f845-4397-af13-6b82a6996c0d}" numMethods="31" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{1a31287a-4d7d-413e-8e32-3b374931bd89}"/>
+  <comInterfaceExternalProxyStub name="Solution2" iid="{fa238614-fbb1-4314-a7f7-49ae8bb6c6ba}" numMethods="40" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{1a31287a-4d7d-413e-8e32-3b374931bd89}"/>
+  <comInterfaceExternalProxyStub name="SolutionFolder" iid="{f8f69788-267c-4408-8967-74f26108c438}" numMethods="14" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{1a31287a-4d7d-413e-8e32-3b374931bd89}"/>
+  <comInterfaceExternalProxyStub name="TaskItems2" iid="{b820f931-645a-473f-8246-922cf069e1fe}" numMethods="15" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{1a31287a-4d7d-413e-8e32-3b374931bd89}"/>
+  <comInterfaceExternalProxyStub name="EditPoint2" iid="{136afa9f-f243-4abb-a8f8-4c2d26c47163}" numMethods="61" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{1a31287a-4d7d-413e-8e32-3b374931bd89}"/>
+  <comInterfaceExternalProxyStub name="IVsExtensibility2" iid="{12133bc2-390a-4b30-ad5b-504c1d1c89e7}" numMethods="11" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{1a31287a-4d7d-413e-8e32-3b374931bd89}"/>
+  <comInterfaceExternalProxyStub name="IInternalExtenderProvider" iid="{b85f43c4-c765-4984-ae3d-695e8cd8e992}" numMethods="10" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{1a31287a-4d7d-413e-8e32-3b374931bd89}"/>
+  <comInterfaceExternalProxyStub name="Find2" iid="{01568308-5b2a-4f30-8d0a-e10ee0f28f4a}" numMethods="41" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{1a31287a-4d7d-413e-8e32-3b374931bd89}"/>
+  <comInterfaceExternalProxyStub name="LifetimeInformation" iid="{c8f4f9cc-b7e5-4458-bce3-e1542468f26b}" numMethods="8" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{1a31287a-4d7d-413e-8e32-3b374931bd89}"/>
+  <comInterfaceExternalProxyStub name="ToolBoxItem2" iid="{82c9dbf2-1da8-4ed6-a5ec-8b876b46317c}" numMethods="14" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{1a31287a-4d7d-413e-8e32-3b374931bd89}"/>
+  <comInterfaceExternalProxyStub name="ToolBoxTab2" iid="{a64715cb-85d7-41c3-8e71-2302d4eebc34}" numMethods="18" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{1a31287a-4d7d-413e-8e32-3b374931bd89}"/>
+  <comInterfaceExternalProxyStub name="IncrementalSearch" iid="{c5bee6d8-ed45-4317-96bf-97eb88ea3a07}" numMethods="18" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{1a31287a-4d7d-413e-8e32-3b374931bd89}"/>
+  <comInterfaceExternalProxyStub name="TextPane2" iid="{ace19c7b-a0ac-4089-94fd-749cf4380e1f}" numMethods="18" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{1a31287a-4d7d-413e-8e32-3b374931bd89}"/>
+  <comInterfaceExternalProxyStub name="SolutionConfiguration2" iid="{1099aaa6-4169-430d-9f57-0b4c76624b3b}" numMethods="14" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{1a31287a-4d7d-413e-8e32-3b374931bd89}"/>
+  <comInterfaceExternalProxyStub name="IVsProfferCommands2" iid="{c508b13c-06c5-40c7-b405-d327d4f8e268}" numMethods="1" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{1a31287a-4d7d-413e-8e32-3b374931bd89}"/>
+  <comInterfaceExternalProxyStub name="SolutionBuild2" iid="{c2516e4b-5d69-459d-b539-c95a71c4fa3d}" numMethods="27" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{1a31287a-4d7d-413e-8e32-3b374931bd89}"/>
+</assembly>

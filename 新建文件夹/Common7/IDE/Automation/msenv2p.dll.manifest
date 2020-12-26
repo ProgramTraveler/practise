@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- Copyright (C) 1981-2007 Microsoft Corporation -->
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+    <noInheritable/>
+<assemblyIdentity type="win32" processorArchitecture="x86" name="Automation\msenv2p.dll" version="1.0.0.0" />
+<file name="msenv2p.dll">
+    <comClass clsid="{75661D39-F5DA-41B9-ABDA-9CF54C6B1AC9}" threadingModel="Both"/>
+</file>
+  <comInterfaceExternalProxyStub name="IVsProjectUpgrade" iid="{75661D39-F5DA-41B9-ABDA-9CF54C6B1AC9}" numMethods="4" proxyStubClsid32="{75661D39-F5DA-41B9-ABDA-9CF54C6B1AC9}"/>
+</assembly>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- Copyright (C) 1981-2007 Microsoft Corporation -->
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+    <noInheritable/>
+<assemblyIdentity type="win32" processorArchitecture="x86" name="Automation\msenv141p.dll" version="1.0.0.0" />
+<file name="msenv141p.dll">
+    <comClass clsid="{CCBB2B20-2C99-4B08-AB27-64A29AF5F467}" threadingModel="Both"/>
+</file>
+  <comInterfaceExternalProxyStub name="IVsRemoteControlService" iid="{84C6751B-0B11-4A7B-98D2-DD1061111EA0}" numMethods="4" proxyStubClsid32="{CCBB2B20-2C99-4B08-AB27-64A29AF5F467}"/>
+  <comInterfaceExternalProxyStub name="IVsExperimentationService" iid="{61A8FB20-45DF-11E5-A151-FEFF819CDC9F}" numMethods="9" proxyStubClsid32="{CCBB2B20-2C99-4B08-AB27-64A29AF5F467}"/>
+  <comInterfaceExternalProxyStub name="IVsFlightEvents" iid="{6F05B225-83BF-40A3-A32A-47FA8443E868}" numMethods="4" proxyStubClsid32="{CCBB2B20-2C99-4B08-AB27-64A29AF5F467}"/>
+  <comInterfaceExternalProxyStub name="IVsTelemetryDiagnostics" iid="{FA822E3B-A634-4BC6-9EB4-1020A574962B}" numMethods="5" proxyStubClsid32="{CCBB2B20-2C99-4B08-AB27-64A29AF5F467}"/>
+  <comInterfaceExternalProxyStub name="IVsTelemetryTestChannel" iid="{30E48091-E674-45C4-BBC3-7A1D34649BAF}" numMethods="4" proxyStubClsid32="{CCBB2B20-2C99-4B08-AB27-64A29AF5F467}"/>
+  <comInterfaceExternalProxyStub name="IVsRemoteControlClient" iid="{2DB673B1-8643-4236-A7DD-CD063D074BB1}" numMethods="6" proxyStubClsid32="{CCBB2B20-2C99-4B08-AB27-64A29AF5F467}"/>
+</assembly>

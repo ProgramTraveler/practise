@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- Copyright (C) 1981-2007 Microsoft Corporation -->
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+    <noInheritable/>
+<assemblyIdentity type="win32" processorArchitecture="x86" name="Automation\vslangproj100.olb" version="1.0.0.0" />
+<file name="vslangproj100.olb">
+    <typelib tlbid="{790899ed-e28c-4003-a8c3-71bb7f6ad8aa}" version="10.0" helpdir=""/>
+</file>
+  <comInterfaceExternalProxyStub name="VBProjectProperties6" iid="{7d84f860-7e2a-42c4-9a70-455b8238dd66}" numMethods="140" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{790899ed-e28c-4003-a8c3-71bb7f6ad8aa}"/>
+  <comInterfaceExternalProxyStub name="VBProjectConfigurationProperties5" iid="{08624013-5567-494a-afe9-a4d1499e50b9}" numMethods="123" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{790899ed-e28c-4003-a8c3-71bb7f6ad8aa}"/>
+  <comInterfaceExternalProxyStub name="CSharpProjectProperties6" iid="{531d3661-c9ce-4618-bdb4-466a4e4072c9}" numMethods="133" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{790899ed-e28c-4003-a8c3-71bb7f6ad8aa}"/>
+  <comInterfaceExternalProxyStub name="CSharpProjectConfigurationProperties5" iid="{c379af13-6c05-4a91-a3bf-4c61999174b4}" numMethods="127" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{790899ed-e28c-4003-a8c3-71bb7f6ad8aa}"/>
+  <comInterfaceExternalProxyStub name="Reference4" iid="{f71b6036-80f1-4f08-bc59-b5d92865f629}" numMethods="44" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{790899ed-e28c-4003-a8c3-71bb7f6ad8aa}"/>
+</assembly>

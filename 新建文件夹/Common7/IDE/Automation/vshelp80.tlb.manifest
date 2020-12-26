@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- Copyright (C) 1981-2007 Microsoft Corporation -->
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+    <noInheritable/>
+<assemblyIdentity type="win32" processorArchitecture="x86" name="Automation\vshelp80.tlb" version="1.0.0.0" />
+<file name="vshelp80.tlb">
+    <typelib tlbid="{db7a405d-208f-4e88-ba0a-132acfa0b5b6}" version="1.0" helpdir=""/>
+</file>
+  <comInterfaceExternalProxyStub name="Help2" iid="{78413d2d-0492-4a9b-ab25-730633679977}" numMethods="42" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{db7a405d-208f-4e88-ba0a-132acfa0b5b6}"/>
+  <comInterfaceExternalProxyStub name="IVsHelpFavorites" iid="{d1333514-2b6b-4479-8135-a39e286e146d}" numMethods="2" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{db7a405d-208f-4e88-ba0a-132acfa0b5b6}"/>
+  <comInterfaceExternalProxyStub name="SVsHelpFavorites" iid="{4a81432b-bfcc-4832-9be9-15977da82072}" numMethods="0" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{db7a405d-208f-4e88-ba0a-132acfa0b5b6}"/>
+</assembly>

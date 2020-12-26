@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- Copyright (C) 1981-2007 Microsoft Corporation -->
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+    <noInheritable/>
+<assemblyIdentity type="win32" processorArchitecture="x86" name="Automation\publish.tlb" version="1.0.0.0" />
+<file name="publish.tlb">
+    <comClass clsid="{db923f03-7d66-49ce-a325-969a2873b353}" tlbid="{bc198913-218a-46e3-9ff9-c80fc69bf4bc}"/>
+    <comClass clsid="{b3382074-abec-4ab1-b355-f7e210c574ae}" tlbid="{bc198913-218a-46e3-9ff9-c80fc69bf4bc}"/>
+    <comClass clsid="{256110d3-f5ff-4428-8e70-22bfb4bf1edb}" tlbid="{bc198913-218a-46e3-9ff9-c80fc69bf4bc}"/>
+    <comClass clsid="{ff5a6881-3985-4c53-8f97-f1cd665a1812}" tlbid="{bc198913-218a-46e3-9ff9-c80fc69bf4bc}"/>
+    <typelib tlbid="{bc198913-218a-46e3-9ff9-c80fc69bf4bc}" version="1.0" helpdir=""/>
+</file>
+  <comInterfaceExternalProxyStub name="IVsPublishFileInfo" iid="{3b4cba75-cdd6-421d-ba73-6fbc94b8401f}" numMethods="12" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{bc198913-218a-46e3-9ff9-c80fc69bf4bc}"/>
+  <comInterfaceExternalProxyStub name="IVsPublishFileInfoEnum" iid="{008f46d7-6327-4c92-84f1-f0eb319ce54a}" numMethods="3" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{bc198913-218a-46e3-9ff9-c80fc69bf4bc}"/>
+  <comInterfaceExternalProxyStub name="IVsPublishFileInfoEnumUtilities" iid="{7c41bede-16e5-4756-9d07-4dce7ccbc2a2}" numMethods="1" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{bc198913-218a-46e3-9ff9-c80fc69bf4bc}"/>
+  <comInterfaceExternalProxyStub name="IVsPublishStatusCallback" iid="{67389bf6-8730-46e3-b36f-78d10995776d}" numMethods="1" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{bc198913-218a-46e3-9ff9-c80fc69bf4bc}"/>
+  <comInterfaceExternalProxyStub name="IVsPublishFiles" iid="{f3ea6068-9076-462a-abde-604f10038d19}" numMethods="13" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{bc198913-218a-46e3-9ff9-c80fc69bf4bc}"/>
+</assembly>

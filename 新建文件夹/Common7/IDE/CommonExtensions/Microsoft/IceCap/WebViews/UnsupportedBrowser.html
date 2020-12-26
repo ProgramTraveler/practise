@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html style="overflow-y:auto;">
+<head>
+    <meta http-equiv="Content-Type" content="text/html" />
+    <title>Unsupported Browser</title>
+    <link href="CSS/UnsupportedBrowser.css" type="text/css" rel="stylesheet" data-plugin-theme="true" />
+    <script src="Scripts/plugin.js"></script>
+</head>
+    <body>
+        <div class="overlay-div">
+            <div class="center-div-top"></div>
+            <div id="centerDiv" class="center-div-bottom"></div>
+        </div>
+        <script>
+            (function () {
+                window.addEventListener("DOMContentLoaded", function () {
+                    Microsoft.Plugin.addEventListener("pluginready", pluginLoaded);
+                });
+
+                function pluginLoaded() {
+                    var centerDiv = document.getElementById("centerDiv");
+                    if(centerDiv)
+                    {
+                        centerDiv.innerHTML = Microsoft.Plugin.Resources.getString("UnsupportedBrowser");
+                        var link = document.getElementsByTagName("a")[0];
+                        if (link) {
+                            link.href = "https://go.microsoft.com/fwlink/?LinkId=331160";
+                            link.target = "blank";
+                            link.setAttribute("role", "link");
+                            link.setAttribute("aria-label", Microsoft.Plugin.Resources.getString("UnsupportedBrowserLabel"));
+                        }
+                    }
+                }
+            })();
+        </script>
+    </body>
+</html>

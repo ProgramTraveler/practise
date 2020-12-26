@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- Copyright (C) 1981-2007 Microsoft Corporation -->
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+    <noInheritable/>
+<assemblyIdentity type="win32" processorArchitecture="x86" name="Automation\dteproperties110.tlb" version="1.0.0.0" />
+<file name="dteproperties110.tlb">
+    <typelib tlbid="{0665189c-5848-4dc6-bdb4-3c56253b3438}" version="11.0" helpdir=""/>
+</file>
+  <comInterfaceExternalProxyStub name="IVsTextEditGeneralProperties2" iid="{e1c37b18-9e41-4b69-976a-cd412b8fc7c9}" numMethods="31" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{0665189c-5848-4dc6-bdb4-3c56253b3438}"/>
+</assembly>

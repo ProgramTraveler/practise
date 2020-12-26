@@ -1,0 +1,32 @@
+.contention {
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.contention > .treeGridContainer {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    overflow: hidden;
+}
+
+.contentionRow > .leftAlign, .contentionHeader > .leftAlign {
+    text-align: left;
+}
+
+.contentionRow > .name > .hotPath {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    vertical-align: middle;
+    background: url("./Icons/invalid.png") no-repeat 0px 0px; /*[ url({hotPathImage}) no-repeat 0px 0px]*/
+    background-size: 100%;
+}
+
+.contentionRow > .name > .hotItem {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    vertical-align: middle;
+    background: url("./Icons/invalid.png") no-repeat 0px 0px; /*[ url({hotItemImage}) no-repeat 0px 0px]*/
+    background-size: 100%;
+}

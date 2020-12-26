@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- Copyright (C) 1981-2007 Microsoft Corporation -->
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+    <noInheritable/>
+<assemblyIdentity type="win32" processorArchitecture="x86" name="Automation\contextp.dll" version="1.0.0.0" />
+<file name="contextp.dll">
+    <comClass clsid="{720B8500-17B3-4C89-AE84-2CFE7251B4B8}" threadingModel="Both"/>
+</file>
+  <comInterfaceExternalProxyStub name="IVsUserContextItem" iid="{720B8500-17B3-4C89-AE84-2CFE7251B4B8}" numMethods="7" proxyStubClsid32="{720B8500-17B3-4C89-AE84-2CFE7251B4B8}"/>
+  <comInterfaceExternalProxyStub name="IVsProvideUserContext" iid="{997D7904-D948-4C8B-8BAB-0BDA1E212F6E}" numMethods="4" proxyStubClsid32="{720B8500-17B3-4C89-AE84-2CFE7251B4B8}"/>
+  <comInterfaceExternalProxyStub name="IVsUserContextItemEvents" iid="{A2078F0E-A310-420A-BA27-16531905B88F}" numMethods="4" proxyStubClsid32="{720B8500-17B3-4C89-AE84-2CFE7251B4B8}"/>
+  <comInterfaceExternalProxyStub name="IVsUserContextUpdate" iid="{F5ED7D1C-61B6-428A-8129-E13B36D9E9A7}" numMethods="4" proxyStubClsid32="{720B8500-17B3-4C89-AE84-2CFE7251B4B8}"/>
+  <comInterfaceExternalProxyStub name="IVsHelpAttributeList" iid="{0A56FB1E-1B2F-4699-8178-63B98E816F35}" numMethods="9" proxyStubClsid32="{720B8500-17B3-4C89-AE84-2CFE7251B4B8}"/>
+  <comInterfaceExternalProxyStub name="IVsUserContextCustomize" iid="{0F817159-761D-447E-9600-4C3387F4C0FD}" numMethods="4" proxyStubClsid32="{720B8500-17B3-4C89-AE84-2CFE7251B4B8}"/>
+  <comInterfaceExternalProxyStub name="IVsProvideUserContextForObject" iid="{F98CCC8A-9C5F-41EB-8421-711C0F1880E6}" numMethods="4" proxyStubClsid32="{720B8500-17B3-4C89-AE84-2CFE7251B4B8}"/>
+  <comInterfaceExternalProxyStub name="IVsUserContextItemCollection" iid="{2A6DE4A2-5B3D-46EB-A65C-24C4EF4F396F}" numMethods="7" proxyStubClsid32="{720B8500-17B3-4C89-AE84-2CFE7251B4B8}"/>
+  <comInterfaceExternalProxyStub name="IVsUserContextItemProvider" iid="{715C98B7-05FB-4A1A-86C8-FF00CE2E5D64}" numMethods="8" proxyStubClsid32="{720B8500-17B3-4C89-AE84-2CFE7251B4B8}"/>
+  <comInterfaceExternalProxyStub name="IVsMonitorUserContext" iid="{9C074FDB-3D7D-4512-9604-72B3B0A5F609}" numMethods="21" proxyStubClsid32="{720B8500-17B3-4C89-AE84-2CFE7251B4B8}"/>
+  <comInterfaceExternalProxyStub name="IVsUserContext" iid="{761081DF-D45F-4683-9B9E-1B7241E56F5C}" numMethods="21" proxyStubClsid32="{720B8500-17B3-4C89-AE84-2CFE7251B4B8}"/>
+</assembly>

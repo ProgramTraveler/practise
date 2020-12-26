@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- Copyright (C) 1981-2007 Microsoft Corporation -->
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+  <noInheritable/>
+  <assemblyIdentity type="win32" processorArchitecture="x86" name="Automation\vslangproj158.olb" version="1.0.0.0" />
+  <file name="vslangproj158.olb">
+    <typelib tlbid="{f5fc7a98-f85b-4663-ac5c-44469dc02c87}" version="15.0" helpdir=""/>
+  </file>
+  <comInterfaceExternalProxyStub name="VBProjectProperties8" iid="{d35819d7-ac36-4e12-8d70-0212bb170ca6}" numMethods="144" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{f5fc7a98-f85b-4663-ac5c-44469dc02c87}"/>
+  <comInterfaceExternalProxyStub name="CSharpProjectProperties8" iid="{63a74a96-c954-4456-bab9-7fc6d21dddea}" numMethods="137" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{f5fc7a98-f85b-4663-ac5c-44469dc02c87}"/>
+</assembly>
+

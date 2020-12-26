@@ -1,0 +1,50 @@
+<!-- ko ifnot: resourceThreadDetails() && contentions() -->
+    <!-- ko template: { name: 'Loading' } --><!-- /ko -->
+<!-- /ko -->
+<!-- ko if: resourceThreadDetails() && contentions() -->
+<div class="resourceThreadDetailsView currentView">
+    <div class="titlePanel">
+        <span class="title" data-bind="text: title"></span>
+        <span data-bind="text: subtitle"></span>
+    </div>
+    <div class="resourceThreadDetails" data-bind="
+        template: { name: 'TreeGridView', data: resourceThreadDetails, afterRender: resourceThreadDetails().onAfterDomInsert.bind($data) },
+        event: { keydown: onKeyDownMain },
+        dynamicContextMenu: contextMenuMain">
+    </div>
+    <!-- ko template: { name: 'Loading', if: resourceThreadDetails().dataLoadStatus() !== Microsoft.F1Viz.DataLoadEvent.DataLoadCompleted || resourceThreadDetails().header.columnConfigLoadStatus() !== Microsoft.F1Viz.DataLoadEvent.DataLoadCompleted } -->
+    <!-- /ko -->
+    <div class="contentionInstancesTitle" data-bind="text: contentionsTitle"></div>
+    <div class="contentionInstancesPanel">
+        <!-- ko if: showOverlay -->
+        <div class="overlay">
+            <!-- ko if: pivot === Microsoft.F1Viz.ResourceThreadPivot.Resource -->
+            <span data-bind="localizedText: 'ResourceDetails_SelectThreads'"></span>
+            <!-- /ko -->
+            <!-- ko if: pivot === Microsoft.F1Viz.ResourceThreadPivot.Thread -->
+            <span data-bind="localizedText: 'ThreadDetails_SelectResources'"></span>
+            <!-- /ko -->
+        </div>
+        <!-- /ko -->
+        <!-- ko ifnot: showOverlay -->
+        <div class="contentionInstances" data-bind="
+            template: { name: 'TreeGridView', data: contentions, afterRender: contentions().onAfterDomInsert.bind($data) },
+            event: { keydown: onKeyDownDetails },
+            dynamicContextMenu: contextMenuDetails">
+        </div>
+        <!-- ko if: showCallStack -->
+        <div class="contentionCallStackPanel">
+            <span class="title" data-bind="localizedText: 'ContentionInstances_CallStack'"></span>
+            <div class="contentionCallStack">
+                <ul tabindex="0" data-bind="foreach: callStackItems, circularFocus: { selector: 'span', vertical: true }, localizedAriaLabel: 'ContentionInstances_CallStack'">
+                    <li class="contentionCallStackItem">
+                        <span class="hyperlink-button" role="link" tabindex="0" data-bind="text: name, click: $parent.onCallStackItemClicked, onEnter: $parent.onCallStackItemClicked"></span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- /ko -->
+        <!-- /ko -->
+    </div>
+</div>
+<!-- /ko -->

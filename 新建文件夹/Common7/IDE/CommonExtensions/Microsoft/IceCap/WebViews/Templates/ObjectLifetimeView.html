@@ -1,0 +1,12 @@
+<!-- ko ifnot: typesList -->
+    <!-- ko template: { name: 'Loading' } --><!-- /ko -->
+<!-- /ko -->
+<!-- ko if: typesList -->
+    <div class="objectLifetime currentView" data-bind="
+        template: { name: 'TreeGridView', data: typesList, afterRender: typesList().onAfterDomInsert.bind($data) },
+        event: { keydown: onKeyDown },
+        dynamicContextMenu: contextMenu">
+    </div>
+    <!-- ko template: { name: 'Loading', if: typesList().dataLoadStatus() !== Microsoft.F1Viz.DataLoadEvent.DataLoadCompleted || typesList().header.columnConfigLoadStatus() !== Microsoft.F1Viz.DataLoadEvent.DataLoadCompleted } -->
+    <!-- /ko -->
+<!-- /ko -->

@@ -1,0 +1,255 @@
+{
+  "debugExtensions": {
+    "cppdbg": {
+      "vsDebugEngineGuid": "{ea6637c6-17df-45b5-a183-0951c54243bc}",
+      "VsDebugTargetInfo4": {
+        "bstrCurDir": "${workspaceRoot}",
+        "bstrExe": "${debugInfo.target}",
+        "bstrOptions": "*"
+      },
+      "templates": [
+        {
+          "templateId": "launch",
+          "displayName": "MinGW/Cygwin (gdb)的 C/C++ 启动",
+          "description": "MinGW 或 Cygwin 中托管的适用于 C/C++ 的调试启动配置。",
+          "fileExtensions": [
+            "*.exe",
+            "*.out",
+            "生成文件"
+          ],
+          "initialConfiguration": {
+            "cwd": "${workspaceRoot}",
+            "program": "${debugInfo.target}",
+            "MIMode": "gdb",
+            "miDebuggerPath": "${env.MINGW_PREFIX}\\bin\\gdb.exe",
+            "externalConsole": true
+          }
+        },
+        {
+          "templateId": "attach",
+          "displayName": "MinGW/Cygwin (gdb)的 C/C++ 附加",
+          "description": "MinGW 或 Cygwin 中托管的适用于 C/C++ 的调试附加配置。",
+          "fileExtensions": [
+            "*.exe",
+            "*.out",
+            "生成文件"
+          ],
+          "initialConfiguration": {
+            "cwd": "${workspaceRoot}",
+            "program": "${debugInfo.target}",
+            "processId": "0",
+            "MIMode": "gdb",
+            "miDebuggerPath": "${env.MINGW_PREFIX}\\bin\\gdb.exe",
+            "externalConsole": true
+          }
+        }
+      ],
+      "schema": {
+        "definitions": {
+          "cpp_schema": {
+            "type": "object",
+            "properties": {
+              "program": {
+                "type": "string",
+                "description": "程序可执行文件的完整路径。"
+              },
+              "processId": {
+                "type": "integer",
+                "description": "要将调试程序附加到的可选进程 ID。"
+              },
+              "sourceFileMap": {
+                "type": "object",
+                "description": "传递给调试引擎的可选源文件映射。格式:“{ \"<编译器源位置>\": \"<编辑器源位置>\" }”或“{ \"<编译器源位置>\": { \"editorPath\": \"<编辑器源位置>\", \"useForBreakpoints\": true } }”。\n示例:“{ \"/home/user/foo\": \"C:\\foo\" }”或“{ \"/home/user/foo\": { \"editorPath\": \"c:\\foo\", \"useForBreakpoints\": true } }”。",
+                "additionalProperties": {
+                  "anyOf": {
+                    "type": "string",
+                    "$ref": "#/definitions/cpp_schema/definitions/sourceFileMapOptions"
+                  }
+                }
+              },
+              "MIMode": {
+                "type": "string",
+                "description": "指示 MIDebugEngine 将连接到的已启用 MI 的控制台调试程序的类型。\n允许的值为 \"gdb\"、\"lldb\"。"
+              },
+              "args": {
+                "type": "array",
+                "description": "传递给程序的命令行参数。",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "environment": {
+                "type": "array",
+                "description": "要添加到程序环境的环境变量。\n示例: [ { \"name\": \"squid\", \"value\": \"clam\" } ]。",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "value": {
+                      "type": "string"
+                    }
+                  }
+                }
+              },
+              "targetArchitecture": {
+                "type": "string",
+                "description": "调试对象的体系结构。如果未设置此参数，将进行自动检测。\n允许的值有 x86、arm、arm64、mips、x64、amd64、x86_64。"
+              },
+              "cwd": {
+                "type": "string",
+                "description": "目标的工作目录。"
+              },
+              "miDebuggerPath": {
+                "type": "string",
+                "description": "已启动 MI 的调试程序(如 gdb)的路径。如果未指定，将首先在 PATH 中搜索调试程序。"
+              },
+              "miDebuggerServerAddress": {
+                "type": "string",
+                "description": "要连接到的已启动 MI 的调试程序服务器的网络地址。\n示例: localhost:1234。"
+              },
+              "setupCommands": {
+                "type": "array",
+                "description": "为了安装基础调试程序而执行的一个或多个 GDB/LLDB 命令。\n示例: \"setupCommands\": [ { \"text\": \"-enable-pretty-printing\", \"description\": \"Enable GDB pretty printing\", \"ignoreFailures\": true }]。",
+                "items": {
+                  "$ref": "#/definitions/cpp_schema/definitions/launchSetupCommands"
+                }
+              },
+              "customLaunchSetupCommands": {
+                "type": "array",
+                "description": "如果已提供，将使用其他命令替换用于启动目标的默认命令。\n例如，附加到目标进程的命令可以为 \"-target-attach\"。\n如果是空命令列表，将不会用任何内容替换启动命令。此功能可在向调试程序提供启动选项作为命令行选项时很有用。\n示例: \"customLaunchSetupCommands\": [ { \"text\": \"target-run\", \"description\": \"run target\", \"ignoreFailures\": false }]。",
+                "items": {
+                  "$ref": "#/definitions/cpp_schema/definitions/launchSetupCommands"
+                }
+              },
+              "launchCompleteCommand": {
+                "type": "string",
+                "enum": [
+                  "exec-run",
+                  "exec-continue",
+                  "None"
+                ],
+                "description": "调试程序完全安装后，为了使目标进程运行而执行的命令。\n允许的值为 \"exec-run\"、\"exec-continue\"、\"None\"。\n默认值为 \"exec-run\"。"
+              },
+              "debugServerPath": {
+                "type": "string",
+                "description": "要启动的调试服务器的可选完整路径。\n默认为 null。"
+              },
+              "debugServerArgs": {
+                "type": "string",
+                "description": "可选调试服务器参数。\n默认为 null。"
+              },
+              "serverStarted": {
+                "type": "string",
+                "description": "要在调试服务器输出中查找的可选服务器启动模式。\n默认为 null。"
+              },
+              "filterStdout": {
+                "type": "boolean",
+                "description": "在 stdout 流中搜索服务器启动模式，并将 stdout 记录到调试输出。\n默认为 true。"
+              },
+              "filterStderr": {
+                "type": "boolean",
+                "description": "在 stderr 流中搜索服务器启动模式，并将 stderr 记录到调试输出。\n默认为 false。"
+              },
+              "serverLaunchTimeout": {
+                "type": "integer",
+                "description": "调试程序等待 debugServer 启动的可选时间(毫秒)。默认为 10000。"
+              },
+              "coreDumpPath": {
+                "type": "string",
+                "description": "指定的程序的核心转储文件的可选完整路径。\n默认为 null。"
+              },
+              "externalConsole": {
+                "type": "boolean",
+                "description": "如果为 true，将对调试对象启动控制台。如果为 false，将不启动任何控制台。\n默认为 false。注意: 由于技术原因，在某些情况下将忽略此选项。"
+              },
+              "pipeTransport": {
+                "$ref": "#/definitions/cpp_schema/definitions/pipeTransportOptions"
+              }
+            },
+            "definitions": {
+              "launchSetupCommands": {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string",
+                    "description": "要执行的调试命令。"
+                  },
+                  "description": {
+                    "type": "string",
+                    "description": "此命令的可选说明。"
+                  },
+                  "ignoreFailures": {
+                    "type": "boolean",
+                    "description": "如果为 true，应忽略此命令的失败。\n默认为 false。"
+                  }
+                }
+              },
+              "pipeTransportOptions": {
+                "type": "object",
+                "description": "如果存在，将告知调试程序使用其他可执行文件作为管道连接到远程计算机，此管道将在 Visual Studio \n和已启用 MI 的调试程序(如 gdb)之间中继标准输入/输入。",
+                "properties": {
+                  "pipeCwd": {
+                    "type": "string",
+                    "description": "管道程序工作目录的完全限定的路径。"
+                  },
+                  "pipeProgram": {
+                    "type": "string",
+                    "description": "要执行的完全限定的管道命令。"
+                  },
+                  "pipeArgs": {
+                    "type": "array",
+                    "description": "传递给管道程序配置连接的命令行参数。",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "debuggerPath": {
+                    "type": "string",
+                    "description": "目标计算机上调试程序的完整路径，例如 /usr/bin/gdb。"
+                  },
+                  "pipeEnv": {
+                    "type": "object",
+                    "additionalProperties": {
+                      "type": "string"
+                    },
+                    "description": "传递给程序的环境变量。"
+                  },
+                  "quoteArgs": {
+                    "type": "boolean",
+                    "description": "如果单个参数包含字符(如空格或制表符)，是否应进行引用? 如果设置为 false，将不再自动引用调试程序命令。\n默认为 \"true\"。"
+                  }
+                }
+              },
+              "sourceFileMapOptions": {
+                "type": "object",
+                "properties": {
+                  "editorPath": {
+                    "type": "string",
+                    "description": "编辑器要查找的源代码位置。"
+                  },
+                  "useForBreakpoints": {
+                    "type": "boolean",
+                    "description": "设置断点时，应使用此源映射。\n如果为 \"false\"，仅文件名和行号用于设置断点。\n如果为 \"true\"，仅当使用此源映射时，才使用文件和行号的完整路径来设置断点。否则设置断点时仅使用文件名和行号。\n默认为 \"true\"。"
+                  }
+                }
+              }
+            }
+          },
+          "cppTemplateLayout": {
+            "allOf": [
+              {
+                "$ref": "#/definitions/default"
+              },
+              {
+                "$ref": "#/definitions/cpp_schema"
+              }
+            ]
+          }
+        },
+        "configuration": "#/definitions/cppTemplateLayout"
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+<!-- ko ifnot: treeGrid -->
+    <!-- ko template: { name: 'Loading' } --><!-- /ko -->
+<!-- /ko -->
+<!-- ko if: treeGrid -->
+    <div class="allocation currentView" data-bind="
+        template: { name: 'TreeGridView', data: treeGrid, afterRender: treeGrid().onAfterDomInsert.bind($data) },
+        event: { keydown: onKeyDown },
+        dynamicContextMenu: contextMenu">
+    </div>
+    <!-- ko template: { name: 'Loading', if: treeGrid().dataLoadStatus() !== Microsoft.F1Viz.DataLoadEvent.DataLoadCompleted || treeGrid().header.columnConfigLoadStatus() !== Microsoft.F1Viz.DataLoadEvent.DataLoadCompleted } -->
+    <!-- /ko -->
+<!-- /ko -->

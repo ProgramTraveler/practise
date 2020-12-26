@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- Copyright (C) 1981-2007 Microsoft Corporation -->
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+    <noInheritable/>
+<assemblyIdentity type="win32" processorArchitecture="x86" name="Automation\msenv156p.dll" version="1.0.0.0" />
+<file name="msenv156p.dll">
+    <comClass clsid="{8B224345-7CE0-4246-B8BB-1BC3BD7AF131}" threadingModel="Both"/>
+</file>
+  <comInterfaceExternalProxyStub name="IVsRegisterPrefetchProjectFactory" iid="{46F1C80F-EA5D-47A0-806F-4C0A916E1396}" numMethods="5" proxyStubClsid32="{8B224345-7CE0-4246-B8BB-1BC3BD7AF131}"/>
+  <comInterfaceExternalProxyStub name="IVsWorkingFolders" iid="{B362DB16-833E-4F93-B108-71B2177C3930}" numMethods="5" proxyStubClsid32="{8B224345-7CE0-4246-B8BB-1BC3BD7AF131}"/>
+  <comInterfaceExternalProxyStub name="IVsAsyncToolWindowFactoryProvider" iid="{BA087B5E-4614-4928-BCEC-85BF35EB031B}" numMethods="4" proxyStubClsid32="{8B224345-7CE0-4246-B8BB-1BC3BD7AF131}"/>
+  <comInterfaceExternalProxyStub name="IVsPrefetchProjectFactory" iid="{C9635D64-F4BA-4162-A9E2-008D5789E61F}" numMethods="5" proxyStubClsid32="{8B224345-7CE0-4246-B8BB-1BC3BD7AF131}"/>
+  <comInterfaceExternalProxyStub name="IVsWorkingFoldersEvents" iid="{DBF44E6B-78FF-413D-98B7-5CB601FB672A}" numMethods="5" proxyStubClsid32="{8B224345-7CE0-4246-B8BB-1BC3BD7AF131}"/>
+  <comInterfaceExternalProxyStub name="IVsPrefetchLoadProgress" iid="{2BD6379A-CD38-4FF7-BCC5-C2968B2FE48D}" numMethods="4" proxyStubClsid32="{8B224345-7CE0-4246-B8BB-1BC3BD7AF131}"/>
+  <comInterfaceExternalProxyStub name="IVsSetupCompositionService3" iid="{F902BFA6-B9ED-4D0C-9C8A-FCB1DDD442D2}" numMethods="4" proxyStubClsid32="{8B224345-7CE0-4246-B8BB-1BC3BD7AF131}"/>
+  <comInterfaceExternalProxyStub name="IVsAsyncToolWindowFactory" iid="{E6D4CEFD-0B9E-4971-BC98-ED9FBC797D94}" numMethods="6" proxyStubClsid32="{8B224345-7CE0-4246-B8BB-1BC3BD7AF131}"/>
+</assembly>

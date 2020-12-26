@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- Copyright (C) 1981-2007 Microsoft Corporation -->
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+    <noInheritable/>
+<assemblyIdentity type="win32" processorArchitecture="x86" name="Automation\vslangproj140.olb" version="1.0.0.0" />
+<file name="vslangproj140.olb">
+    <typelib tlbid="{5bc022ce-bed9-4bde-adb1-f2a484e4eb83}" version="14.0" helpdir=""/>
+</file>
+  <comInterfaceExternalProxyStub name="AnalyzerReferences" iid="{1c0a9223-df8f-4d3d-a5fc-4d4b506706e7}" numMethods="15" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{5bc022ce-bed9-4bde-adb1-f2a484e4eb83}"/>
+  <comInterfaceExternalProxyStub name="VSProject3" iid="{0245db80-6f23-4b81-9517-dca8778dab77}" numMethods="27" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{5bc022ce-bed9-4bde-adb1-f2a484e4eb83}"/>
+</assembly>

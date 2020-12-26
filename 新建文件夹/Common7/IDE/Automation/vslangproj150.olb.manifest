@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- Copyright (C) 1981-2007 Microsoft Corporation -->
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+  <noInheritable/>
+  <assemblyIdentity type="win32" processorArchitecture="x86" name="Automation\vslangproj150.olb" version="1.0.0.0" />
+  <file name="vslangproj150.olb">
+    <typelib tlbid="{46D1176E-4D2E-4F37-B1D7-94E59DE93518}" version="15.0" helpdir=""/>
+  </file>
+  <comInterfaceExternalProxyStub name="PackageReferences" iid="{146A9209-0D04-4024-9FD6-132143A337E4}" numMethods="14" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{46D1176E-4D2E-4F37-B1D7-94E59DE93518}"/>
+  <comInterfaceExternalProxyStub name="VSProject4" iid="{1C91C1D8-5046-437A-A414-7D1739172F5E}" numMethods="28" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{46D1176E-4D2E-4F37-B1D7-94E59DE93518}"/>
+  <comInterfaceExternalProxyStub name="Reference6" iid="{957F4F7E-035C-4E0E-9DF5-6EB86CB0BCAD}" numMethods="48" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" tlbid="{46D1176E-4D2E-4F37-B1D7-94E59DE93518}"/>
+</assembly>
+

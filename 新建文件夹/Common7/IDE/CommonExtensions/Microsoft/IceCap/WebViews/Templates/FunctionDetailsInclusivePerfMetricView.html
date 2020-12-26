@@ -1,0 +1,12 @@
+<!-- ko if: dto.metric.type === Microsoft.F1Viz.PerfMetricType.Text -->
+    <span class="metric" data-bind="text: inclusive"></span>
+<!-- /ko -->
+<!-- ko if: dto.metric.type === Microsoft.F1Viz.PerfMetricType.Number -->
+    <span class="metric" data-bind="formatInteger: inclusive"></span>
+<!-- /ko -->
+<!-- ko if: dto.metric.type === Microsoft.F1Viz.PerfMetricType.Percent -->
+    <span class="metric" data-bind="formatPercent: inclusive"></span>
+<!-- /ko -->
+<!-- ko if: dto.metric.type === Microsoft.F1Viz.PerfMetricType.Time -->
+    <span class="metric" data-bind="formatTime: { value: inclusive, timeType: $root.displayTimeType }"></span>
+<!-- /ko -->

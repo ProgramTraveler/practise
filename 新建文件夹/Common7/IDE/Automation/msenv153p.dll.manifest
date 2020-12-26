@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- Copyright (C) 1981-2007 Microsoft Corporation -->
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+    <noInheritable/>
+<assemblyIdentity type="win32" processorArchitecture="x86" name="Automation\msenv153p.dll" version="1.0.0.0" />
+<file name="msenv153p.dll">
+    <comClass clsid="{AD682B98-271F-4E28-91B7-D18B15675E69}" threadingModel="Both"/>
+</file>
+  <comInterfaceExternalProxyStub name="IVsSolutionPrefetchPrivate" iid="{5F9EF002-28D1-451D-A38C-C3D72FD66AA8}" numMethods="6" proxyStubClsid32="{AD682B98-271F-4E28-91B7-D18B15675E69}"/>
+  <comInterfaceExternalProxyStub name="IVsMenuEvents" iid="{BD868C04-7979-4DB0-A2E1-F55490A42640}" numMethods="4" proxyStubClsid32="{AD682B98-271F-4E28-91B7-D18B15675E69}"/>
+  <comInterfaceExternalProxyStub name="IVsDeferredSolutionBuildEvents2" iid="{858FB62B-DFB3-4A65-A8A4-AD632196D215}" numMethods="6" proxyStubClsid32="{AD682B98-271F-4E28-91B7-D18B15675E69}"/>
+  <comInterfaceExternalProxyStub name="IVsToolbox7" iid="{58928E40-8514-42EE-8EFA-F5CEEEBBF653}" numMethods="23" proxyStubClsid32="{AD682B98-271F-4E28-91B7-D18B15675E69}"/>
+  <comInterfaceExternalProxyStub name="IVsMenuEventsServiceHelperPrivate" iid="{007CA446-8571-4733-B4AD-52CB9F9E1F48}" numMethods="5" proxyStubClsid32="{AD682B98-271F-4E28-91B7-D18B15675E69}"/>
+  <comInterfaceExternalProxyStub name="IVsToolboxPrivate3" iid="{40BBD04C-B9F3-43A2-9DFE-7FC3A331639B}" numMethods="5" proxyStubClsid32="{AD682B98-271F-4E28-91B7-D18B15675E69}"/>
+  <comInterfaceExternalProxyStub name="IVsTelemetryOptInManager" iid="{AFAD8E50-87BC-4BA3-A16E-1284D276C94B}" numMethods="6" proxyStubClsid32="{AD682B98-271F-4E28-91B7-D18B15675E69}"/>
+  <comInterfaceExternalProxyStub name="IVsSolutionLoadPrefetchEvents" iid="{E591A150-93D5-45C4-B67E-5E455A2F88C8}" numMethods="6" proxyStubClsid32="{AD682B98-271F-4E28-91B7-D18B15675E69}"/>
+  <comInterfaceExternalProxyStub name="SVsLegacyProjectSystemHelperPrivate" iid="{30E9AD51-B276-46E0-B6DB-E60AB5DC2D3D}" numMethods="3" proxyStubClsid32="{AD682B98-271F-4E28-91B7-D18B15675E69}"/>
+  <comInterfaceExternalProxyStub name="IVsDeferredSolutionEventProvider2" iid="{A11C0353-3750-40F6-825D-919A95DE7273}" numMethods="4" proxyStubClsid32="{AD682B98-271F-4E28-91B7-D18B15675E69}"/>
+  <comInterfaceExternalProxyStub name="IVsLegacyProjectSystemHelperPrivate" iid="{27E11356-5A6F-445A-9AA0-424F58C704DB}" numMethods="7" proxyStubClsid32="{AD682B98-271F-4E28-91B7-D18B15675E69}"/>
+  <comInterfaceExternalProxyStub name="IVsToolboxItemProvider2" iid="{35C56762-5AB2-4C9F-AE5A-BF11E4D8FB88}" numMethods="4" proxyStubClsid32="{AD682B98-271F-4E28-91B7-D18B15675E69}"/>
+  <comInterfaceExternalProxyStub name="IVsUpdateSolutionPrefetchEvents" iid="{E2FD6169-488E-494A-A54E-5996415EE43F}" numMethods="6" proxyStubClsid32="{AD682B98-271F-4E28-91B7-D18B15675E69}"/>
+  <comInterfaceExternalProxyStub name="IVsUpdateSolutionEvents5" iid="{95498691-CB06-4BC1-8A83-F84C6D565E21}" numMethods="4" proxyStubClsid32="{AD682B98-271F-4E28-91B7-D18B15675E69}"/>
+  <comInterfaceExternalProxyStub name="SVsMenuEventsService" iid="{0D646997-5C08-4EF2-B709-B5C70F009A70}" numMethods="3" proxyStubClsid32="{AD682B98-271F-4E28-91B7-D18B15675E69}"/>
+  <comInterfaceExternalProxyStub name="IVsDeferredSolutionLoadService2" iid="{4313289C-3485-4489-961B-413386D8FF31}" numMethods="4" proxyStubClsid32="{AD682B98-271F-4E28-91B7-D18B15675E69}"/>
+  <comInterfaceExternalProxyStub name="IVsSolutionBuildManager6" iid="{61AA4EA9-018F-4394-AD31-1E76D1BF80C8}" numMethods="4" proxyStubClsid32="{AD682B98-271F-4E28-91B7-D18B15675E69}"/>
+  <comInterfaceExternalProxyStub name="IVsTaskCoroutineHost" iid="{B5694DBF-D6F8-4D10-A224-DBF3EB8EE2EA}" numMethods="4" proxyStubClsid32="{AD682B98-271F-4E28-91B7-D18B15675E69}"/>
+  <comInterfaceExternalProxyStub name="IVsNavigateToService2" iid="{6606A1CA-7810-4BB5-A036-725E90A06931}" numMethods="5" proxyStubClsid32="{AD682B98-271F-4E28-91B7-D18B15675E69}"/>
+  <comInterfaceExternalProxyStub name="IVsBatchedInitializationPrivateCallback" iid="{BDCE47DA-A080-472E-A543-503D9C41EDFC}" numMethods="4" proxyStubClsid32="{AD682B98-271F-4E28-91B7-D18B15675E69}"/>
+  <comInterfaceExternalProxyStub name="SVsMenuEventsServiceHelperPrivate" iid="{80C8F7DA-7DD1-47E0-9CD3-177D6EA085FF}" numMethods="3" proxyStubClsid32="{AD682B98-271F-4E28-91B7-D18B15675E69}"/>
+  <comInterfaceExternalProxyStub name="IVsToolboxContentLoader2" iid="{265CF9ED-6AFC-410F-BC1D-8952D27236D1}" numMethods="4" proxyStubClsid32="{AD682B98-271F-4E28-91B7-D18B15675E69}"/>
+  <comInterfaceExternalProxyStub name="IVsMenuEventsService" iid="{B01B8DEE-677E-4ADC-87C2-3E2517FB6EF7}" numMethods="5" proxyStubClsid32="{AD682B98-271F-4E28-91B7-D18B15675E69}"/>
+</assembly>
